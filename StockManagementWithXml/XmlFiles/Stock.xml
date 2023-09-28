@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stocks>
+  <Stock>
+    <Id>LsjlSLKLKSoMKOslJsmHSmKSYUıuFCXvg</Id>
+    <Code>898754213213212131</Code>
+    <Name>Parça 1</Name>
+    <Explanation>Açıklama 1</Explanation>
+    <CriticalCount>15</CriticalCount>
+    <ExistingCount>8</ExistingCount>
+    <OrderCount>7</OrderCount>
+    <ShelveId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</ShelveId>
+    <ShelveName>Raf 1</ShelveName>
+    <PartTypeId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</PartTypeId>
+    <PartTypeName>Pompa2</PartTypeName>
+  </Stock>
+  <Stock>
+    <Id>sdIGFGgCFGCFbvGJKjNHnkjkjhLNKMjoinj</Id>
+    <Code>89875421321321987809</Code>
+    <Name>Parça 2</Name>
+    <Explanation>Açıklama 2</Explanation>
+    <CriticalCount>19</CriticalCount>
+    <ExistingCount>11</ExistingCount>
+    <OrderCount>8</OrderCount>
+    <ShelveId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</ShelveId>
+    <ShelveName>Raf 1</ShelveName>
+    <PartTypeId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</PartTypeId>
+    <PartTypeName>Pompa2</PartTypeName>
+  </Stock>
+</Stocks>

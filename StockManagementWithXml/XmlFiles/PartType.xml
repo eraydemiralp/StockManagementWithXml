@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <PartTypes>
-  <PartType Id="34ced447-9595-4141-8433-39ed86e28934">
-    <Name>Pompa</Name>
+  <PartType Id="rDBnBkoidMhEmJAUQgdxifOXSIkZkz">
+    <Name>Pompa2</Name>
   </PartType>
-  <PartType Id="704a9e77-279e-4e4c-b3fe-e7e7d9601663">
+  <PartType Id="bWabYoVLmFBtiEqOgrplhsmtszYcNZ">
     <Name>Esenjör</Name>
   </PartType>
 </PartTypes>
