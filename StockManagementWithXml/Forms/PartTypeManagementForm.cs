@@ -1,13 +1,7 @@
-﻿using StockManagementWithXml;
-using StockManagementWithXml.Model;
+﻿using StockManagementWithXml.Model;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Data.SqlClient;
-using System.IO;
 using System.Windows.Forms;
-using System.Xml.Linq;
 using System.Linq;
 
 namespace StockManagementWithXml.Forms
@@ -16,9 +10,7 @@ namespace StockManagementWithXml.Forms
     {
         #region Lifecycle Methods
 
-        public string partTypeXmlFilePath = Path.Combine(Directory.GetParent(System.IO.Directory.GetCurrentDirectory()).Parent.FullName, "XmlFiles", "PartType.xml");
-
-        List<PartType> partTypes = new List<PartType>();
+        List<PartType> _partTypes = XmlHelper.PartTypeXmlHelper.GetListFromXml();
         public PartTypeManagementForm()
         {
             InitializeComponent();
@@ -47,13 +39,13 @@ namespace StockManagementWithXml.Forms
                     MessageBox.Show("Parça Türü tabloda mevcut. Lütfen başka bir parça türü giriniz!!");
                     return;
                 }
-                string id = GenerateId();
-                string name = partTypeTextBox.Text;
+                string id = XmlHelper.GenerateId();
+                string name = partTypeTextBox.Text.TrimStart(' ').TrimEnd(' ');
 
                 PartType partType = new PartType();
                 partType.PartTypeId = id;
                 partType.PartTypeName = name;
-                XmlHelper.PartTypeXmlHelper.InsertToXml(partType);
+                XmlHelper.PartTypeXmlHelper.Insert(partType);
                 partTypeList.Add(partType);
                 partTypeDataGridView.DataSource = partTypeList;
                 partTypeTextBox.Clear();
@@ -85,61 +77,104 @@ namespace StockManagementWithXml.Forms
         }
         private void deleteButton_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var partTypeExistErrorMsg = "Parça türüne bağlı parça bulunmaktadır. Öncelikle Parça Yönetimi ekranından parça türüne ait parçaları siliniz!!";
+                var selectPartTypeErrorMsg = "Lütfen tablodan parça türü seçiniz";
+                var partTypeDoesntExistErrorMsg = "Parça türü tabloda bulunamadı!!!";
+                if (string.IsNullOrEmpty(idTextBox.Text))
+                {
+
+                    MessageBox.Show(selectPartTypeErrorMsg);
+                    partTypeDataGridView.Focus();
+                    return;
+                }
+
+                if (!_partTypes.Any(p => p.PartTypeId == idTextBox.Text))
+                {
+                    MessageBox.Show(partTypeDoesntExistErrorMsg);
+                    return;
+                }
 
 
+                var stockList = XmlHelper.StockTypeXmlHelper.GetListFromXml();
+                if (stockList.Any(s => s.PartTypeId.Equals(idTextBox.Text)))
+                {
+
+                    MessageBox.Show(partTypeExistErrorMsg);
+                    return;
+                }
+                XmlHelper.PartTypeXmlHelper.Delete(idTextBox.Text);
+                partTypeTextBox.Clear();
+                partTypeTextBox.Focus();
+                partTypeTextBox.Clear();
+                idTextBox.Clear();
+                PopulateGridView();
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "PartTypeManagementForm", "deleteButton_Click", ex));
+                throw ex;
+            }
         }
+
         private void updateButton_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(idTextBox.Text))
+            try
             {
-                MessageBox.Show("Lütfen tablodan parça türü seçiniz");
-                partTypeDataGridView.Focus();
-                return;
-            }
-            if (partTypes.Any(p => p.PartTypeName.Trim() == partTypeTextBox.Text))
-            {
-                MessageBox.Show("Parça Türü tabloda mevcut. Lütfen başka bir parça türü giriniz!!");
-                return;
-            }
-
-            var stockList = XmlHelper.StockTypeXmlHelper.GetListFromXml();
-            var hasStockWithPartType = stockList.Any(s => s.PartTypeId.Equals(idTextBox.Text));
-            if (hasStockWithPartType)
-            {
-                var existingStockList = stockList.FindAll(s => s.PartTypeId == idTextBox.Text).ToList();
-                if (existingStockList.Count > 0)
+                var selectPartTypeErrorMsg = "Lütfen tablodan parça türü seçiniz";
+                var selectOtherPartTypeErorMsg = "Parça Türü tabloda mevcut. Lütfen başka bir parça türü giriniz!!";
+                if (string.IsNullOrEmpty(idTextBox.Text))
                 {
-                    foreach (var stock in existingStockList)
-                    {
-                        XmlHelper.StockTypeXmlHelper.UpdateStocksPartTypeName(stock.Id, partTypeTextBox.Text);
-                    }
-
+                    MessageBox.Show(selectPartTypeErrorMsg);
+                    partTypeDataGridView.Focus();
+                    return;
                 }
-            }
 
-            XmlHelper.PartTypeXmlHelper.UpdatePartTypeName(idTextBox.Text,partTypeTextBox.Text);
-            var newPartTypeList = XmlHelper.PartTypeXmlHelper.GetListFromXml();
-            partTypeDataGridView.DataSource = newPartTypeList;
-            partTypeTextBox.Clear();
-            partTypeTextBox.Focus();
+                var enteredPartType = partTypeTextBox.Text;
+                if (_partTypes.Any(p => p.PartTypeName.Trim() == enteredPartType.TrimStart(' ').TrimEnd(' ')))
+                {
+                    MessageBox.Show(selectOtherPartTypeErorMsg);
+                    return;
+                }
+
+                var stockList = XmlHelper.StockTypeXmlHelper.GetListFromXml();
+                var hasStockWithPartType = stockList.Any(s => s.PartTypeId.Equals(idTextBox.Text));
+                if (hasStockWithPartType)
+                {
+                    var existingStockList = stockList.FindAll(s => s.PartTypeId == idTextBox.Text).ToList();
+                    if (existingStockList.Count > 0)
+                    {
+                        foreach (var stock in existingStockList)
+                        {
+                            XmlHelper.StockTypeXmlHelper.UpdatePartTypeName(stock.Id, enteredPartType.TrimStart(' ').TrimEnd(' '));
+                        }
+
+                    }
+                }
+
+                XmlHelper.PartTypeXmlHelper.Update(idTextBox.Text, enteredPartType.TrimStart(' ').TrimEnd(' '));
+                partTypeTextBox.Clear();
+                partTypeTextBox.Focus();
+                PopulateGridView();
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "PartTypeManagementForm", "updateButton_Click", ex));
+                throw ex;
+            }
         }
         #endregion
 
         #region Custom Methods
         private void PopulateGridView()
         {
-            partTypes = XmlHelper.PartTypeXmlHelper.GetListFromXml();
-            partTypeBindingSource.DataSource = partTypes;
+            _partTypes = XmlHelper.PartTypeXmlHelper.GetListFromXml();
+            partTypeBindingSource.DataSource = _partTypes;
         }
 
 
-        public static string GenerateId()
-        {
-            var random = new Random();
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvxyz";
-            return new string(Enumerable.Repeat(chars, 30)
-                .Select(s => s[random.Next(s.Length)]).ToArray());
-        }
+
 
         #endregion
     }

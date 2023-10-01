@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManagementWithXml", "StockManagementWithXml\StockManagementWithXml.csproj", "{B6E7F413-30D1-479D-A05B-CD309EB0406F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManagement", "..\..\StockManagement\StockManagement\StockManagement\StockManagement.csproj", "{CE9AF47E-4413-4EF4-9D5C-796353421647}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B6E7F413-30D1-479D-A05B-CD309EB0406F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6E7F413-30D1-479D-A05B-CD309EB0406F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6E7F413-30D1-479D-A05B-CD309EB0406F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE9AF47E-4413-4EF4-9D5C-796353421647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9AF47E-4413-4EF4-9D5C-796353421647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9AF47E-4413-4EF4-9D5C-796353421647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9AF47E-4413-4EF4-9D5C-796353421647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

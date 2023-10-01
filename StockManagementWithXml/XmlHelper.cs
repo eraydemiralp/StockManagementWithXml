@@ -3,8 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Linq;
 
 namespace StockManagementWithXml
@@ -14,12 +12,13 @@ namespace StockManagementWithXml
         public static class PartTypeXmlHelper
         {
             public static string XmlFilePath = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory())
-            .Parent.FullName, "XmlFiles", "PartType.xml");
+                .Parent.FullName, "XmlFiles", "PartType.xml");
+
             private static readonly string PartTypeIdAttributeName = "Id";
             private static readonly string PartTypeNodeName = "PartType";
             private static readonly string PartTypeNameNode = "Name";
 
-            public static void InsertToXml(PartType partType)
+            public static void Insert(PartType partType)
             {
                 var xDoc = XDocument.Load(XmlFilePath);
                 var rootElement = xDoc.Root;
@@ -27,7 +26,7 @@ namespace StockManagementWithXml
                 var idAttribute = new XAttribute(PartTypeIdAttributeName, partType.PartTypeId);
                 var partTypeName = new XElement(PartTypeNameNode, partType.PartTypeName);
                 newPartType.Add(idAttribute, partTypeName);
-                if (rootElement == null) { return; }
+                if (rootElement == null) return;
                 rootElement.Add(newPartType);
                 xDoc.Save(XmlFilePath);
             }
@@ -37,41 +36,58 @@ namespace StockManagementWithXml
                 var xDoc = XDocument.Load(XmlFilePath);
                 var rootElement = xDoc.Root;
                 var partTypes = new List<PartType>();
-                if (rootElement == null) { return new List<PartType>(); }
+                if (rootElement == null) return new List<PartType>();
                 foreach (var node in rootElement.Elements())
                 {
                     var partType = new PartType();
                     if (node.Attribute(PartTypeIdAttributeName) != null)
-                    {
                         partType.PartTypeId = node.Attribute(PartTypeIdAttributeName).Value;
-
-                    }
                     partType.PartTypeName = node.Element(PartTypeNameNode).Value;
                     partTypes.Add(partType);
                 }
+
                 return partTypes;
             }
 
-            public static void UpdatePartTypeName(string Id, string newPartTypeName)
+            public static void Update(string id, string newPartTypeName)
             {
                 var xDoc = XDocument.Load(XmlFilePath);
                 var rootElement = xDoc.Root;
-                if(rootElement == null) return;
-                foreach (XElement node in rootElement.Elements())
+                if (rootElement == null) return;
+                foreach (var node in rootElement.Elements())
                 {
-                    if (node.Attribute(PartTypeIdAttributeName).Value.Equals(Id))
+                    if (node.Attribute(PartTypeIdAttributeName).Value.Equals(id))
                     {
                         node.Element(PartTypeNameNode).Value = newPartTypeName;
                         break;
                     }
                 }
+
+                xDoc.Save(XmlFilePath);
+            }
+
+            public static void Delete(string id)
+            {
+                var xDoc = XDocument.Load(XmlFilePath);
+                var rootElement = xDoc.Root;
+                if (rootElement == null) return;
+                foreach (var node in rootElement.Elements())
+                {
+                    if (node.Attribute(PartTypeIdAttributeName).Value.Equals(id))
+                    {
+                        node.Remove();
+                        break;
+                    }
+                }
+
                 xDoc.Save(XmlFilePath);
             }
         }
+
         public static class StockTypeXmlHelper
         {
             public static string XmlFilePath = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory())
-            .Parent.FullName, "XmlFiles", "Stock.xml");
+                .Parent.FullName, "XmlFiles", "Stock.xml");
 
             private static readonly string Id = "Id";
             private static readonly string Code = "Code";
@@ -87,13 +103,13 @@ namespace StockManagementWithXml
 
             public static List<Stock> GetListFromXml()
             {
-                XDocument xDoc = XDocument.Load(XmlFilePath);
-                XElement rootElement = xDoc.Root;
-                List<Stock> stocks = new List<Stock>();
+                var xDoc = XDocument.Load(XmlFilePath);
+                var rootElement = xDoc.Root;
+                var stocks = new List<Stock>();
                 if (rootElement == null) return new List<Stock>();
-                foreach (XElement node in rootElement.Elements())
+                foreach (var node in rootElement.Elements())
                 {
-                    Stock stock = new Stock();
+                    var stock = new Stock();
                     stock.Id = node.Element(Id).Value;
                     stock.Code = node.Element(Code).Value;
                     stock.Name = node.Element(Name).Value;
@@ -102,14 +118,16 @@ namespace StockManagementWithXml
                     stock.ExistingCount = Convert.ToInt32(node.Element(ExistingCount).Value);
                     stock.OrderCount = Convert.ToInt32(node.Element(OrderCount).Value);
                     stock.ShelveId = node.Element(ShelveId).Value;
-                    stock.ShelveName= node.Element(ShelveName).Value;
+                    stock.ShelveName = node.Element(ShelveName).Value;
                     stock.PartTypeId = node.Element(PartTypeId).Value;
                     stock.PartTypeName = node.Element(PartTypeName).Value;
                     stocks.Add(stock);
                 }
+
                 return stocks;
             }
-            public static void UpdateStocksPartTypeName(string stockId, string newPartTypeName)
+
+            public static void UpdatePartTypeName(string stockId, string newPartTypeName)
             {
                 var xDoc = XDocument.Load(XmlFilePath);
                 var rootElement = xDoc.Root;
@@ -122,9 +140,106 @@ namespace StockManagementWithXml
                         break;
                     }
                 }
+
+                xDoc.Save(XmlFilePath);
+            }
+            public static void UpdateShelveName(string stockId, string newShelveName)
+            {
+                var xDoc = XDocument.Load(XmlFilePath);
+                var rootElement = xDoc.Root;
+                if (rootElement == null) return;
+                foreach (var node in rootElement.Elements())
+                {
+                    if (node.Element(Id).Value.Equals(stockId))
+                    {
+                        node.Element(ShelveName).Value = newShelveName;
+                        break;
+                    }
+                }
                 xDoc.Save(XmlFilePath);
             }
         }
-    }
 
+        public static class ShelveXmlHelper
+        {
+            public static string XmlFilePath = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory())
+                .Parent.FullName, "XmlFiles", "Shelve.xml");
+
+            private static readonly string Id = "Id";
+            private static readonly string Name = "Name";
+            private static readonly string Shelve = "Shelve";
+
+            public static void Insert(Shelve shelve)
+            {
+                var xDoc = XDocument.Load(XmlFilePath);
+                var rootElement = xDoc.Root;
+                var newShelve = new XElement(Shelve);
+                var idElement = new XElement(Id, shelve.Id);
+                var partTypeName = new XElement(Name, shelve.Name);
+                newShelve.Add(idElement, partTypeName);
+                if (rootElement == null) return;
+                rootElement.Add(newShelve);
+                xDoc.Save(XmlFilePath);
+            }
+
+            public static List<Shelve> GetListFromXml()
+            {
+                var xDoc = XDocument.Load(XmlFilePath);
+                var rootElement = xDoc.Root;
+                var shelves = new List<Shelve>();
+                if (rootElement == null) return new List<Shelve>();
+                foreach (var node in rootElement.Elements())
+                {
+                    var shelve = new Shelve();
+                    if (node.Element(Id) != null) shelve.Id = node.Element(Id).Value;
+                    shelve.Name = node.Element(Name).Value;
+                    shelves.Add(shelve);
+                }
+
+                return shelves;
+            }
+
+            public static void Update(string id, string shelveName)
+            {
+                var xDoc = XDocument.Load(XmlFilePath);
+                var rootElement = xDoc.Root;
+                if (rootElement == null) return;
+                foreach (var node in rootElement.Elements())
+                {
+                    if (node.Element(Id).Value.Equals(id))
+                    {
+                        node.Element(Name).Value = shelveName;
+                        break;
+                    }
+                }
+
+                xDoc.Save(XmlFilePath);
+            }
+
+            public static void Delete(string id)
+            {
+                var xDoc = XDocument.Load(XmlFilePath);
+                var rootElement = xDoc.Root;
+                if (rootElement == null) return;
+                foreach (var node in rootElement.Elements())
+                {
+                    if (node.Element(Id).Value.Equals(id))
+                    {
+                        node.Remove();
+                        break;
+                    }
+                }
+
+                xDoc.Save(XmlFilePath);
+            }
+        }
+
+        public static string GenerateId()
+        {
+            var random = new Random();
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvxyz";
+            return new string(Enumerable.Repeat(chars, 30)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
+        }
+    }
 }

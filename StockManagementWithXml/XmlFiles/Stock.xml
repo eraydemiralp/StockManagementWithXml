@@ -8,10 +8,10 @@
     <CriticalCount>15</CriticalCount>
     <ExistingCount>8</ExistingCount>
     <OrderCount>7</OrderCount>
-    <ShelveId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</ShelveId>
-    <ShelveName>Raf 1</ShelveName>
+    <ShelveId>FBEbWnGIQgMEeJojroIITlSlCVVUWc</ShelveId>
+    <ShelveName>Raf 3</ShelveName>
     <PartTypeId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</PartTypeId>
-    <PartTypeName>Pompa2</PartTypeName>
+    <PartTypeName>Pompa</PartTypeName>
   </Stock>
   <Stock>
     <Id>sdIGFGgCFGCFbvGJKjNHnkjkjhLNKMjoinj</Id>
@@ -21,9 +21,9 @@
     <CriticalCount>19</CriticalCount>
     <ExistingCount>11</ExistingCount>
     <OrderCount>8</OrderCount>
-    <ShelveId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</ShelveId>
-    <ShelveName>Raf 1</ShelveName>
+    <ShelveId>lNdTSozRoeKqYIHxjkYbvgnMEAVSlP</ShelveId>
+    <ShelveName>Raf 2</ShelveName>
     <PartTypeId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</PartTypeId>
-    <PartTypeName>Pompa2</PartTypeName>
+    <PartTypeName>Pompa</PartTypeName>
   </Stock>
 </Stocks>

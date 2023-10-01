@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PartTypes>
   <PartType Id="rDBnBkoidMhEmJAUQgdxifOXSIkZkz">
-    <Name>Pompa2</Name>
+    <Name>Pompa</Name>
   </PartType>
-  <PartType Id="bWabYoVLmFBtiEqOgrplhsmtszYcNZ">
-    <Name>Esenjör</Name>
+  <PartType Id="LpGCNcNUTPAGhTTtiZaXcojiOsAjQA">
+    <Name>Fan</Name>
+  </PartType>
+  <PartType Id="RPAQjuCxTknnKJjKTcWBJtcNukAnDK">
+    <Name>Elektronik Kart</Name>
+  </PartType>
+  <PartType Id="AkWDYbJgJzWgfFtxFBqtTiGLQEDXEC">
+    <Name>Genleşme Tankı</Name>
   </PartType>
 </PartTypes>
