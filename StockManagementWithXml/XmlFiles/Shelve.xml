@@ -1,11 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Shelves>
   <Shelve>
-    <Id>FBEbWnGIQgMEeJojroIITlSlCVVUWc</Id>
-    <Name>Raf 3</Name>
+    <Id>hCximollmDADBnLbtQNnkZeEvSusMB</Id>
+    <Name>A1</Name>
   </Shelve>
   <Shelve>
-    <Id>lNdTSozRoeKqYIHxjkYbvgnMEAVSlP</Id>
-    <Name>Raf 2</Name>
+    <Id>mgDXGehaKjzHdhJkqXfnzBOYBWrslq</Id>
+    <Name>A2</Name>
+  </Shelve>
+  <Shelve>
+    <Id>kCiEQURsAlJjEgDOGclmYVpJxTmBlK</Id>
+    <Name>A3</Name>
+  </Shelve>
+  <Shelve>
+    <Id>HFRDWXHFTTuypqhhZCHlNmiYiWymdX</Id>
+    <Name>B1</Name>
+  </Shelve>
+  <Shelve>
+    <Id>JjhGBavdQLJHOVuuNnXvBAnxXfgPJB</Id>
+    <Name>B2</Name>
+  </Shelve>
+  <Shelve>
+    <Id>MRkiZnCpjxHujjDKBqBuhoVNfnNFHC</Id>
+    <Name>B3</Name>
+  </Shelve>
+  <Shelve>
+    <Id>TtujnGoILZHQTJqNICJueCHlgmZPJf</Id>
+    <Name>C1</Name>
+  </Shelve>
+  <Shelve>
+    <Id>ALuHMaDJZJkmBRcSvrqWrDQTahNnbv</Id>
+    <Name>C2</Name>
+  </Shelve>
+  <Shelve>
+    <Id>SYftNprSuFFbVyPiMDaBLAcacLTniJ</Id>
+    <Name>C3</Name>
   </Shelve>
 </Shelves>

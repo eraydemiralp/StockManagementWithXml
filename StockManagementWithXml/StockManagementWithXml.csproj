@@ -12,7 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <PublishUrl>publish\</PublishUrl>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\edemiralp\Desktop\Stok Yönetimi Setup\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -22,10 +23,13 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <TargetCulture>tr-TR</TargetCulture>
+    <ProductName>Parça Yönetimi</ProductName>
+    <PublisherName>Eray Demiralp</PublisherName>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -47,6 +51,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4B074891EE5DFE70B3D745238E4BC08C8B3FD3B0</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>StockManagementWithXml_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -62,39 +78,69 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\Activities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Activities.Designer.cs">
+      <DependentUpon>Activities.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\PartTypeManagementForm.cs">
+    <Compile Include="Forms\PartTypeManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\PartTypeManagementForm.Designer.cs">
-      <DependentUpon>PartTypeManagementForm.cs</DependentUpon>
+    <Compile Include="Forms\PartTypeManagement.Designer.cs">
+      <DependentUpon>PartTypeManagement.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ShelveManagementForm.cs">
+    <Compile Include="Forms\ShelveManagement.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ShelveManagementForm.Designer.cs">
-      <DependentUpon>ShelveManagementForm.cs</DependentUpon>
+    <Compile Include="Forms\ShelveManagement.Designer.cs">
+      <DependentUpon>ShelveManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\StockManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\StockManagementForm.Designer.cs">
+      <DependentUpon>StockManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserManagement.Designer.cs">
+      <DependentUpon>UserManagement.cs</DependentUpon>
     </Compile>
     <Compile Include="Logger.cs" />
+    <Compile Include="Model\Activity.cs" />
+    <Compile Include="Model\ComboBoxItem.cs" />
     <Compile Include="Model\PartType.cs" />
     <Compile Include="Model\Shelve.cs" />
     <Compile Include="Model\Stock.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlHelper.cs" />
+    <EmbeddedResource Include="Forms\Activities.resx">
+      <DependentUpon>Activities.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\PartTypeManagementForm.resx">
-      <DependentUpon>PartTypeManagementForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\PartTypeManagement.resx">
+      <DependentUpon>PartTypeManagement.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ShelveManagementForm.resx">
-      <DependentUpon>ShelveManagementForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ShelveManagement.resx">
+      <DependentUpon>ShelveManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\StockManagementForm.resx">
+      <DependentUpon>StockManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserManagement.resx">
+      <DependentUpon>UserManagement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -105,8 +151,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\StockManagementWithXml.Model.Activity.datasource" />
     <None Include="Properties\DataSources\StockManagementWithXml.Model.PartType.datasource" />
     <None Include="Properties\DataSources\StockManagementWithXml.Model.Shelve.datasource" />
+    <None Include="Properties\DataSources\StockManagementWithXml.Model.Stock.datasource" />
+    <None Include="Properties\DataSources\StockManagementWithXml.Model.User.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -121,6 +170,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="XmlFiles\Activities.xml" />
     <Content Include="XmlFiles\Shelve.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -130,6 +180,7 @@
     <Content Include="XmlFiles\PartType.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="XmlFiles\User.xml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
@@ -142,6 +193,38 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="XmlFiles\PartType.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="XmlFiles\Shelve.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="XmlFiles\Stock.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

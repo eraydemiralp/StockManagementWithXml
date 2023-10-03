@@ -1,6 +1,6 @@
 ﻿namespace StockManagementWithXml.Forms
 {
-    partial class PartTypeManagementForm
+    partial class PartTypeManagement
     {
         /// <summary>
         /// Required designer variable.
@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PartTypeManagementForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PartTypeManagement));
             this.partTypeTextError = new System.Windows.Forms.ErrorProvider(this.components);
             this.partTypeDataGridView = new System.Windows.Forms.DataGridView();
             this.addPartTypeButton = new System.Windows.Forms.Button();
@@ -189,7 +189,7 @@
             this.partTypeNameDataGridViewTextBoxColumn.Name = "partTypeNameDataGridViewTextBoxColumn";
             this.partTypeNameDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // PartTypeManagementForm
+            // PartTypeManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -204,7 +204,7 @@
             this.Controls.Add(this.partTypeTextBox);
             this.Controls.Add(this.partTypeLabel);
             this.MaximizeBox = false;
-            this.Name = "PartTypeManagementForm";
+            this.Name = "PartTypeManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Parça Türü Yönetimi";
             this.Load += new System.EventHandler(this.PartTypeManagement_Load);

@@ -1,29 +1,81 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Stocks>
   <Stock>
-    <Id>LsjlSLKLKSoMKOslJsmHSmKSYUıuFCXvg</Id>
-    <Code>898754213213212131</Code>
+    <Id>yTDtdhnaDIzblivXvyUbuCRTqXfBYb</Id>
+    <Code>123456789001</Code>
     <Name>Parça 1</Name>
     <Explanation>Açıklama 1</Explanation>
-    <CriticalCount>15</CriticalCount>
-    <ExistingCount>8</ExistingCount>
-    <OrderCount>7</OrderCount>
-    <ShelveId>FBEbWnGIQgMEeJojroIITlSlCVVUWc</ShelveId>
-    <ShelveName>Raf 3</ShelveName>
-    <PartTypeId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</PartTypeId>
+    <CriticalCount>12</CriticalCount>
+    <ExistingCount>0</ExistingCount>
+    <OrderCount>12</OrderCount>
+    <ShelveId>hCximollmDADBnLbtQNnkZeEvSusMB</ShelveId>
+    <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
+    <ShelveName>A1</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
   </Stock>
   <Stock>
-    <Id>sdIGFGgCFGCFbvGJKjNHnkjkjhLNKMjoinj</Id>
-    <Code>89875421321321987809</Code>
+    <Id>gpodMfrjJnUuYWAdTnqliZmnvSrRns</Id>
+    <Code>123456789002</Code>
     <Name>Parça 2</Name>
     <Explanation>Açıklama 2</Explanation>
-    <CriticalCount>19</CriticalCount>
-    <ExistingCount>11</ExistingCount>
-    <OrderCount>8</OrderCount>
-    <ShelveId>lNdTSozRoeKqYIHxjkYbvgnMEAVSlP</ShelveId>
-    <ShelveName>Raf 2</ShelveName>
-    <PartTypeId>rDBnBkoidMhEmJAUQgdxifOXSIkZkz</PartTypeId>
-    <PartTypeName>Pompa</PartTypeName>
+    <CriticalCount>17</CriticalCount>
+    <ExistingCount>23</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>mgDXGehaKjzHdhJkqXfnzBOYBWrslq</ShelveId>
+    <PartTypeId>YbiOACRPYBcVFHDlgEUPxMiatEiNyp</PartTypeId>
+    <ShelveName>A2</ShelveName>
+    <PartTypeName>Emniyet Ventili</PartTypeName>
+  </Stock>
+  <Stock>
+    <Id>tojVMfmDAUdgXERFMMeIjjdOAxzFCt</Id>
+    <Code>123456789003</Code>
+    <Name>Parça 3</Name>
+    <Explanation>Açıklama 3</Explanation>
+    <CriticalCount>28</CriticalCount>
+    <ExistingCount>0</ExistingCount>
+    <OrderCount>28</OrderCount>
+    <ShelveId>kCiEQURsAlJjEgDOGclmYVpJxTmBlK</ShelveId>
+    <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
+    <ShelveName>A3</ShelveName>
+    <PartTypeName>Genleşme Tankı</PartTypeName>
+  </Stock>
+  <Stock>
+    <Id>UnfOmJpuuhohzdCmxvqVzUWMoVCxAY</Id>
+    <Code>123456789004</Code>
+    <Name>Parça 4</Name>
+    <Explanation>Açıklama 4</Explanation>
+    <CriticalCount>21</CriticalCount>
+    <ExistingCount>20</ExistingCount>
+    <OrderCount>1</OrderCount>
+    <ShelveId>MRkiZnCpjxHujjDKBqBuhoVNfnNFHC</ShelveId>
+    <PartTypeId>YbiOACRPYBcVFHDlgEUPxMiatEiNyp</PartTypeId>
+    <ShelveName>B3</ShelveName>
+    <PartTypeName>Emniyet Ventili</PartTypeName>
+  </Stock>
+  <Stock>
+    <Id>JqrzdhixRQetsfNcjhONessgTydgYa</Id>
+    <Code>123456789005</Code>
+    <Name>Parça 5</Name>
+    <Explanation>Açıklama 5</Explanation>
+    <CriticalCount>20</CriticalCount>
+    <ExistingCount>16</ExistingCount>
+    <OrderCount>4</OrderCount>
+    <ShelveId>SYftNprSuFFbVyPiMDaBLAcacLTniJ</ShelveId>
+    <PartTypeId>HKeYufCHNpVfdTzZxasXZpLiIaqrIH</PartTypeId>
+    <ShelveName>C3</ShelveName>
+    <PartTypeName>Türbin</PartTypeName>
+  </Stock>
+  <Stock>
+    <Id>LPtHVQGyXCuSgyERiCPWhKqhnEzKhZ</Id>
+    <Code>123456789006</Code>
+    <Name>Parça 6</Name>
+    <Explanation>Açıklama 6</Explanation>
+    <CriticalCount>86</CriticalCount>
+    <ExistingCount>36</ExistingCount>
+    <OrderCount>50</OrderCount>
+    <ShelveId>ALuHMaDJZJkmBRcSvrqWrDQTahNnbv</ShelveId>
+    <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
+    <ShelveName>C2</ShelveName>
+    <PartTypeName>Genleşme Tankı</PartTypeName>
   </Stock>
 </Stocks>

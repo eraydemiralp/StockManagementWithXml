@@ -1,6 +1,6 @@
 ﻿namespace StockManagementWithXml.Forms
 {
-    partial class ShelveManagementForm
+    partial class ShelveManagement
     {
         /// <summary>
         /// Required designer variable.
@@ -20,7 +20,7 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShelveManagementForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ShelveManagement));
             this.shelveNameErrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.shelvenameLabel = new System.Windows.Forms.Label();
             this.idTextBox = new System.Windows.Forms.TextBox();
@@ -188,7 +188,7 @@
             // 
             this.shelveBindingSource.DataSource = typeof(StockManagementWithXml.Model.Shelve);
             // 
-            // ShelveManagementForm
+            // ShelveManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -202,7 +202,7 @@
             this.Controls.Add(this.shelveNameTextBox);
             this.Controls.Add(this.idTextBox);
             this.Controls.Add(this.shelvenameLabel);
-            this.Name = "ShelveManagementForm";
+            this.Name = "ShelveManagement";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Raf Yönetimi";
             this.Load += new System.EventHandler(this.ShelveManagementForm_Load);

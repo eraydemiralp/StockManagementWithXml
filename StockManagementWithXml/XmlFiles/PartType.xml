@@ -1,15 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PartTypes>
-  <PartType Id="rDBnBkoidMhEmJAUQgdxifOXSIkZkz">
+  <PartType Id="udpAkLWCCMjQNPWlCKXoPZKqfKlGtp">
     <Name>Pompa</Name>
   </PartType>
-  <PartType Id="LpGCNcNUTPAGhTTtiZaXcojiOsAjQA">
+  <PartType Id="LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS">
     <Name>Fan</Name>
   </PartType>
-  <PartType Id="RPAQjuCxTknnKJjKTcWBJtcNukAnDK">
+  <PartType Id="PiQWjftbErszqXSCOWaximhMFYKTpM">
     <Name>Elektronik Kart</Name>
   </PartType>
-  <PartType Id="AkWDYbJgJzWgfFtxFBqtTiGLQEDXEC">
+  <PartType Id="ahlbmMgrXDYmIaUbDdtaGvENiJuhff">
     <Name>Genleşme Tankı</Name>
+  </PartType>
+  <PartType Id="YbiOACRPYBcVFHDlgEUPxMiatEiNyp">
+    <Name>Emniyet Ventili</Name>
+  </PartType>
+  <PartType Id="cbVjdhxWljmCIztZsPtOkItfuFZVYy">
+    <Name>Monometre</Name>
+  </PartType>
+  <PartType Id="HKeYufCHNpVfdTzZxasXZpLiIaqrIH">
+    <Name>Türbin</Name>
+  </PartType>
+  <PartType Id="atjcvWhzzejqcNQQlLmqsUcWVvHYJz">
+    <Name>Tuş Takımı</Name>
+  </PartType>
+  <PartType Id="mOEOAyVQrhXRbfoqbAZebnObSttfRs">
+    <Name>Doldurma Musluğu</Name>
+  </PartType>
+  <PartType Id="YCciZvDuaTAtFpCmtsFdkLDCLxkcMs">
+    <Name>Plakalı Esenjör</Name>
+  </PartType>
+  <PartType Id="dWNkFVjDNuSNqyPbIlvmiReLdLeeEb">
+    <Name>Ana Esenjör</Name>
+  </PartType>
+  <PartType Id="aSHLXidxJyUegyHrcIgaruHVsKDAuy">
+    <Name>Gaz Grubu</Name>
+  </PartType>
+  <PartType Id="yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo">
+    <Name>Sensör</Name>
   </PartType>
 </PartTypes>
