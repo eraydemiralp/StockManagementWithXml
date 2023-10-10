@@ -12,5 +12,6 @@ namespace StockManagementWithXml.Model
         public string Name { get; set; }
         public string Date { get; set; }
         public string User { get; set; }
+        public string GuaranteeStatus { get; set; }
     }
 }

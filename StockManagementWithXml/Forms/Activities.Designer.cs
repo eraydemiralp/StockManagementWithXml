@@ -42,11 +42,14 @@
             this.userCombobox = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.activityBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.GuaranteeStatus = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label3 = new System.Windows.Forms.Label();
+            this.guaranteeDropdown = new System.Windows.Forms.ComboBox();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dateDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.userDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.activityBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.activitiesDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.activityBindingSource)).BeginInit();
@@ -54,6 +57,7 @@
             // 
             // activitiesDataGridView
             // 
+            this.activitiesDataGridView.AllowUserToOrderColumns = true;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.activitiesDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.activitiesDataGridView.AutoGenerateColumns = false;
@@ -72,7 +76,8 @@
             this.idDataGridViewTextBoxColumn,
             this.nameDataGridViewTextBoxColumn,
             this.dateDataGridViewTextBoxColumn,
-            this.userDataGridViewTextBoxColumn});
+            this.userDataGridViewTextBoxColumn,
+            this.GuaranteeStatus});
             this.activitiesDataGridView.DataSource = this.activityBindingSource;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
@@ -162,9 +167,32 @@
             this.pictureBox1.TabIndex = 36;
             this.pictureBox1.TabStop = false;
             // 
-            // activityBindingSource
+            // GuaranteeStatus
             // 
-            this.activityBindingSource.DataSource = typeof(StockManagementWithXml.Model.Activity);
+            this.GuaranteeStatus.DataPropertyName = "GuaranteeStatus";
+            this.GuaranteeStatus.HeaderText = "Garantiye Dahil";
+            this.GuaranteeStatus.Name = "GuaranteeStatus";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(12, 207);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(136, 24);
+            this.label3.TabIndex = 37;
+            this.label3.Text = "Garantiye Dahil";
+            // 
+            // guaranteeDropdown
+            // 
+            this.guaranteeDropdown.BackColor = System.Drawing.Color.White;
+            this.guaranteeDropdown.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guaranteeDropdown.Location = new System.Drawing.Point(161, 204);
+            this.guaranteeDropdown.Name = "guaranteeDropdown";
+            this.guaranteeDropdown.Size = new System.Drawing.Size(172, 28);
+            this.guaranteeDropdown.TabIndex = 43;
+            this.guaranteeDropdown.Text = "Lütfen Seçiniz";
+            this.guaranteeDropdown.SelectedIndexChanged += new System.EventHandler(this.guaranteeDropdown_SelectedIndexChanged);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -193,12 +221,18 @@
             this.userDataGridViewTextBoxColumn.HeaderText = "İşlemi Yapan Kullanıcı";
             this.userDataGridViewTextBoxColumn.Name = "userDataGridViewTextBoxColumn";
             // 
+            // activityBindingSource
+            // 
+            this.activityBindingSource.DataSource = typeof(StockManagementWithXml.Model.Activity);
+            // 
             // Activities
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FloralWhite;
             this.ClientSize = new System.Drawing.Size(1458, 713);
+            this.Controls.Add(this.guaranteeDropdown);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.userCombobox);
             this.Controls.Add(this.label10);
@@ -238,5 +272,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn dateDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn userDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn GuaranteeStatus;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox guaranteeDropdown;
     }
 }

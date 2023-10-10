@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
+using StockManagementWithXml.Model;
+using StockManagementWithXml.XmlHelpers;
 
 namespace StockManagementWithXml.Forms
 {
@@ -16,6 +20,19 @@ namespace StockManagementWithXml.Forms
 
         private void MainPage_Load(object sender, EventArgs e)
         {
+            var backups = BackupXmlHelper.GetListFromXml();
+            var lastBackup = backups.LastOrDefault();
+            if (lastBackup != null)
+            {
+                var lastBackupDate = DateTime.ParseExact(lastBackup.Date, "dd.MM.yyyy", null);
+                if (lastBackupDate >= DateTime.Now.AddDays(-6)) return;
+                PartTypeXmlHelper.CreateBackupFile();
+                ActivitiesXmlHelper.CreateBackupFile();
+                ShelveXmlHelper.CreateBackupFile();
+                StockXmlHelper.CreateBackupFile();
+                UserXmlHelper.CreateBackupFile();
+                BackupXmlHelper.Insert(new Backup(){Date = DateTime.Now.ToString("dd.MM.yyyy")});
+            }
         }
         #endregion
         #region Events

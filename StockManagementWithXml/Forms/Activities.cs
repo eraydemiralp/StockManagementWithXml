@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using StockManagementWithXml.Model;
+using StockManagementWithXml.XmlHelpers;
 
 namespace StockManagementWithXml.Forms
 {
@@ -34,6 +35,7 @@ namespace StockManagementWithXml.Forms
                 startDatePicker.Value = DateTime.Now.AddDays(-7);
                 filterActivitiesDataSource();
                 fillUserDropDown();
+                FillGuaranteeDropdown();
             }
             catch (Exception ex)
             {
@@ -47,19 +49,22 @@ namespace StockManagementWithXml.Forms
 
         private void startDatePicker_ValueChanged(object sender, EventArgs e)
         {
-            validateDates();
+            if(!validateDates())
+                return;
             filterActivitiesDataSource();
         }
 
         private void endDatePicker_ValueChanged(object sender, EventArgs e)
         {
-            validateDates();
+            if (!validateDates())
+                return;
             filterActivitiesDataSource();
         }
 
         private void userCombobox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            validateDates();
+            if (!validateDates())
+                return;
             filterActivitiesDataSource();
         }
         #endregion
@@ -70,21 +75,64 @@ namespace StockManagementWithXml.Forms
 
             try
             {
-                var activities = XmlHelper.ActivitiesXmlHelper.GetListFromXml();
-                activities = activities.Where(a =>
+                var exist = true;
+                if (!validateDates())
+                    return;
+                var activities = ActivitiesXmlHelper.GetListFromXml();
+                var filteredActivities = activities;
+                if (!filteredActivities.Any(a =>
+                    {
+                        var splitDate = a.Date.Split(' ');
+                        var startDate = DateTime.ParseExact(splitDate[0], "dd.MM.yyyy", null);
+                        return startDate >= startDatePicker.Value.AddDays(-1);
+                    }))
                 {
-                    var splitDate = a.Date.ToString().Split(' ');
-                    if (splitDate.Length <= 0) return false;
-                    var activityDate = DateTime.ParseExact(splitDate[0], "dd.MM.yyyy", null);
-                    var startDate = startDatePicker.Value;
-                    var endDate = endDatePicker.Value;
-                    if (startDate > activityDate || endDate < activityDate) return false;
-                    if (userCombobox.SelectedIndex < 0) return true;
-                    var selectedUser = (ComboBoxItem)userCombobox.SelectedItem;
-                    return selectedUser.Value == "" || a.User.Equals(selectedUser.Text);
-                }).ToList();
-               
-                activityBindingSource.DataSource = activities;
+                    exist = false;
+                }
+                filteredActivities = !exist ? new List<Activity>() : filteredActivities.Where(a =>
+                 {
+                     var splitDate = a.Date.Split(' ');
+                     var startDate = DateTime.ParseExact(splitDate[0], "dd.MM.yyyy", null);
+                     return startDate >= startDatePicker.Value.AddDays(-1);
+                 }).ToList();
+                if (!filteredActivities.Any(a =>
+                    {
+                        var splitDate = a.Date.Split(' ');
+                        var endDate = DateTime.ParseExact(splitDate[0], "dd.MM.yyyy", null);
+                        return endDate <= endDatePicker.Value;
+                    }))
+                {
+                    exist = false;
+                }
+
+                filteredActivities = !exist ? new List<Activity>() : filteredActivities.Where(a =>
+                   {
+                       var splitDate = a.Date.Split(' ');
+                       var endDate = DateTime.ParseExact(splitDate[0], "dd.MM.yyyy", null);
+                       return endDate <= endDatePicker.Value;
+                   }).ToList();
+                var selectedUser = (ComboBoxItem)userCombobox.SelectedItem;
+                var selectedGuarantee = (ComboBoxItem)guaranteeDropdown.SelectedItem;
+                if (selectedUser != null && !string.IsNullOrEmpty(selectedUser.Value))
+                {
+                    exist = filteredActivities.All(a => a.User != selectedUser.Text);
+                    filteredActivities = exist
+                        ? new List<Activity>() : filteredActivities.Where(a => a.User == selectedUser.Text).ToList();
+                }
+
+                if (selectedGuarantee != null && !string.IsNullOrEmpty(selectedGuarantee.Value))
+                {
+                    if (!filteredActivities
+                        .Any(a => a.GuaranteeStatus.Equals(selectedGuarantee.Text)))
+                    {
+                        exist = false;
+                    }
+
+                    filteredActivities = !exist ? new List<Activity>() : filteredActivities
+                        .Where(a => a.GuaranteeStatus.Equals(selectedGuarantee.Text)).ToList();
+
+                }
+                activityBindingSource.DataSource = filteredActivities;
             }
             catch (Exception ex)
             {
@@ -97,7 +145,7 @@ namespace StockManagementWithXml.Forms
         {
             try
             {
-                List<User> users = XmlHelper.UserXmlHelper.GetListFromXml();
+                List<User> users = UserXmlHelper.GetListFromXml();
                 ComboBoxItem allItem = new ComboBoxItem();
                 allItem.Text = "Tümü";
                 allItem.Value = "";
@@ -114,17 +162,45 @@ namespace StockManagementWithXml.Forms
                 throw;
             }
         }
-        private void validateDates()
+
+        private void FillGuaranteeDropdown()
+        {
+            try
+            {
+                ComboBoxItem allComboBoxItem = new ComboBoxItem() { Text = "Tümü", Value = "" };
+                ComboBoxItem yesComboBoxItem = new ComboBoxItem() { Text = "Evet", Value = "1" };
+                ComboBoxItem noComboBoxItem = new ComboBoxItem() { Text = "Hayır", Value = "2" };
+
+                guaranteeDropdown.Items.Add(allComboBoxItem);
+                guaranteeDropdown.Items.Add(yesComboBoxItem);
+                guaranteeDropdown.Items.Add(noComboBoxItem);
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillUserDropDown", ex));
+                throw;
+            }
+        }
+        private bool validateDates()
         {
             if (startDatePicker.Value == endDatePicker.Value)
             {
                 MessageBox.Show("Başlangıç ve Bitiş Tarihi aynı olamaz.");
+                return false;
             }
             if (startDatePicker.Value > endDatePicker.Value)
             {
                 MessageBox.Show("Başlangıç Tarihi ve Bitiş Tarihinden büyük olamaz.");
+                return false;
             }
+
+            return true;
         }
         #endregion
+
+        private void guaranteeDropdown_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            filterActivitiesDataSource();
+        }
     }
 }

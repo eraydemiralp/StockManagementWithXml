@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using StockManagementWithXml.Model;
 using System.Linq;
+using StockManagementWithXml.XmlHelpers;
 
 namespace StockManagementWithXml.Forms
 {
@@ -32,7 +33,7 @@ namespace StockManagementWithXml.Forms
                     shelveNameTextBox.Focus();
                     return;
                 }
-                List<Shelve> shelves = XmlHelper.ShelveXmlHelper.GetListFromXml();
+                List<Shelve> shelves = ShelveXmlHelper.GetListFromXml();
                 bool shelveExist = shelves.Any(r => r.Name.Trim().Equals(enteredShelveName.Trim()));
                 if (shelveExist)
                 {
@@ -40,9 +41,9 @@ namespace StockManagementWithXml.Forms
                     return;
                 }
                 Shelve shelve = new Shelve();
-                shelve.Id= XmlHelper.GenerateId();
+                shelve.Id= ShelveXmlHelper.GenerateId();
                 shelve.Name = enteredShelveName.TrimStart(' ').TrimEnd(' ');
-                XmlHelper.ShelveXmlHelper.Insert(shelve);
+                ShelveXmlHelper.Insert(shelve);
                 shelves.Add(shelve);
                 shelveDataGridView.DataSource = shelves;
                 shelveNameTextBox.Clear();
@@ -68,7 +69,7 @@ namespace StockManagementWithXml.Forms
                     return;
                 }
 
-                var shelves = XmlHelper.ShelveXmlHelper.GetListFromXml();
+                var shelves = ShelveXmlHelper.GetListFromXml();
                 var enteredShelveName = shelveNameTextBox.Text;
                 if (shelves.Any(p => p.Name.Trim() == enteredShelveName.TrimStart(' ').TrimEnd(' ')))
                 {
@@ -76,7 +77,7 @@ namespace StockManagementWithXml.Forms
                     return;
                 }
 
-                var stockList = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stockList = StockXmlHelper.GetListFromXml();
                 var hasStockWithShelve = stockList.Any(s => s.ShelveId.Equals(idTextBox.Text));
                 if (hasStockWithShelve)
                 {
@@ -85,13 +86,13 @@ namespace StockManagementWithXml.Forms
                     {
                         foreach (var stock in existingStockList)
                         {
-                            XmlHelper.StockXmlHelper.UpdateShelveName(stock.Id, enteredShelveName.TrimStart(' ').TrimEnd(' '));
+                            StockXmlHelper.UpdateShelveName(stock.Id, enteredShelveName.TrimStart(' ').TrimEnd(' '));
                         }
 
                     }
                 }
 
-                XmlHelper.ShelveXmlHelper.Update(idTextBox.Text, enteredShelveName.TrimStart(' ').TrimEnd(' '));
+                ShelveXmlHelper.Update(idTextBox.Text, enteredShelveName.TrimStart(' ').TrimEnd(' '));
                 foreach (var shelf in shelves.Where(shelf => shelf.Id == idTextBox.Text))
                 {
                     shelf.Name = enteredShelveName.TrimStart(' ').TrimEnd(' ');
@@ -122,7 +123,7 @@ namespace StockManagementWithXml.Forms
                     shelveDataGridView.Focus();
                     return;
                 }
-                List<Shelve> shelves = XmlHelper.ShelveXmlHelper.GetListFromXml();
+                List<Shelve> shelves = ShelveXmlHelper.GetListFromXml();
 
                 if (shelves.All(s => s.Id != idTextBox.Text))
                 {
@@ -131,14 +132,14 @@ namespace StockManagementWithXml.Forms
                 }
 
 
-                var stockList = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stockList = StockXmlHelper.GetListFromXml();
                 if (stockList.Any(s => s.ShelveId.Equals(idTextBox.Text)))
                 {
 
                     MessageBox.Show(stockExistErrorMsg);
                     return;
                 }
-                XmlHelper.ShelveXmlHelper.Delete(idTextBox.Text);
+                ShelveXmlHelper.Delete(idTextBox.Text);
                 var shelveToDelete = shelves.FirstOrDefault(s => s.Id == idTextBox.Text);
                 shelves.Remove(shelveToDelete);
                 shelveNameTextBox.Clear();
@@ -178,7 +179,7 @@ namespace StockManagementWithXml.Forms
         #region Custom Methods
         private void PopulateGridView()
         {
-            shelveBindingSource.DataSource = XmlHelper.ShelveXmlHelper.GetListFromXml(); ;
+            shelveBindingSource.DataSource = ShelveXmlHelper.GetListFromXml(); ;
         }
         #endregion
 

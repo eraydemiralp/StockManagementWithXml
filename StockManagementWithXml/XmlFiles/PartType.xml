@@ -39,4 +39,16 @@
   <PartType Id="yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo">
     <Name>Sensör</Name>
   </PartType>
+  <PartType Id="sYJJqlDJeZxzzeQCtIrPCUChJEJsqd">
+    <Name>Üç Yollu</Name>
+  </PartType>
+  <PartType Id="xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM">
+    <Name>Ön Panel</Name>
+  </PartType>
+  <PartType Id="kJZmVcgUsIOWWYMJpPdhKCaRJhtaqu">
+    <Name>Kablo</Name>
+  </PartType>
+  <PartType Id="KqZrYLSCBcTEedsiGHZSIcHToyJhcP">
+    <Name>Sifon</Name>
+  </PartType>
 </PartTypes>

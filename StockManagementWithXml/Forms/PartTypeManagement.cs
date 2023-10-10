@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Linq;
+using StockManagementWithXml.XmlHelpers;
 
 namespace StockManagementWithXml.Forms
 {
@@ -10,7 +11,7 @@ namespace StockManagementWithXml.Forms
     {
         #region Lifecycle Methods
 
-        List<PartType> _partTypes = XmlHelper.PartTypeXmlHelper.GetListFromXml();
+        List<PartType> _partTypes = PartTypeXmlHelper.GetListFromXml();
         public PartTypeManagement()
         {
             InitializeComponent();
@@ -26,7 +27,7 @@ namespace StockManagementWithXml.Forms
         {
             try
             {
-                List<PartType> partTypeList = XmlHelper.PartTypeXmlHelper.GetListFromXml();
+                List<PartType> partTypeList = PartTypeXmlHelper.GetListFromXml();
                 if (string.IsNullOrEmpty(partTypeTextBox.Text))
                 {
                     MessageBox.Show("Parça Türü alanı boş olamaz!!");
@@ -39,13 +40,13 @@ namespace StockManagementWithXml.Forms
                     MessageBox.Show("Parça Türü tabloda mevcut. Lütfen başka bir parça türü giriniz!!");
                     return;
                 }
-                string id = XmlHelper.GenerateId();
+                string id = PartTypeXmlHelper.GenerateId();
                 string name = partTypeTextBox.Text.TrimStart(' ').TrimEnd(' ');
 
                 PartType partType = new PartType();
                 partType.PartTypeId = id;
                 partType.PartTypeName = name;
-                XmlHelper.PartTypeXmlHelper.Insert(partType);
+                PartTypeXmlHelper.Insert(partType);
                 partTypeList.Add(partType);
                 partTypeDataGridView.DataSource = partTypeList;
                 partTypeTextBox.Clear();
@@ -77,7 +78,7 @@ namespace StockManagementWithXml.Forms
                     return;
                 }
 
-                var stockList = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stockList = StockXmlHelper.GetListFromXml();
                 var hasStockWithPartType = stockList.Any(s => s.PartTypeId.Equals(idTextBox.Text));
                 if (hasStockWithPartType)
                 {
@@ -86,13 +87,13 @@ namespace StockManagementWithXml.Forms
                     {
                         foreach (var stock in existingStockList)
                         {
-                            XmlHelper.StockXmlHelper.UpdatePartTypeName(stock.Id, enteredPartType.TrimStart(' ').TrimEnd(' '));
+                            StockXmlHelper.UpdatePartTypeName(stock.Id, enteredPartType.TrimStart(' ').TrimEnd(' '));
                         }
 
                     }
                 }
 
-                XmlHelper.PartTypeXmlHelper.Update(idTextBox.Text, enteredPartType.TrimStart(' ').TrimEnd(' '));
+                PartTypeXmlHelper.Update(idTextBox.Text, enteredPartType.TrimStart(' ').TrimEnd(' '));
                 partTypeTextBox.Clear();
                 partTypeTextBox.Focus();
                 PopulateGridView();
@@ -128,14 +129,14 @@ namespace StockManagementWithXml.Forms
                 }
 
 
-                var stockList = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stockList = StockXmlHelper.GetListFromXml();
                 if (stockList.Any(s => s.PartTypeId.Equals(idTextBox.Text)))
                 {
 
                     MessageBox.Show(partTypeExistErrorMsg);
                     return;
                 }
-                XmlHelper.PartTypeXmlHelper.Delete(idTextBox.Text);
+                PartTypeXmlHelper.Delete(idTextBox.Text);
                 partTypeTextBox.Clear();
                 partTypeTextBox.Focus();
                 partTypeTextBox.Clear();
@@ -174,7 +175,7 @@ namespace StockManagementWithXml.Forms
         #region Custom Methods
         private void PopulateGridView()
         {
-            _partTypes = XmlHelper.PartTypeXmlHelper.GetListFromXml();
+            _partTypes = PartTypeXmlHelper.GetListFromXml();
             partTypeBindingSource.DataSource = _partTypes;
         }
 

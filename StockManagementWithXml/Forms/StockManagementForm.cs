@@ -7,23 +7,29 @@ using System.Net.Sockets;
 using System.Resources;
 using System.Windows.Forms;
 using StockManagementWithXml.Model;
+using StockManagementWithXml.XmlHelpers;
 
 namespace StockManagementWithXml.Forms
 {
     public partial class StockManagementForm : Form
     {
+        public string DateFormatLongWith24Hour = "dd.MM.yyyy HH:mm:sss";
         public StockManagementForm()
         {
             InitializeComponent();
 
         }
 
-        public string DateFormatLongWith24Hour = "dd.MM.yyyy HH:mm:sss";
-
         private void RequiredCountNumericBox_ValueChanged(object sender, EventArgs e)
         {
             try
             {
+                if (RequiredCountNumericBox.Value == 0)//kritik stok yok
+                {
+                    OrderCountTextBox.Text = "0";
+                    return;
+                }
+
                 OrderCountTextBox.Text = RequiredCountNumericBox.Value >= CurrentCountNumericBox.Value ? (RequiredCountNumericBox.Value - CurrentCountNumericBox.Value).ToString(CultureInfo.InvariantCulture) : "0";
             }
             catch (Exception ex)
@@ -37,6 +43,11 @@ namespace StockManagementWithXml.Forms
         {
             try
             {
+                if (RequiredCountNumericBox.Value == 0)//kritik stok yok
+                {
+                    OrderCountTextBox.Text = "0";
+                    return;
+                }
                 OrderCountTextBox.Text = RequiredCountNumericBox.Value >= CurrentCountNumericBox.Value ? (RequiredCountNumericBox.Value - CurrentCountNumericBox.Value).ToString(CultureInfo.InvariantCulture) : "0";
             }
             catch (Exception ex)
@@ -54,6 +65,8 @@ namespace StockManagementWithXml.Forms
                 FillPartTypeDropDown();
                 FillShelveDropDown();
                 FillUserDropDown();
+                FillSearchPartTypeDropDown();
+                FillGuaranteeDropdown();
             }
             catch (Exception ex)
             {
@@ -62,6 +75,7 @@ namespace StockManagementWithXml.Forms
             }
         }
 
+        #region Click Events
         private void stockDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -71,7 +85,7 @@ namespace StockManagementWithXml.Forms
                 idTextBox.Text = stockDataGridView.Rows[rowIndex].Cells[0].Value.ToString();
                 StockCodeTextBox.Text = stockDataGridView.Rows[rowIndex].Cells[1].Value.ToString();
                 StockNameTextbox.Text = stockDataGridView.Rows[rowIndex].Cells[2].Value.ToString();
-                var shelves = XmlHelper.ShelveXmlHelper.GetListFromXml();
+                var shelves = ShelveXmlHelper.GetListFromXml();
 
                 if (shelves.Count > 0)
                 {
@@ -86,7 +100,7 @@ namespace StockManagementWithXml.Forms
                         }
                     }
                 }
-                var partTypes = XmlHelper.PartTypeXmlHelper.GetListFromXml();
+                var partTypes = PartTypeXmlHelper.GetListFromXml();
                 if (partTypes.Count > 0)
                 {
                     var selectedRowPartTypeName = stockDataGridView.Rows[rowIndex].Cells[4].Value.ToString();
@@ -110,86 +124,11 @@ namespace StockManagementWithXml.Forms
                 throw;
             }
         }
-
-        private void PopulateGridView()
-        {
-            stockDataGridView.DataSource = XmlHelper.StockXmlHelper.GetListFromXml();
-        }
-
-        private void FillPartTypeDropDown()
-        {
-            try
-            {
-
-                var partTypes = XmlHelper.PartTypeXmlHelper.GetListFromXml();
-                if (partTypes.Count <= 0) return;
-                foreach (var item in partTypes.Select(partType => new ComboBoxItem
-                {
-                    Text = partType.PartTypeName,
-                    Value = partType.PartTypeId
-                }))
-                {
-                    partTypeDropDown.Items.Add(item);
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillPartTypeDropDown", ex));
-                throw;
-            }
-        }
-
-        private void FillShelveDropDown()
-        {
-            try
-            {
-
-                List<Shelve> shelves = XmlHelper.ShelveXmlHelper.GetListFromXml();
-                if (shelves.Count <= 0) return;
-                foreach (var item in shelves.Select(shelve => new ComboBoxItem
-                {
-                    Text = shelve.Name,
-                    Value = shelve.Id
-                }))
-                {
-                    shelveNameDropdown.Items.Add(item);
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillShelveDropDown", ex));
-                throw;
-            }
-        }
-
-        private void FillUserDropDown()
-        {
-            try
-            {
-
-                var users = XmlHelper.UserXmlHelper.GetListFromXml();
-                if (users.Count <= 0) return;
-                foreach (var item in users.Select(user => new ComboBoxItem
-                {
-                    Text = user.Name,
-                    Value = user.Id
-                }))
-                {
-                    userCombobox.Items.Add(item);
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillUserDropDown", ex));
-                throw;
-            }
-        }
-
         private void addButton_Click(object sender, EventArgs e)
         {
             try
             {
-                var stocks = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stocks = StockXmlHelper.GetListFromXml();
                 if (stocks.Any(s => s.Code == StockCodeTextBox.Text))
                 {
                     MessageBox.Show("Aynı koda sahip parça tabloda mevcut, lütfen güncelleme veya silme işlemi ile devam ediniz. ");
@@ -204,7 +143,7 @@ namespace StockManagementWithXml.Forms
                 var stockToAdd = getStockFromScreen();
                 stocks.Add(stockToAdd);
                 stockDataGridView.DataSource = stocks;
-                XmlHelper.StockXmlHelper.Insert(stockToAdd);
+                StockXmlHelper.Insert(stockToAdd);
                 var activityText = "Parça Ekleme ||Parça Kodu: " + StockCodeTextBox.Text + " || Parça Adı: "
                                    + StockNameTextbox.Text;
                 var activity = new Activity();
@@ -213,7 +152,8 @@ namespace StockManagementWithXml.Forms
                 activity.Date = DateTime.Now.ToString(DateFormatLongWith24Hour);
                 activity.Name = activityText;
                 activity.User = selectedUserItem != null ? selectedUserItem.Text : "";
-                XmlHelper.ActivitiesXmlHelper.Insert(activity);
+                activity.GuaranteeStatus = "-";
+                ActivitiesXmlHelper.Insert(activity);
                 ClearAll();
                 PopulateGridView();
 
@@ -224,17 +164,6 @@ namespace StockManagementWithXml.Forms
                 throw;
             }
         }
-
-        private bool ValidateAdd()
-        {
-            return !(string.IsNullOrEmpty(StockCodeTextBox.Text)
-                     || string.IsNullOrEmpty(StockNameTextbox.Text)
-                     || RequiredCountNumericBox.Value <= 0
-                     || shelveNameDropdown.SelectedIndex < 0
-                     || partTypeDropDown.SelectedIndex < 0
-                     || userCombobox.SelectedIndex < 0);
-        }
-
         private void deleteButton_Click(object sender, EventArgs e)
         {
             try
@@ -255,13 +184,13 @@ namespace StockManagementWithXml.Forms
                 var dialogResult = MessageBox.Show("Parçayı silmek istediğinize emin misiniz?", "Parça Silme"
                         , MessageBoxButtons.YesNo);
                 if (dialogResult != DialogResult.Yes) return;
-                var stocks = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stocks = StockXmlHelper.GetListFromXml();
                 if (stocks.All(s => s.Id != idTextBox.Text))
                 {
                     MessageBox.Show("Parça tabloda bulunamadı!!!");
                     return;
                 }
-                XmlHelper.StockXmlHelper.Delete(idTextBox.Text);
+                StockXmlHelper.Delete(idTextBox.Text);
                 stocks.RemoveAll(s => s.Id == idTextBox.Text);
                 stockDataGridView.DataSource = stocks;
                 var activityText = "Parça Silme ||Parça Kodu: " + StockCodeTextBox.Text + " || Parça Adı: "
@@ -271,7 +200,8 @@ namespace StockManagementWithXml.Forms
                 activity.Date = DateTime.Now.ToString(DateFormatLongWith24Hour);
                 activity.Name = activityText;
                 activity.User = selectedUserItem != null ? selectedUserItem.Text : "";
-                XmlHelper.ActivitiesXmlHelper.Insert(activity);
+                activity.GuaranteeStatus = "-";
+                ActivitiesXmlHelper.Insert(activity);
                 ClearAll();
                 PopulateGridView();
             }
@@ -281,21 +211,6 @@ namespace StockManagementWithXml.Forms
                 throw;
             }
         }
-
-        private void ClearAll()
-        {
-            StockCodeTextBox.Clear();
-            StockNameTextbox.Clear();
-            explanationTextBox.Clear();
-            RequiredCountNumericBox.Value = 0;
-            CurrentCountNumericBox.Value = 0;
-            OrderCountTextBox.Text = "0";
-            partTypeDropDown.SelectedIndex = -1;
-            shelveNameDropdown.SelectedIndex = -1;
-            idTextBox.Clear();
-            StockCodeTextBox.Focus();
-        }
-
         private void updateButton_Click(object sender, EventArgs e)
         {
             try
@@ -325,7 +240,7 @@ namespace StockManagementWithXml.Forms
                     userCombobox.Focus();
                     return;
                 }
-                var stocks = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stocks = StockXmlHelper.GetListFromXml();
                 if (stocks.All(s => s.Id != idTextBox.Text))
                 {
                     MessageBox.Show("!!Parça tabloda bulunamadı!!!");
@@ -346,7 +261,7 @@ namespace StockManagementWithXml.Forms
                 }
 
                 stockDataGridView.DataSource = stocks;
-                XmlHelper.StockXmlHelper.Update(idTextBox.Text, stockToUpdate);
+                StockXmlHelper.Update(idTextBox.Text, stockToUpdate);
                 var activityText = "Parça Bilgileri Güncelleme ||Parça Kodu: " + StockCodeTextBox.Text + " || Parça Adı: "
                                    + StockNameTextbox.Text;
                 var activity = new Activity();
@@ -354,7 +269,8 @@ namespace StockManagementWithXml.Forms
                 activity.Date = DateTime.Now.ToString(DateFormatLongWith24Hour);
                 activity.Name = activityText;
                 activity.User = selectedUserItem != null ? selectedUserItem.Text : "";
-                XmlHelper.ActivitiesXmlHelper.Insert(activity);
+                activity.GuaranteeStatus = "-";
+                ActivitiesXmlHelper.Insert(activity);
                 ClearAll();
                 PopulateGridView();
             }
@@ -364,52 +280,20 @@ namespace StockManagementWithXml.Forms
                 throw;
             }
         }
-
-        private void searchStockCodeTextBox_TextChanged(object sender, EventArgs e)
-        {
-            var xmlStocks = XmlHelper.StockXmlHelper.GetListFromXml();
-            if (string.IsNullOrEmpty(searchStockCodeTextBox.Text))
-            {
-                stockDataGridView.DataSource = xmlStocks;
-            }
-            var filteredStocks = xmlStocks.Where(s => s.Code.Contains(searchStockCodeTextBox.Text)).ToList();
-            stockDataGridView.DataSource = filteredStocks;
-        }
-
-        private void searcStockNameTextBox_TextChanged(object sender, EventArgs e)
-        {
-            var xmlStocks = XmlHelper.StockXmlHelper.GetListFromXml();
-            if (string.IsNullOrEmpty(searcStockNameTextBox.Text))
-            {
-                stockDataGridView.DataSource = xmlStocks;
-            }
-            var filteredStocks = xmlStocks.Where(s =>
-                s.Name.ToLowerInvariant().Contains(searcStockNameTextBox.Text.ToLowerInvariant())).ToList();
-            stockDataGridView.DataSource = filteredStocks;
-        }
-
-        private void searchShelveTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-            var xmlStocks = XmlHelper.StockXmlHelper.GetListFromXml();
-            if (string.IsNullOrEmpty(searchShelveTextBox.Text))
-            {
-                stockDataGridView.DataSource = xmlStocks;
-            }
-            var filteredStocks = xmlStocks.Where(s =>
-                s.ShelveName.ToLowerInvariant().Contains(searchShelveTextBox.Text.ToLowerInvariant())).ToList();
-            stockDataGridView.DataSource = filteredStocks;
-
-        }
-
         private void addStockButton_Click(object sender, EventArgs e)
         {
             try
             {
-                var stocks = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stocks = StockXmlHelper.GetListFromXml();
                 if (string.IsNullOrEmpty(idTextBox.Text))
                 {
                     MessageBox.Show("Lütfen tablodan bir parça seçiniz.");
+                    return;
+                }
+
+                if (guaranteeDropdown.SelectedIndex < 0)
+                {
+                    MessageBox.Show("Lütfen garantiye dahil seçimini yapınız!!");
                     return;
                 }
 
@@ -450,15 +334,17 @@ namespace StockManagementWithXml.Forms
                     stock.OrderCount = stockToUpdate.OrderCount;
                 }
                 stockDataGridView.DataSource = stocks;
-                XmlHelper.StockXmlHelper.Update(idTextBox.Text, stockToUpdate);
+                StockXmlHelper.Update(idTextBox.Text, stockToUpdate);
                 var activityText = "Stok Ekleme ||Parça Kodu: " + StockCodeTextBox.Text + " || Parça Adı: "
                                    + StockNameTextbox.Text;
                 var activity = new Activity();
                 var selectedUserItem = userCombobox.SelectedItem as ComboBoxItem;
+                var selectedGuarantee = (ComboBoxItem)guaranteeDropdown.SelectedItem;
                 activity.Date = DateTime.Now.ToString(DateFormatLongWith24Hour);
                 activity.Name = activityText;
                 activity.User = selectedUserItem != null ? selectedUserItem.Text : "";
-                XmlHelper.ActivitiesXmlHelper.Insert(activity);
+                activity.GuaranteeStatus = selectedGuarantee.Text;
+                ActivitiesXmlHelper.Insert(activity);
                 ClearAll();
                 PopulateGridView();
             }
@@ -468,18 +354,21 @@ namespace StockManagementWithXml.Forms
                 throw;
             }
         }
-
         private void removeStock_Click(object sender, EventArgs e)
         {
             try
             {
-                var stocks = XmlHelper.StockXmlHelper.GetListFromXml();
+                var stocks = StockXmlHelper.GetListFromXml();
                 if (string.IsNullOrEmpty(idTextBox.Text))
                 {
                     MessageBox.Show("Lütfen tablodan bir parça seçiniz.");
                     return;
                 }
-
+                if (guaranteeDropdown.SelectedIndex < 0)
+                {
+                    MessageBox.Show("Lütfen garantiye dahil seçimini yapınız!!");
+                    return;
+                }
                 int removeStockCount = Convert.ToInt16(stockCountNumeric.Value);
                 int existingCount = Convert.ToInt16(CurrentCountNumericBox.Value);
                 int criticalCount = Convert.ToInt16(RequiredCountNumericBox.Value);
@@ -523,15 +412,17 @@ namespace StockManagementWithXml.Forms
                     stock.OrderCount = stockToUpdate.OrderCount;
                 }
                 stockDataGridView.DataSource = stocks;
-                XmlHelper.StockXmlHelper.Update(idTextBox.Text, stockToUpdate);
+                StockXmlHelper.Update(idTextBox.Text, stockToUpdate);
                 var activityText = "Stok Çıkarma ||Parça Kodu: " + StockCodeTextBox.Text + " || Parça Adı: "
                                    + StockNameTextbox.Text;
                 var activity = new Activity();
                 var selectedUserItem = userCombobox.SelectedItem as ComboBoxItem;
+                var selectedGuarantee = (ComboBoxItem)guaranteeDropdown.SelectedItem;
                 activity.Date = DateTime.Now.ToString(DateFormatLongWith24Hour);
                 activity.Name = activityText;
                 activity.User = selectedUserItem != null ? selectedUserItem.Text : "";
-                XmlHelper.ActivitiesXmlHelper.Insert(activity);
+                activity.GuaranteeStatus = selectedGuarantee != null ? selectedGuarantee.Text:"-";
+                ActivitiesXmlHelper.Insert(activity);
             }
             catch (Exception ex)
             {
@@ -539,14 +430,147 @@ namespace StockManagementWithXml.Forms
                 throw;
             }
         }
-
-
-
-        private void StockCodeTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        private void listOrderRowsButton_Click(object sender, EventArgs e)
         {
-            e.Handled = !(char.IsNumber(e.KeyChar) || char.IsControl(e.KeyChar));
+            var xmlStocks = StockXmlHelper.GetListFromXml();
+
+            var filteredStocks = xmlStocks.Where(s => s.OrderCount > 0).ToList();
+            stockDataGridView.DataSource = filteredStocks;
+        }
+        #endregion
+        #region Custom Events
+        private void PopulateGridView()
+        {
+            stockDataGridView.DataSource = StockXmlHelper.GetListFromXml();
+        }
+        private void FillPartTypeDropDown()
+        {
+            try
+            {
+
+                var partTypes = PartTypeXmlHelper.GetListFromXml();
+                if (partTypes.Count <= 0) return;
+                foreach (var item in partTypes.Select(partType => new ComboBoxItem
+                {
+                    Text = partType.PartTypeName,
+                    Value = partType.PartTypeId
+                }))
+                {
+                    partTypeDropDown.Items.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillPartTypeDropDown", ex));
+                throw;
+            }
+        }
+        private void FillSearchPartTypeDropDown()
+        {
+            try
+            {
+
+                var partTypes = PartTypeXmlHelper.GetListFromXml();
+                if (partTypes.Count <= 0) return;
+                ComboBoxItem allItem = new ComboBoxItem() { Text = "Tümü", Value = "0" };
+                searchPartTypeDropDown.Items.Add(allItem);
+                foreach (var item in partTypes.Select(partType => new ComboBoxItem
+                {
+                    Text = partType.PartTypeName,
+                    Value = partType.PartTypeId
+                }))
+                {
+                    searchPartTypeDropDown.Items.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillPartTypeDropDown", ex));
+                throw;
+            }
+        }
+        private void FillShelveDropDown()
+        {
+            try
+            {
+
+                List<Shelve> shelves = ShelveXmlHelper.GetListFromXml();
+                if (shelves.Count <= 0) return;
+                foreach (var item in shelves.Select(shelve => new ComboBoxItem
+                {
+                    Text = shelve.Name,
+                    Value = shelve.Id
+                }))
+                {
+                    shelveNameDropdown.Items.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillShelveDropDown", ex));
+                throw;
+            }
+        }
+        private void FillUserDropDown()
+        {
+            try
+            {
+
+                var users = UserXmlHelper.GetListFromXml();
+                if (users.Count <= 0) return;
+                foreach (var item in users.Select(user => new ComboBoxItem
+                {
+                    Text = user.Name,
+                    Value = user.Id
+                }))
+                {
+                    userCombobox.Items.Add(item);
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillUserDropDown", ex));
+                throw;
+            }
         }
 
+        private void FillGuaranteeDropdown()
+        {
+            try
+            {
+                ComboBoxItem yesComboBoxItem = new ComboBoxItem() { Text = "Evet", Value = "1" };
+                ComboBoxItem noComboBoxItem = new ComboBoxItem() { Text = "Hayır", Value = "2" };
+
+                guaranteeDropdown.Items.Add(yesComboBoxItem);
+                guaranteeDropdown.Items.Add(noComboBoxItem);
+            }
+            catch (Exception ex)
+            {
+                Logger.WriteLog(string.Format(Logger.DefaultLogMessage, "StockManagementForm", "fillUserDropDown", ex));
+                throw;
+            }
+        }
+        private bool ValidateAdd()
+        {
+            return !(string.IsNullOrEmpty(StockCodeTextBox.Text)
+                     || string.IsNullOrEmpty(StockNameTextbox.Text)
+                     || shelveNameDropdown.SelectedIndex < 0
+                     || partTypeDropDown.SelectedIndex < 0
+                     || userCombobox.SelectedIndex < 0);
+        }
+        private void ClearAll()
+        {
+            StockCodeTextBox.Clear();
+            StockNameTextbox.Clear();
+            explanationTextBox.Clear();
+            RequiredCountNumericBox.Value = 0;
+            CurrentCountNumericBox.Value = 0;
+            OrderCountTextBox.Text = "0";
+            partTypeDropDown.SelectedIndex = -1;
+            shelveNameDropdown.SelectedIndex = -1;
+            idTextBox.Clear();
+            StockCodeTextBox.Focus();
+        }
         private Stock getStockFromScreen()
         {
             var selectedShelve = (ComboBoxItem)shelveNameDropdown.SelectedItem;
@@ -570,42 +594,85 @@ namespace StockManagementWithXml.Forms
             };
             return stock;
         }
-
-        private void stockDataGridView_RowStateChanged(object sender, DataGridViewRowStateChangedEventArgs e)
-        {
-            //for (int i = 0; i < stockDataGridView.RowCount; i++)
-            //{
-            //    DataGridViewRow row = stockDataGridView.Rows[i];
-            //    var existingCount = Convert.ToInt32(row.Cells[7].Value);
-            //    var criticalCount = Convert.ToInt32(row.Cells[6].Value);
-            //    if (existingCount == 0)
-            //    {
-            //        row.DefaultCellStyle.BackColor = Color.OrangeRed;
-            //    }
-            //    else
-            //    {
-            //        if (existingCount > criticalCount)
-            //        {
-            //            row.DefaultCellStyle.BackColor = Color.YellowGreen;
-            //        }
-            //    }
-            //}
-        }
-
         private void stockDataGridView_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            if (e.ColumnIndex == 8 && e.Value != null)
+            switch (e.ColumnIndex)
             {
-                e.CellStyle.BackColor = Convert.ToInt16(e.Value) > 0 ? Color.DarkOrange : Color.YellowGreen;
+                case 6 when e.Value != null && Convert.ToInt16(e.Value) == 0://kritik sayı 0
+                    return;
+                case 8 when e.Value != null:
+                    e.CellStyle.BackColor = Convert.ToInt16(e.Value) > 0 ? Color.DarkOrange : Color.YellowGreen;
+                    break;
+                case 7 when e.Value != null:
+                    {
+                        if (Convert.ToInt16(e.Value) == 0)
+                        {
+                            e.CellStyle.BackColor = Color.OrangeRed;
+                        }
+                        break;
+                    }
+            }
+        }
+        private void StockCodeTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !(char.IsNumber(e.KeyChar) || char.IsControl(e.KeyChar));
+        }
+        #endregion
+        #region Search Events
+        private void searchStockCodeTextBox_TextChanged(object sender, EventArgs e)
+        {
+            filterGrid();
+        }
+        private void searcStockNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+            filterGrid();
+        }
+        private void searchShelveTextBox_TextChanged(object sender, EventArgs e)
+        {
+            filterGrid();
+        }
+
+        private void filterGrid()
+        {
+            var xmlStocks = StockXmlHelper.GetListFromXml();
+            var filteredStocks = xmlStocks;
+            if (!string.IsNullOrEmpty(searchStockCodeTextBox.Text))
+            {
+                filteredStocks = filteredStocks.Where(s =>
+                    s.Code.Contains(searchStockCodeTextBox.Text)).ToList();
+            }
+            if (!string.IsNullOrEmpty(searcStockNameTextBox.Text))
+            {
+                filteredStocks = filteredStocks.Where(s =>
+                    s.Name.ToLowerInvariant().Contains(searcStockNameTextBox.Text.ToLowerInvariant())).ToList();
             }
 
-            if (e.ColumnIndex == 7 && e.Value != null)
+            if (!string.IsNullOrEmpty(searchShelveTextBox.Text))
             {
-                if (Convert.ToInt16(e.Value) == 0)
+                filteredStocks = filteredStocks.Where(s =>
+                    s.ShelveName.ToLowerInvariant().Contains(searchShelveTextBox.Text.ToLowerInvariant())).ToList();
+            }
+
+            if (searchPartTypeDropDown.SelectedIndex > 0)
+            {
+                ComboBoxItem selectedPartTypeComboBoxItem = searchPartTypeDropDown.SelectedItem as ComboBoxItem;
+                if (selectedPartTypeComboBoxItem != null && selectedPartTypeComboBoxItem.Value != null)
                 {
-                    e.CellStyle.BackColor = Color.OrangeRed;
+                    filteredStocks = filteredStocks.Where(s => s.PartTypeId == selectedPartTypeComboBoxItem.Value)
+                        .ToList();
                 }
             }
+
+            stockDataGridView.DataSource = filteredStocks;
+        }
+
+
+
+        #endregion
+
+        private void searchPartTypeDropDown_SelectedValueChanged(object sender, EventArgs e)
+        {
+            filterGrid();
         }
     }
 

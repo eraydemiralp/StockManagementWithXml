@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockManagementWithXml", "StockManagementWithXml\StockManagementWithXml.csproj", "{B6E7F413-30D1-479D-A05B-CD309EB0406F}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\..\Parça Yönetimi Setup\Setup\Setup.vdproj", "{94F6762F-B609-4BB7-8C01-79AF185153F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{B6E7F413-30D1-479D-A05B-CD309EB0406F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6E7F413-30D1-479D-A05B-CD309EB0406F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6E7F413-30D1-479D-A05B-CD309EB0406F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94F6762F-B609-4BB7-8C01-79AF185153F3}.Debug|Any CPU.ActiveCfg = Debug
+		{94F6762F-B609-4BB7-8C01-79AF185153F3}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

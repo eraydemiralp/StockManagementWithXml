@@ -120,10 +120,16 @@
     <Compile Include="Model\PartType.cs" />
     <Compile Include="Model\Shelve.cs" />
     <Compile Include="Model\Stock.cs" />
+    <Compile Include="Model\Backup.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="XmlHelper.cs" />
+    <Compile Include="XmlHelpers\ActivitiesXmlHelper.cs" />
+    <Compile Include="XmlHelpers\BackupXmlHelper.cs" />
+    <Compile Include="XmlHelpers\PartTypeXmlHelper.cs" />
+    <Compile Include="XmlHelpers\ShelveXmlHelper.cs" />
+    <Compile Include="XmlHelpers\StockXmlHelper.cs" />
+    <Compile Include="XmlHelpers\UserXmlHelper.cs" />
     <EmbeddedResource Include="Forms\Activities.resx">
       <DependentUpon>Activities.cs</DependentUpon>
     </EmbeddedResource>
@@ -180,6 +186,7 @@
     <Content Include="XmlFiles\PartType.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="XmlFiles\Backup.xml" />
     <Content Include="XmlFiles\User.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -226,5 +233,6 @@
       <FileType>File</FileType>
     </PublishFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

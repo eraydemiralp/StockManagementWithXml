@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using StockManagementWithXml.Model;
 using System.Linq;
+using StockManagementWithXml.XmlHelpers;
 
 namespace StockManagementWithXml.Forms
 {
@@ -29,7 +30,7 @@ namespace StockManagementWithXml.Forms
                     return;
 
                 }
-                var users = XmlHelper.UserXmlHelper.GetListFromXml();
+                var users = UserXmlHelper.GetListFromXml();
                 var userExists = users.Any(r => r.Name.Trim().Equals(enteredUserName.Trim()));
                 if (userExists)
                 {
@@ -38,10 +39,10 @@ namespace StockManagementWithXml.Forms
                 }
                 var user = new User()
                 {
-                    Id = XmlHelper.GenerateId(),
+                    Id = UserXmlHelper.GenerateId(),
                     Name = enteredUserName.TrimStart(' ').TrimEnd(' ')
                 };
-                XmlHelper.UserXmlHelper.Insert(user);
+                UserXmlHelper.Insert(user);
                 users.Add(user);
                 userDataGridView.DataSource = users;
                 userNameTextBox.Clear();
@@ -67,14 +68,14 @@ namespace StockManagementWithXml.Forms
                     return;
                 }
 
-                var users = XmlHelper.UserXmlHelper.GetListFromXml();
+                var users = UserXmlHelper.GetListFromXml();
                 var enteredUserName = userNameTextBox.Text;
                 if (users.Any(u => u.Name.Trim() == enteredUserName.TrimStart(' ').TrimEnd(' ')))
                 {
                     MessageBox.Show(selectOtherUserErorMsg);
                     return;
                 }
-                XmlHelper.UserXmlHelper.Update(idTextBox.Text, enteredUserName.TrimStart(' ').TrimEnd(' '));
+                UserXmlHelper.Update(idTextBox.Text, enteredUserName.TrimStart(' ').TrimEnd(' '));
                 foreach (var user in users.Where(user => user.Id == idTextBox.Text))
                 {
                     user.Name = enteredUserName.TrimStart(' ').TrimEnd(' ');
@@ -102,14 +103,14 @@ namespace StockManagementWithXml.Forms
                     MessageBox.Show(selectUserErrMsg);
                 }
 
-                List<User> users = XmlHelper.UserXmlHelper.GetListFromXml();
+                List<User> users = UserXmlHelper.GetListFromXml();
 
                 if (users.All(s => s.Id != idTextBox.Text))
                 {
                     MessageBox.Show(userNotExistErrMsg);
                     return;
                 }
-                XmlHelper.UserXmlHelper.Delete(idTextBox.Text);
+                UserXmlHelper.Delete(idTextBox.Text);
                 var userToDelete = users.FirstOrDefault(s => s.Id == idTextBox.Text);
                 users.Remove(userToDelete);
                 userNameTextBox.Clear();
@@ -143,7 +144,7 @@ namespace StockManagementWithXml.Forms
         {
             try
             {
-                userBindingSource.DataSource = XmlHelper.UserXmlHelper.GetListFromXml();
+                userBindingSource.DataSource = UserXmlHelper.GetListFromXml();
             }
             catch (Exception ex)
             {
