@@ -68,5 +68,11 @@ namespace StockManagementWithXml.Forms
         }
 
         #endregion
+
+        private void UpdatePricesButton_Click(object sender, EventArgs e)
+        {
+            UpdatePrices updateForm = new UpdatePrices();
+            updateForm.Show();
+        }
     }
 }

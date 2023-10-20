@@ -64,9 +64,16 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -108,6 +115,12 @@
     <Compile Include="Forms\StockManagementForm.Designer.cs">
       <DependentUpon>StockManagementForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UpdatePrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UpdatePrices.Designer.cs">
+      <DependentUpon>UpdatePrices.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\UserManagement.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -145,6 +158,9 @@
     <EmbeddedResource Include="Forms\StockManagementForm.resx">
       <DependentUpon>StockManagementForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UpdatePrices.resx">
+      <DependentUpon>UpdatePrices.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\UserManagement.resx">
       <DependentUpon>UserManagement.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +173,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\DataSources\StockManagementWithXml.Model.Activity.datasource" />
     <None Include="Properties\DataSources\StockManagementWithXml.Model.PartType.datasource" />
     <None Include="Properties\DataSources\StockManagementWithXml.Model.Shelve.datasource" />

@@ -110,4 +110,517 @@
     <User>Eray</User>
     <GuaranteeStatus>-</GuaranteeStatus>
   </Activity>
+  <Activity>
+    <Id>THJoQVpaKrZVeXZjjuTqyHPzvoarce</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 8718656606 || Parça Adı: Kumanda plakasi</Name>
+    <Date>16.10.2023 10:40:28</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>LLjlpJgbZyAAKaJbkGlXkPCJnoRCkM</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87172044100 || Parça Adı: GB042 FAN</Name>
+    <Date>16.10.2023 10:43:58</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>dtjORoSZLPWccRYWxQEvXPrbttddTv</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87172044100 || Parça Adı: GB042 FAN</Name>
+    <Date>16.10.2023 10:44:12</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>fuTdGfsHRXBeKFXZUrRbmQJhCeunCs</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87160124850 || Parça Adı: GB042 GAZ ARMATÜRÜ</Name>
+    <Date>16.10.2023 10:45:35</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>lIdMRqgZJEsOnndPWPMyzILFefdtOo</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87160122730 || Parça Adı: GC1200 SİFON</Name>
+    <Date>16.10.2023 10:50:30</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>iPcpMLQixUGSDOEExakInINfnFUYXO</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87186429220 || Parça Adı: FAN  24KW</Name>
+    <Date>16.10.2023 10:51:50</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>qhQQWAcbagxsDBTGoDgbguDojJbVPh</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87160134660 || Parça Adı: ELEKTRONİK KART  (Ortak Anakart)</Name>
+    <Date>16.10.2023 11:34:48</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>dPnUBmdihVSChoBITNTbfyMVXOQqux</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87377077630 || Parça Adı: Elektronik kart</Name>
+    <Date>16.10.2023 11:35:25</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>VAUslMgFogdukaJsPytkUBDqOFrlNq</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186456530 || Parça Adı: WBN-6000 DİF BASINÇ ŞARTELİ</Name>
+    <Date>16.10.2023 12:06:04</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>ELyEFhHTzExtqhvrNuudnvjWRzrGoM</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186456510 || Parça Adı: WB6-6000 MANİFOLD</Name>
+    <Date>16.10.2023 12:07:00</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>FnDCnMGGxBbmBGFPxeKyNzlDrZUYhZ</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186462340 || Parça Adı: DİF ŞARTEL</Name>
+    <Date>16.10.2023 12:07:36</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>zIHuUgKMRXeCHGLnRPgmaloTSTYCxY</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87160112990 || Parça Adı: U-042 DİF ŞARTEL</Name>
+    <Date>16.10.2023 12:08:15</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>ohWjxXujFvpFtVApsZkPZFKOdJejQx</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87160113600 || Parça Adı: MOTOR</Name>
+    <Date>16.10.2023 12:08:47</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>xlycLMbjLeYNvsYamtFQErmEgQfAbh</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186602270 || Parça Adı: GB-072 KUMA BURCU</Name>
+    <Date>16.10.2023 12:09:31</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>pHYGpOWWWBNNyqmYeWRjGCexBppRSk</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87167637000 || Parça Adı: C.CONDENS MİKSER</Name>
+    <Date>16.10.2023 12:10:07</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>FogkPDgVvLhbgmIlCukOYainAcIeHE</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87182228440 || Parça Adı: C-2500- HAVA KARIŞTIRICI</Name>
+    <Date>16.10.2023 12:10:46</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>FxVBAKZuKReazdUVmcMOnnOKZxOhKo</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87160108020 || Parça Adı: C.CONDENSE BORU</Name>
+    <Date>16.10.2023 12:12:07</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>nIWJdSJZxECdhPZfliApqUszNtAeNT</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87161036010 || Parça Adı: POMPA GÖVDE</Name>
+    <Date>16.10.2023 12:12:35</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>oRBqInXmQRNDYLSqxIdNrZtQCDZiyQ</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 8737602607 || Parça Adı: GB-022İ-GB-122- ÖN TUŞ PANEL</Name>
+    <Date>16.10.2023 12:13:22</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>NdxWyhXzsPkjqzPjdmGYiRgqtVsCDY</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 8737602306 || Parça Adı: TUTUCU</Name>
+    <Date>16.10.2023 12:14:50</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>JYfsUXbIqXDjStDKsHoWckHIulLNHd</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87155058250 || Parça Adı: C.CONDENSE-GB-042 DİYAFRAM</Name>
+    <Date>16.10.2023 12:15:23</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>fRcZxcoRYpLcEdOZmuXMpXRsUKgrWz</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186506050 || Parça Adı: VENTURİ BORU</Name>
+    <Date>16.10.2023 12:19:31</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>pBNrjkqEJOfPYdRVNlngnUdNAmbLRW</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 8738902785 || Parça Adı: CONTA BRÜLÖR KAPAĞI</Name>
+    <Date>16.10.2023 12:20:08</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>FposVGMTYCqxYoLCCCxGXUQvZtKcvb</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 8738903403 || Parça Adı: C-1200- SICAKLIK SENSÖRÜ</Name>
+    <Date>16.10.2023 12:21:10</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>XEvjJAAVDrikabuVRUQtiPhNQulRPr</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 8737604239 || Parça Adı: C-1200-KUMANDA ÜNİTESİ</Name>
+    <Date>16.10.2023 12:21:42</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>nRbctInOsXrxhnUmyePfnkURVoJcZC</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87161425020 || Parça Adı: GENLEŞME TANKI</Name>
+    <Date>16.10.2023 12:27:34</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>sKKUnvVkJktJuKFlKxtpDlpMRZVbmn</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186425520 || Parça Adı: GENLEŞME TANKI</Name>
+    <Date>16.10.2023 12:31:00</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>McUutXWOBxOcJcqlTzpCPBxbOoANgX</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87160111900 || Parça Adı: GENLEŞME TANKI</Name>
+    <Date>16.10.2023 12:31:49</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>GjzYxmomEWcWRmpCHhDCTLKjBzjHWq</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87154071540 || Parça Adı: GENLEŞME TANKI</Name>
+    <Date>16.10.2023 12:33:08</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>ljmxknhktxRZYqQJimQtkvulunXsyz</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 8737604235 || Parça Adı: GENLEŞME TANKI</Name>
+    <Date>16.10.2023 12:33:57</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>rBhhdkTivuhKCcJJXOEaOxAteVueXB</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87154071540 || Parça Adı: GENLEŞME TANKI</Name>
+    <Date>16.10.2023 12:35:24</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>OWXdQRdYxyENdaWOzPkPZOkSVxnQYq</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87172044100 || Parça Adı: GB042 FAN</Name>
+    <Date>16.10.2023 15:10:20</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>eGbmWMcxyixvdPejZxeCPIfNGkcWOi</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87172044100 || Parça Adı: GB042 FAN</Name>
+    <Date>16.10.2023 15:15:38</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>ZSQBdiZMLlDIarlIBjYkZLpDBYkLqW</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87376000090 || Parça Adı: Elektrod Seti (ESKİ KOD 87181070870)</Name>
+    <Date>16.10.2023 15:18:34</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>gzuOZAdFLGNaVAVzYKRWiMvNrrTCMP</Id>
+    <Name>Parça Bilgileri Güncelleme ||Parça Kodu: 87160122730 || Parça Adı: GC1200 SİFON</Name>
+    <Date>16.10.2023 15:19:43</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>oXNnJLHmVidiMvrtPgCkRZTTQRPgEf</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87186456450 || Parça Adı: FAN MOTORU</Name>
+    <Date>16.10.2023 15:30:11</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>vJvPJnImKzZaauxznRnvVGJVHEZEBf</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87186517840 || Parça Adı: FAN MOTORU</Name>
+    <Date>16.10.2023 15:34:19</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>yUqlkkyGJIhtRccnbPmcaPvCVhridv</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87186481810 || Parça Adı: 
+      Devirdaim Pompası
+    </Name>
+    <Date>16.10.2023 15:35:09</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>VtOBLfbpMrVSjjYrxriVOFEWJoLzlA</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87186445640 || Parça Adı: MOTOR ÜÇ YOLLU VANA </Name>
+    <Date>16.10.2023 15:39:27</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>chzZOSPJGbPCxaeCLomfRghdIPNYZl</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87186429490 || Parça Adı: PLAKALI ESENJÖR</Name>
+    <Date>16.10.2023 15:40:09</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>OGWRoSZghsZqzuaVyNrPuYPxMlasAt</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 8737605180 || Parça Adı: KUMANDA ÜNİTESİ ACU-L</Name>
+    <Date>16.10.2023 15:41:06</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>FcipnYGnaptcMmDVHBLxuALZNFugby</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 8737602853 || Parça Adı: Gaz Armatürü</Name>
+    <Date>16.10.2023 15:41:57</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>ADOvmSsjPLVbHIMKlUXiZyoKejqoVO</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87186518020 || Parça Adı: GAZ GRUBU </Name>
+    <Date>16.10.2023 15:45:07</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>mXAakngUJnxLnZkDKIVVqYxmLrPFEE</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 8737602854 || Parça Adı: Gaz Armatürü</Name>
+    <Date>16.10.2023 15:45:36</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>xHOHbNsaDMfOMafaOGvKAvUdxoElWX</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87160108010 || Parça Adı: KOMPLE ÜÇ YOLLU VANA</Name>
+    <Date>16.10.2023 15:46:15</Date>
+    <User>Önder</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>IxSCHFNCLikCVWcOyMrVUanhgckXCS</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186413460 || Parça Adı: C-2000 DİRSEK</Name>
+    <Date>18.10.2023 16:02:01</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>aUkmzvsiOzpdiVCzWHhNctTxmJpqOf</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186454220 || Parça Adı: BORU</Name>
+    <Date>18.10.2023 16:02:51</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>uKmpOuyvKkPITjedrVHICJBikuEoXs</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186504730 || Parça Adı: G122-GAZ BORUSU</Name>
+    <Date>18.10.2023 16:05:15</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>XtuaqEzIeQSHTAqsGuuzTuYlGzuNQp</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186602030 || Parça Adı: GB-072-GAZ BORUSU</Name>
+    <Date>18.10.2023 16:06:39</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>XgAfohjFBJcpknrNshfPpOIgWrYgXA</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186470200 || Parça Adı: GB-172-SİFON BAŞ PARÇASI</Name>
+    <Date>18.10.2023 16:08:25</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>WCeUbPJzXoINQPQiEignXvrSWJEBIN</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186403200 || Parça Adı: C-2000 ÇIKIŞ BORUSU</Name>
+    <Date>18.10.2023 16:09:23</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>dysGUZDTRrbHitbaCrWqZCFJOBRcyx</Id>
+    <Name>Parça Bilgileri Güncelleme ||Parça Kodu: 87186403200 || Parça Adı: C-2000 TOPLAYICI</Name>
+    <Date>18.10.2023 16:10:15</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>qHtUUREjEnZegdrhaiGuKFzJhIbJtG</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186406510 || Parça Adı: C-2000- ÇIKIŞ BORUSU</Name>
+    <Date>18.10.2023 16:12:34</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>PfnBSWGEINIOTEjPouaWmULtMNHTbh</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87160108080 || Parça Adı: C-CONDENSE-ÇIKIŞ BORUSU</Name>
+    <Date>18.10.2023 16:13:43</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>ADuklzCSixNIXAdcMkhjtRuMpjfRnK</Id>
+    <Name>Stok Ekleme ||Parça Kodu: 87186413460 || Parça Adı: C-2000 DİRSEK</Name>
+    <Date>18.10.2023 16:17:17</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>inxxSBEYUtVEZzgqWaLCcTdCFWLtJd</Id>
+    <Name>Stok Çıkarma ||Parça Kodu: 87186413460 || Parça Adı: C-2000 DİRSEK</Name>
+    <Date>18.10.2023 16:18:29</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>Hayır</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>zcpaRoentEMDZOVfgWbpWntZNjNufe</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186413290 || Parça Adı: DİRSEK</Name>
+    <Date>18.10.2023 16:20:24</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>fIySuAnTscqdGUCJtXihPDDqMaHXIT</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186468410 || Parça Adı: BAĞLANTI PARÇASI</Name>
+    <Date>18.10.2023 16:21:16</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>LyMveVMgHOjkqPhCQkEfXKixUPUTLd</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186423810 || Parça Adı: DÖNÜŞ BORUSU</Name>
+    <Date>18.10.2023 16:25:53</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>OnsuVzPWIyadWtZqjxMxMqIAZJxYxV</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186407500 || Parça Adı: GB-072 DÖNÜŞ BORUSU</Name>
+    <Date>18.10.2023 16:27:03</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>SyNOoGlACBWyQFEyEsrJnKmMeNlAce</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186453050 || Parça Adı: GB-062 DÖNÜŞ BORUSU</Name>
+    <Date>18.10.2023 16:27:50</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>rxqBBrhPiiMBHefcpQAoflxUrFhyTT</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186407540 || Parça Adı: GB-042-BORU</Name>
+    <Date>18.10.2023 16:28:34</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>GylorFuSQyUWXcdVjHrKrixqyeisDv</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87160122760 || Parça Adı: GB-042-BORU</Name>
+    <Date>18.10.2023 16:29:15</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>lCGJvchtZHQPAMhscmiIiUotzonSCT</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87182257300 || Parça Adı: C-2500-TAŞIYICI</Name>
+    <Date>18.10.2023 16:30:27</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>cLgPrLqHmUMYULhdbBICKeqSyfbNRs</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87182257290 || Parça Adı: C-2500-TAŞIYICI</Name>
+    <Date>18.10.2023 16:32:10</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>FtiPTQFyazCshvMGREbXkYezHzfUHn</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186407870 || Parça Adı: GB-072-BORU</Name>
+    <Date>18.10.2023 16:32:53</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>MWGjNmLgfUcMWegAshJTOCjUffYKRF</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87160118200 || Parça Adı: TÜRBİN YATAĞI</Name>
+    <Date>18.10.2023 16:34:40</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>QlFAVVgLdQffFXWHHfieOrVertYcTt</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186423790 || Parça Adı: BORU</Name>
+    <Date>18.10.2023 16:35:22</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>noBLdkzNtNWvpPDZzbiBaLZqxKfiiA</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186410840 || Parça Adı: C-2000-BORU</Name>
+    <Date>18.10.2023 16:36:08</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>zKDXIvUiDyTWYASAaxvgicuKWFKTsf</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186410860 || Parça Adı: BORU</Name>
+    <Date>18.10.2023 16:37:36</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>lIKJNTCulyTBemGtdmZXiyTZPDPkdf</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186405580 || Parça Adı: BORU</Name>
+    <Date>18.10.2023 16:38:59</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>KdYLeWpeluxEnouzvVAiDsvUeRNmvq</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87186500360 || Parça Adı: C-2200 BAĞLANTI SACI</Name>
+    <Date>18.10.2023 16:40:25</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
+  <Activity>
+    <Id>RySPdsMuoJPHcjxViVnytxYkETPGbK</Id>
+    <Name>Parça Ekleme ||Parça Kodu: 87161067970 || Parça Adı: TAHLİYE BORUSU</Name>
+    <Date>18.10.2023 16:42:04</Date>
+    <User>Furkan</User>
+    <GuaranteeStatus>-</GuaranteeStatus>
+  </Activity>
 </Activities>

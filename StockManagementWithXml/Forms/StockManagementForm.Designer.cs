@@ -45,8 +45,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.shelveNameDropdown = new System.Windows.Forms.ComboBox();
             this.stockDataGridView = new System.Windows.Forms.DataGridView();
-            this.ShelveName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.PartTypeName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.addButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
             this.updateButton = new System.Windows.Forms.Button();
@@ -63,6 +61,9 @@
             this.searchstockCodeLabel = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.searchPartTypeDropDown = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.listOrderRowsButton = new System.Windows.Forms.Button();
             this.searchShelveTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.searcStockNameTextBox = new System.Windows.Forms.TextBox();
@@ -75,9 +76,15 @@
             this.removeStock = new System.Windows.Forms.Button();
             this.stockCountNumeric = new System.Windows.Forms.NumericUpDown();
             this.label11 = new System.Windows.Forms.Label();
-            this.listOrderRowsButton = new System.Windows.Forms.Button();
-            this.searchPartTypeDropDown = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.guaranteeDropdown = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.priceTextBox = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.ShelveName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.priceDataGridViewTextBoxXolumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PartTypeName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.shelveBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.userBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.partTypeBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -90,12 +97,10 @@
             this.partTypeIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.shelveIdDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.stockBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.shelveBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.shelveBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.partTypeBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.userBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.label13 = new System.Windows.Forms.Label();
-            this.guaranteeDropdown = new System.Windows.Forms.ComboBox();
+            this.stockBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.RequiredCountNumericBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CurrentCountNumericBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockDataGridView)).BeginInit();
@@ -107,13 +112,14 @@
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockCountNumeric)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shelveBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.partTypeBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.shelveBindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.shelveBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.partTypeBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -259,6 +265,7 @@
             this.codeDataGridViewTextBoxColumn,
             this.nameDataGridViewTextBoxColumn,
             this.ShelveName,
+            this.priceDataGridViewTextBoxXolumn,
             this.PartTypeName,
             this.explanationDataGridViewTextBoxColumn,
             this.criticalCountDataGridViewTextBoxColumn,
@@ -284,25 +291,6 @@
             this.stockDataGridView.TabIndex = 13;
             this.stockDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.stockDataGridView_CellClick);
             this.stockDataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.stockDataGridView_CellFormatting);
-            // 
-            // ShelveName
-            // 
-            this.ShelveName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.ShelveName.DataPropertyName = "ShelveName";
-            this.ShelveName.HeaderText = "Raf İsmi";
-            this.ShelveName.Name = "ShelveName";
-            this.ShelveName.ReadOnly = true;
-            this.ShelveName.Width = 108;
-            // 
-            // PartTypeName
-            // 
-            this.PartTypeName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.PartTypeName.DataPropertyName = "PartTypeName";
-            this.PartTypeName.FillWeight = 120F;
-            this.PartTypeName.HeaderText = "Parça Türü";
-            this.PartTypeName.Name = "PartTypeName";
-            this.PartTypeName.ReadOnly = true;
-            this.PartTypeName.Width = 138;
             // 
             // addButton
             // 
@@ -450,6 +438,40 @@
             this.panel1.Size = new System.Drawing.Size(1165, 130);
             this.panel1.TabIndex = 30;
             // 
+            // searchPartTypeDropDown
+            // 
+            this.searchPartTypeDropDown.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.partTypeBindingSource1, "PartTypeId", true));
+            this.searchPartTypeDropDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchPartTypeDropDown.FormattingEnabled = true;
+            this.searchPartTypeDropDown.Location = new System.Drawing.Point(562, 78);
+            this.searchPartTypeDropDown.Name = "searchPartTypeDropDown";
+            this.searchPartTypeDropDown.Size = new System.Drawing.Size(172, 32);
+            this.searchPartTypeDropDown.TabIndex = 33;
+            this.searchPartTypeDropDown.SelectedValueChanged += new System.EventHandler(this.searchPartTypeDropDown_SelectedValueChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(414, 84);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(113, 24);
+            this.label12.TabIndex = 34;
+            this.label12.Text = "Parça Türü";
+            // 
+            // listOrderRowsButton
+            // 
+            this.listOrderRowsButton.BackColor = System.Drawing.Color.Gold;
+            this.listOrderRowsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listOrderRowsButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.listOrderRowsButton.Location = new System.Drawing.Point(760, 30);
+            this.listOrderRowsButton.Name = "listOrderRowsButton";
+            this.listOrderRowsButton.Size = new System.Drawing.Size(250, 35);
+            this.listOrderRowsButton.TabIndex = 32;
+            this.listOrderRowsButton.Text = "Sipariş Gereken Parçaları Listele";
+            this.listOrderRowsButton.UseVisualStyleBackColor = false;
+            this.listOrderRowsButton.Click += new System.EventHandler(this.listOrderRowsButton_Click);
+            // 
             // searchShelveTextBox
             // 
             this.searchShelveTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -578,39 +600,84 @@
             this.label11.TabIndex = 40;
             this.label11.Text = "Stok Adedi";
             // 
-            // listOrderRowsButton
+            // label13
             // 
-            this.listOrderRowsButton.BackColor = System.Drawing.Color.Gold;
-            this.listOrderRowsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listOrderRowsButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.listOrderRowsButton.Location = new System.Drawing.Point(760, 30);
-            this.listOrderRowsButton.Name = "listOrderRowsButton";
-            this.listOrderRowsButton.Size = new System.Drawing.Size(250, 35);
-            this.listOrderRowsButton.TabIndex = 32;
-            this.listOrderRowsButton.Text = "Sipariş Gereken Parçaları Listele";
-            this.listOrderRowsButton.UseVisualStyleBackColor = false;
-            this.listOrderRowsButton.Click += new System.EventHandler(this.listOrderRowsButton_Click);
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(804, 98);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(162, 24);
+            this.label13.TabIndex = 41;
+            this.label13.Text = "Garantiye Dahil?";
             // 
-            // searchPartTypeDropDown
+            // guaranteeDropdown
             // 
-            this.searchPartTypeDropDown.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.partTypeBindingSource1, "PartTypeId", true));
-            this.searchPartTypeDropDown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.searchPartTypeDropDown.FormattingEnabled = true;
-            this.searchPartTypeDropDown.Location = new System.Drawing.Point(562, 78);
-            this.searchPartTypeDropDown.Name = "searchPartTypeDropDown";
-            this.searchPartTypeDropDown.Size = new System.Drawing.Size(172, 32);
-            this.searchPartTypeDropDown.TabIndex = 33;
-            this.searchPartTypeDropDown.SelectedValueChanged += new System.EventHandler(this.searchPartTypeDropDown_SelectedValueChanged);
+            this.guaranteeDropdown.BackColor = System.Drawing.Color.White;
+            this.guaranteeDropdown.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.shelveBindingSource1, "Id", true));
+            this.guaranteeDropdown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guaranteeDropdown.Location = new System.Drawing.Point(984, 95);
+            this.guaranteeDropdown.Name = "guaranteeDropdown";
+            this.guaranteeDropdown.Size = new System.Drawing.Size(104, 32);
+            this.guaranteeDropdown.TabIndex = 42;
             // 
-            // label12
+            // label14
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(414, 84);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(113, 24);
-            this.label12.TabIndex = 34;
-            this.label12.Text = "Parça Türü";
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(425, 192);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(54, 24);
+            this.label14.TabIndex = 43;
+            this.label14.Text = "Fiyat";
+            // 
+            // priceTextBox
+            // 
+            this.priceTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceTextBox.Location = new System.Drawing.Point(565, 184);
+            this.priceTextBox.MaxLength = 200;
+            this.priceTextBox.Name = "priceTextBox";
+            this.priceTextBox.Size = new System.Drawing.Size(172, 29);
+            this.priceTextBox.TabIndex = 44;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(743, 187);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(22, 24);
+            this.label16.TabIndex = 47;
+            this.label16.Text = "₺";
+            // 
+            // ShelveName
+            // 
+            this.ShelveName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.ShelveName.DataPropertyName = "ShelveName";
+            this.ShelveName.HeaderText = "Raf İsmi";
+            this.ShelveName.Name = "ShelveName";
+            this.ShelveName.ReadOnly = true;
+            this.ShelveName.Width = 108;
+            // 
+            // priceDataGridViewTextBoxXolumn
+            // 
+            this.priceDataGridViewTextBoxXolumn.DataPropertyName = "Price";
+            this.priceDataGridViewTextBoxXolumn.HeaderText = "Fiyat";
+            this.priceDataGridViewTextBoxXolumn.Name = "priceDataGridViewTextBoxXolumn";
+            this.priceDataGridViewTextBoxXolumn.ReadOnly = true;
+            // 
+            // PartTypeName
+            // 
+            this.PartTypeName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.PartTypeName.DataPropertyName = "PartTypeName";
+            this.PartTypeName.FillWeight = 120F;
+            this.PartTypeName.HeaderText = "Parça Türü";
+            this.PartTypeName.Name = "PartTypeName";
+            this.PartTypeName.ReadOnly = true;
+            this.PartTypeName.Width = 138;
+            // 
+            // shelveBindingSource1
+            // 
+            this.shelveBindingSource1.DataSource = typeof(StockManagementWithXml.Model.Shelve);
             // 
             // userBindingSource1
             // 
@@ -693,10 +760,6 @@
             // 
             this.stockBindingSource.DataSource = typeof(StockManagementWithXml.Model.Stock);
             // 
-            // shelveBindingSource1
-            // 
-            this.shelveBindingSource1.DataSource = typeof(StockManagementWithXml.Model.Shelve);
-            // 
             // shelveBindingSource
             // 
             this.shelveBindingSource.DataSource = typeof(StockManagementWithXml.Model.Shelve);
@@ -709,25 +772,9 @@
             // 
             this.userBindingSource.DataSource = typeof(StockManagementWithXml.Model.User);
             // 
-            // label13
+            // stockBindingSource1
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(804, 98);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(162, 24);
-            this.label13.TabIndex = 41;
-            this.label13.Text = "Garantiye Dahil?";
-            // 
-            // guaranteeDropdown
-            // 
-            this.guaranteeDropdown.BackColor = System.Drawing.Color.White;
-            this.guaranteeDropdown.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.shelveBindingSource1, "Id", true));
-            this.guaranteeDropdown.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guaranteeDropdown.Location = new System.Drawing.Point(984, 95);
-            this.guaranteeDropdown.Name = "guaranteeDropdown";
-            this.guaranteeDropdown.Size = new System.Drawing.Size(104, 32);
-            this.guaranteeDropdown.TabIndex = 42;
+            this.stockBindingSource1.DataSource = typeof(StockManagementWithXml.Model.Stock);
             // 
             // StockManagementForm
             // 
@@ -735,6 +782,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Honeydew;
             this.ClientSize = new System.Drawing.Size(1470, 966);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.priceTextBox);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.guaranteeDropdown);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label11);
@@ -769,7 +819,7 @@
             this.Controls.Add(this.label1);
             this.Name = "StockManagementForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "StockManagementForm";
+            this.Text = "Parça Yönetimi";
             this.Load += new System.EventHandler(this.StockManagementForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.RequiredCountNumericBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.CurrentCountNumericBox)).EndInit();
@@ -783,13 +833,14 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockCountNumeric)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.shelveBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.partTypeBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.shelveBindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.shelveBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.partTypeBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.userBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.stockBindingSource1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -852,17 +903,6 @@
         private System.Windows.Forms.BindingSource partTypeBindingSource;
         private System.Windows.Forms.BindingSource userBindingSource1;
         private System.Windows.Forms.BindingSource userBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn codeDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ShelveName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn PartTypeName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn explanationDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn criticalCountDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn existingCountDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn orderCountDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn partTypeIdDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn shelveIdDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.NumericUpDown stockCountNumeric;
         private System.Windows.Forms.Button listOrderRowsButton;
@@ -870,5 +910,21 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox guaranteeDropdown;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox priceTextBox;
+        private System.Windows.Forms.BindingSource stockBindingSource1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codeDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ShelveName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn priceDataGridViewTextBoxXolumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PartTypeName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn explanationDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn criticalCountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn existingCountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn orderCountDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn partTypeIdDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn shelveIdDataGridViewTextBoxColumn;
     }
 }

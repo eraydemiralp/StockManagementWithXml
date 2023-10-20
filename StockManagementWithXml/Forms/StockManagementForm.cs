@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
-using System.Net.Sockets;
-using System.Resources;
 using System.Windows.Forms;
 using StockManagementWithXml.Model;
 using StockManagementWithXml.XmlHelpers;
@@ -100,10 +98,11 @@ namespace StockManagementWithXml.Forms
                         }
                     }
                 }
+                priceTextBox.Text = stockDataGridView.Rows[rowIndex].Cells[4].Value.ToString();
                 var partTypes = PartTypeXmlHelper.GetListFromXml();
                 if (partTypes.Count > 0)
                 {
-                    var selectedRowPartTypeName = stockDataGridView.Rows[rowIndex].Cells[4].Value.ToString();
+                    var selectedRowPartTypeName = stockDataGridView.Rows[rowIndex].Cells[5].Value.ToString();
                     foreach (var partTypeItem in partTypeDropDown.Items)
                     {
                         var itemText = partTypeDropDown.GetItemText(partTypeItem);
@@ -113,10 +112,10 @@ namespace StockManagementWithXml.Forms
                         }
                     }
                 }
-                explanationTextBox.Text = stockDataGridView.Rows[rowIndex].Cells[5].Value.ToString();
-                RequiredCountNumericBox.Value = Convert.ToInt16(stockDataGridView.Rows[rowIndex].Cells[6].Value);
-                CurrentCountNumericBox.Value = Convert.ToInt16(stockDataGridView.Rows[rowIndex].Cells[7].Value);
-                OrderCountTextBox.Text = stockDataGridView.Rows[rowIndex].Cells[8].Value.ToString();
+                explanationTextBox.Text = stockDataGridView.Rows[rowIndex].Cells[6].Value.ToString();
+                RequiredCountNumericBox.Value = Convert.ToInt16(stockDataGridView.Rows[rowIndex].Cells[7].Value);
+                CurrentCountNumericBox.Value = Convert.ToInt16(stockDataGridView.Rows[rowIndex].Cells[8].Value);
+                OrderCountTextBox.Text = stockDataGridView.Rows[rowIndex].Cells[9].Value.ToString();
             }
             catch (Exception ex)
             {
@@ -421,7 +420,7 @@ namespace StockManagementWithXml.Forms
                 activity.Date = DateTime.Now.ToString(DateFormatLongWith24Hour);
                 activity.Name = activityText;
                 activity.User = selectedUserItem != null ? selectedUserItem.Text : "";
-                activity.GuaranteeStatus = selectedGuarantee != null ? selectedGuarantee.Text:"-";
+                activity.GuaranteeStatus = selectedGuarantee != null ? selectedGuarantee.Text : "-";
                 ActivitiesXmlHelper.Insert(activity);
             }
             catch (Exception ex)
@@ -598,12 +597,12 @@ namespace StockManagementWithXml.Forms
         {
             switch (e.ColumnIndex)
             {
-                case 6 when e.Value != null && Convert.ToInt16(e.Value) == 0://kritik sayı 0
+                case 7 when e.Value != null && Convert.ToInt16(e.Value) == 0://kritik sayı 0
                     return;
-                case 8 when e.Value != null:
+                case 9 when e.Value != null:
                     e.CellStyle.BackColor = Convert.ToInt16(e.Value) > 0 ? Color.DarkOrange : Color.YellowGreen;
                     break;
-                case 7 when e.Value != null:
+                case 8 when e.Value != null:
                     {
                         if (Convert.ToInt16(e.Value) == 0)
                         {
@@ -611,11 +610,14 @@ namespace StockManagementWithXml.Forms
                         }
                         break;
                     }
+                case 4 when e.Value != null:
+                    e.Value += " \u20ba";
+                    break;
             }
         }
         private void StockCodeTextBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            e.Handled = !(char.IsNumber(e.KeyChar) || char.IsControl(e.KeyChar));
+            e.Handled = !(char.IsLetterOrDigit(e.KeyChar) || char.IsControl(e.KeyChar));
         }
         #endregion
         #region Search Events

@@ -122,11 +122,7 @@ namespace StockManagementWithXml.Forms
 
                 if (selectedGuarantee != null && !string.IsNullOrEmpty(selectedGuarantee.Value))
                 {
-                    if (!filteredActivities
-                        .Any(a => a.GuaranteeStatus.Equals(selectedGuarantee.Text)))
-                    {
-                        exist = false;
-                    }
+                    exist = filteredActivities.Any(a => a.GuaranteeStatus.Equals(selectedGuarantee.Text));
 
                     filteredActivities = !exist ? new List<Activity>() : filteredActivities
                         .Where(a => a.GuaranteeStatus.Equals(selectedGuarantee.Text)).ToList();

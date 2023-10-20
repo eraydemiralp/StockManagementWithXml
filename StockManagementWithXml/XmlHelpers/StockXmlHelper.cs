@@ -24,6 +24,7 @@ namespace StockManagementWithXml.XmlHelpers
         private static string ShelveName = "ShelveName";
         private static string PartTypeId = "PartTypeId";
         private static string PartTypeName = "PartTypeName";
+        private static string Price = "Price";
         private static string Stock = "Stock";
 
         public static void CreateBackupFile()
@@ -63,6 +64,7 @@ namespace StockManagementWithXml.XmlHelpers
                 stock.ShelveName = node.Element(ShelveName).Value;
                 stock.PartTypeId = node.Element(PartTypeId).Value;
                 stock.PartTypeName = node.Element(PartTypeName).Value;
+                stock.Price = Convert.ToInt32(node.Element(Price).Value);
                 stocks.Add(stock);
             }
 
@@ -95,6 +97,57 @@ namespace StockManagementWithXml.XmlHelpers
                 if (node.Element(Id).Value.Equals(stockId))
                 {
                     node.Element(ShelveName).Value = newShelveName;
+                    break;
+                }
+            }
+            xDoc.Save(XmlFilePath);
+        }
+
+        public static void UpdatePrice(string stockCode, string newPrice)
+        {
+            var xDoc = XDocument.Load(XmlFilePath);
+            var rootElement = xDoc.Root;
+            if (rootElement == null) return;
+            foreach (var node in rootElement.Elements())
+            {
+                if (node.Element(Code).Value.Equals(stockCode))
+                {
+                    if (newPrice.Contains(','))
+                    {
+                        string[] priceArr = newPrice.Split(',');
+                        if (priceArr.Length > 0)
+                        {
+                            string price = priceArr[0];
+                            if (price.Contains('.'))
+                            {
+                                price = price.Replace(".", "");
+                            }
+
+                            node.Element(Price).Value = price;
+                        }
+                    }
+                    else
+                    {
+                        node.Element(Price).Value = newPrice;
+                    }
+
+                    
+                    break;
+                }
+            }
+            xDoc.Save(XmlFilePath);
+        }
+
+        public static void UpdateStockName(string stockCode, string newName)
+        {
+            var xDoc = XDocument.Load(XmlFilePath);
+            var rootElement = xDoc.Root;
+            if (rootElement == null) return;
+            foreach (var node in rootElement.Elements())
+            {
+                if (node.Element(Code).Value.Equals(stockCode))
+                {
+                    node.Element(Name).Value = newName;
                     break;
                 }
             }

@@ -19,5 +19,6 @@ namespace StockManagementWithXml.Model
         public string ShelveName { get; set; }
         public string PartTypeId { get; set; }
         public string PartTypeName { get; set; }
+        public int Price { get; set; }
     }
 }

@@ -3,7 +3,7 @@
   <Stock>
     <Id>WbqCRtaHIYzHZaTDjbqavCHQDKQKCC</Id>
     <Code>87186413950</Code>
-    <Name>CLASİC COND 3 MFA PANEL</Name>
+    <Name>Panel</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -12,11 +12,12 @@
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra1</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>265</Price>
   </Stock>
   <Stock>
     <Id>CqrNHERBBiMCIDNlPXKFQTJWEsdsVv</Id>
     <Code>87186411690</Code>
-    <Name>CLASİC CONDENS PANEL KAPAK</Name>
+    <Name>Panel</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -25,11 +26,12 @@
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra1</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>275</Price>
   </Stock>
   <Stock>
     <Id>qzGxQScRxHkecnTBiWqfbrrWsJxbPF</Id>
     <Code>87186416150</Code>
-    <Name>C 2000 PANEL</Name>
+    <Name>Panel</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -38,11 +40,12 @@
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra1</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>300</Price>
   </Stock>
   <Stock>
     <Id>QgeKsssyUtenGLGtJIoeGMEYNXCpic</Id>
     <Code>87186491100</Code>
-    <Name>U022 KUMANDA PANEL</Name>
+    <Name>kumanda paneli</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -51,11 +54,12 @@
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra1</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>555</Price>
   </Stock>
   <Stock>
     <Id>aYnjrkrWbxDXdFOvZPROLdjIfFAcXo</Id>
     <Code>8737602167</Code>
-    <Name>C 2500 KUMANDA PANEL</Name>
+    <Name>Kumanda paneli</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -64,11 +68,12 @@
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra1</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>430</Price>
   </Stock>
   <Stock>
     <Id>JKcJjooINOcUbHVrcdsYtXlOXdFdNJ</Id>
     <Code>87186416720</Code>
-    <Name>GD012 ÖN PANEL</Name>
+    <Name>Panel</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -77,11 +82,12 @@
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra1</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>475</Price>
   </Stock>
   <Stock>
     <Id>cmnDRStePluycUJbSxImxQjXDiPHVu</Id>
     <Code>87186414440</Code>
-    <Name>FAN MOTORU</Name>
+    <Name>Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -90,19 +96,21 @@
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>985</Price>
   </Stock>
   <Stock>
     <Id>hqvuoCJvldevXbFoZoQcqNXtjbHmNY</Id>
     <Code>87186456450</Code>
-    <Name>FAN MOTORU</Name>
+    <Name>Flanşlı Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
-    <ExistingCount>6</ExistingCount>
-    <OrderCount>0</OrderCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>1</OrderCount>
     <ShelveId>TWrGIaIzkVVSCSkWjzmJooWkLxBpox</ShelveId>
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>2160</Price>
   </Stock>
   <Stock>
     <Id>NAcruZgBVnWRsRFxlonkDPyIPJpdba</Id>
@@ -116,11 +124,12 @@
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>GCQMIDYiYFYJMNqOIzbOLBtWbvRNXT</Id>
     <Code>87186470530</Code>
-    <Name>GB172-ZWBR-3A 35-42</Name>
+    <Name>Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -129,11 +138,12 @@
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>2160</Price>
   </Stock>
   <Stock>
     <Id>OebgMRUMUcLthuTvqXbrKpvbYntYIv</Id>
     <Code>87172045290</Code>
-    <Name>Fan assembly (FAN MOTORU)</Name>
+    <Name>FAN MOTORU</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -142,24 +152,26 @@
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>4730</Price>
   </Stock>
   <Stock>
     <Id>yVNREGQNIoSWFelGVrZExtMlDBnvTE</Id>
     <Code>87186517840</Code>
-    <Name>FAN MOTORU</Name>
+    <Name>Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>7</ExistingCount>
+    <ExistingCount>6</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>MzugqfctgEgTRxeNprBgaxbDiJlcay</ShelveId>
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>1705</Price>
   </Stock>
   <Stock>
     <Id>MbFXUVooWnrNFjKPhVZLiUpqvWiEiP</Id>
     <Code>87172044100</Code>
-    <Name>GB042 FAN</Name>
+    <Name>Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -168,11 +180,12 @@
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>2095</Price>
   </Stock>
   <Stock>
     <Id>OIxvvLFPpeFjMrNoQXCUCzUPpxKkuA</Id>
     <Code>87160121310</Code>
-    <Name>FAN MOTORU</Name>
+    <Name>Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -181,11 +194,12 @@
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>1400</Price>
   </Stock>
   <Stock>
     <Id>oZJaMPbYRKHgkvZpbDGABhJMuiQBMx</Id>
     <Code>87161432010</Code>
-    <Name>U052 FAN</Name>
+    <Name>U052/24/28K FAN MOTORU</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -194,11 +208,12 @@
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>1360</Price>
   </Stock>
   <Stock>
     <Id>XmPRlzSGhJHHLMxxsQGIGMdDoEJtqe</Id>
     <Code>87186461990</Code>
-    <Name>Devirdaim Pompası ERP </Name>
+    <Name>Pompa SWiM35 6MH CH 9H (Yonos Para)</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>9</ExistingCount>
@@ -207,21 +222,21 @@
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>2430</Price>
   </Stock>
   <Stock>
     <Id>dVlBahEMPbotzSylJcgDtJOSShDMQg</Id>
     <Code>87186481810</Code>
-    <Name>
-      Devirdaim Pompası
-    </Name>
+    <Name>Pompa WiM3S 5MH</Name>
     <Explanation>Eski Kod 87186457900</Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>4</ExistingCount>
+    <ExistingCount>3</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>PbTMbSjFvyXJyeackrkhjOCViHHdCS</ShelveId>
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>2220</Price>
   </Stock>
   <Stock>
     <Id>bnjqrRHLPjdVPMeAxmvhQuyiGRlXBf</Id>
@@ -235,11 +250,12 @@
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>aAEHhyeQWcWamGGIFHisoczIyKTbVO</Id>
     <Code>87160113940</Code>
-    <Name>GB042U062 SİRKÜLASYON POMPASI</Name>
+    <Name>Sirkülasyon Pompası UPS 015-60 CACAO</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -248,11 +264,12 @@
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>3075</Price>
   </Stock>
   <Stock>
     <Id>ejZlhrLyxUYjFINMgiyVFepYjXnuEF</Id>
     <Code>871861054A0</Code>
-    <Name>ERP Devirdaim Pompası</Name>
+    <Name>Pompa 3PK/43</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -261,11 +278,12 @@
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>2785</Price>
   </Stock>
   <Stock>
     <Id>rQsyIqWrOiuRVxmHWzGoyQgANIHmiL</Id>
     <Code>87186857510</Code>
-    <Name>Devridaim Pompası (871861054A0)</Name>
+    <Name>Pompa UPS 15-60 HU1</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -274,24 +292,26 @@
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>3325</Price>
   </Stock>
   <Stock>
     <Id>utFrEeYiexEIzgmEJWnhIZaiqrBLeg</Id>
     <Code>8737605180</Code>
-    <Name>KUMANDA ÜNİTESİ ACU-L</Name>
+    <Name>Kontrol Ünitesi ACU-L</Name>
     <Explanation>Eski kod: (8737602315)</Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>5</ExistingCount>
+    <ExistingCount>4</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>ZNxPZXOGCYRpkISzqCpDtPuvzfZicF</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1725</Price>
   </Stock>
   <Stock>
     <Id>ubRoMVjoBiDpbHaZdkAcjTsjhMYUqQ</Id>
     <Code>8737604634</Code>
-    <Name>GB062 BASKILI SET ELEKTRONİK KART</Name>
+    <Name>Kumanda Ünitesi + Baskılı devre kartı</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -300,13 +320,12 @@
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>2675</Price>
   </Stock>
   <Stock>
     <Id>gvyqlfcgunmrbVxXZxXUUOZpHEtgGy</Id>
     <Code>8737602754</Code>
-    <Name>
-Elektronik kart (BC25)
-    </Name>
+    <Name>Kontrol ünitesi CUS-TRIM MID BC25</Name>
     <Explanation>(ESKİ KOD:87379021020-873</Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -315,6 +334,7 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>4365</Price>
   </Stock>
   <Stock>
     <Id>NxmhPdepDINJTiLJdQcpnYZYxkyTRF</Id>
@@ -328,37 +348,40 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>memDogSllbAvPfrUMoGcTeosToHiXv</Id>
     <Code>87160134660</Code>
-    <Name>ELEKTRONİK KART  (Ortak Anakart)</Name>
+    <Name>Elektronik kart</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>4</ExistingCount>
+    <ExistingCount>3</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>ZNxPZXOGCYRpkISzqCpDtPuvzfZicF</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1390</Price>
   </Stock>
   <Stock>
     <Id>bFnmlboeIaqlNpvXEKSUQPMWLYYncV</Id>
     <Code>8718656606</Code>
-    <Name>Kumanda plakasi</Name>
+    <Name>Elektronik Kart</Name>
     <Explanation>(Eski kodu 87186487450-871865105</Explanation>
     <CriticalCount>4</CriticalCount>
-    <ExistingCount>4</ExistingCount>
-    <OrderCount>0</OrderCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>1</OrderCount>
     <ShelveId>ZNxPZXOGCYRpkISzqCpDtPuvzfZicF</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1685</Price>
   </Stock>
   <Stock>
     <Id>SFxPcJUsRLLclxZEUXzpFISZizxmtx</Id>
     <Code>8718656607</Code>
-    <Name>Kumanda plakasi</Name>
+    <Name>Elektronik Kart</Name>
     <Explanation>(Eski Kod 87186487460-8737602254 -</Explanation>
     <CriticalCount>6</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -367,24 +390,26 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1390</Price>
   </Stock>
   <Stock>
     <Id>WvNGuRbuaTJTCeLPtRrXkvdVCdVJWs</Id>
     <Code>87377077630</Code>
-    <Name>Elektronik kart</Name>
+    <Name>Kumanda plakasi</Name>
     <Explanation>(Eski Kod 86385050830-873770</Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>2</ExistingCount>
-    <OrderCount>1</OrderCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
     <ShelveId>ZNxPZXOGCYRpkISzqCpDtPuvzfZicF</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1950</Price>
   </Stock>
   <Stock>
     <Id>QpXdDqtVsXoKHuSnBMdyJjMJMeXXXo</Id>
     <Code>87377077620</Code>
-    <Name>Elektronik Kart</Name>
+    <Name>Kumanda plakasi</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -393,11 +418,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1935</Price>
   </Stock>
   <Stock>
     <Id>aWMMIDxgaZkasydrYILTOJiHFdchQR</Id>
     <Code>87167719870</Code>
-    <Name>GB042062 PLAKALI EŞANJÖR</Name>
+    <Name>Esanjör</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>15</ExistingCount>
@@ -406,24 +432,26 @@ Elektronik kart (BC25)
     <PartTypeId>YCciZvDuaTAtFpCmtsFdkLDCLxkcMs</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Plakalı Esenjör</PartTypeName>
+    <Price>705</Price>
   </Stock>
   <Stock>
     <Id>KEQPtkgEyWIZQViVPomIcXDVVTIScZ</Id>
     <Code>87186429490</Code>
-    <Name>PLAKALI ESENJÖR</Name>
+    <Name>Eşanjör C-PHE 26 plates</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
-    <ExistingCount>3</ExistingCount>
+    <ExistingCount>4</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>pPhVQaaOriWqTMMKSCrjdyJgaHZAXs</ShelveId>
     <PartTypeId>YCciZvDuaTAtFpCmtsFdkLDCLxkcMs</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Plakalı Esenjör</PartTypeName>
+    <Price>925</Price>
   </Stock>
   <Stock>
     <Id>xYiLsZhvnCRuEfbRlWbvZDoUOVKOpP</Id>
     <Code>87186446250</Code>
-    <Name>Esanjor C-PHE 16 plates</Name>
+    <Name>Eşanjör C-PHE 16 plates</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -432,11 +460,12 @@ Elektronik kart (BC25)
     <PartTypeId>YCciZvDuaTAtFpCmtsFdkLDCLxkcMs</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Plakalı Esenjör</PartTypeName>
+    <Price>650</Price>
   </Stock>
   <Stock>
     <Id>XlxeIrErNlmMDDcFUxKZUbPOgSbHlY</Id>
     <Code>87186402310</Code>
-    <Name>Esanjör Plakalı</Name>
+    <Name>Esanjör plakali</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -445,11 +474,12 @@ Elektronik kart (BC25)
     <PartTypeId>YCciZvDuaTAtFpCmtsFdkLDCLxkcMs</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Plakalı Esenjör</PartTypeName>
+    <Price>870</Price>
   </Stock>
   <Stock>
     <Id>OdMpIvxaIRZfSBLcvLbEYQlGYTqNCA</Id>
     <Code>87186446230</Code>
-    <Name>Plaka Eşanjör</Name>
+    <Name>Eşanjör C-PHE 12 plates</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -458,11 +488,12 @@ Elektronik kart (BC25)
     <PartTypeId>YCciZvDuaTAtFpCmtsFdkLDCLxkcMs</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Plakalı Esenjör</PartTypeName>
+    <Price>535</Price>
   </Stock>
   <Stock>
     <Id>qWynadCndQCnXGbYtyBmnhstmpsmxv</Id>
     <Code>87167652530</Code>
-    <Name>GB072 Pompa</Name>
+    <Name>Pompa UPM2 15-70W HU1</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -471,6 +502,7 @@ Elektronik kart (BC25)
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>2905</Price>
   </Stock>
   <Stock>
     <Id>kqTIVRLsIJkUdJcFkNfpLnaxupPBEq</Id>
@@ -484,11 +516,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>EaYVzBhNZaUahfYoWvTinfAmNfPspb</Id>
     <Code>87186512440</Code>
-    <Name>GC2200 GC2300 KONDENS SUYU TOPLAYICISI</Name>
+    <Name>Kondens Suyu toplayıcısı</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -497,11 +530,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>220</Price>
   </Stock>
   <Stock>
     <Id>KZkGJnDoBzDYZKDYpRQpBMTFAArADc</Id>
     <Code>87154160020</Code>
-    <Name>CONDENS 2000-GB042KONDENS SUYU KABI</Name>
+    <Name>Kondens Suyu Kabi</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -510,19 +544,21 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf1Sıra6</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>325</Price>
   </Stock>
   <Stock>
     <Id>eirhCWLTErordaIyQAqdCnGbkDSNGI</Id>
     <Code>87186518020</Code>
-    <Name>GAZ GRUBU </Name>
+    <Name>Gaz Armatürü</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
-    <ExistingCount>7</ExistingCount>
+    <ExistingCount>6</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>785</Price>
   </Stock>
   <Stock>
     <Id>hDrhtNVfvejsxySetuBSPYmMzIkIIh</Id>
@@ -536,11 +572,12 @@ Elektronik kart (BC25)
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>1075</Price>
   </Stock>
   <Stock>
     <Id>XGLKrelHxiIVOGHQZYXKthCIsAoTVO</Id>
     <Code>87182243450</Code>
-    <Name>Elektrod Seti</Name>
+    <Name>GAZ ARMATÜRÜ</Name>
     <Explanation>(ESKİ KOD 87181070870)</Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -549,11 +586,12 @@ Elektronik kart (BC25)
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>1045</Price>
   </Stock>
   <Stock>
     <Id>JoEoGtMLJGzuIMmEuLEjovrmiNEmec</Id>
     <Code>87186455470</Code>
-    <Name>Gaz Armatürü</Name>
+    <Name>GAZ ARMATÜRÜ</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -562,19 +600,21 @@ Elektronik kart (BC25)
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>1055</Price>
   </Stock>
   <Stock>
     <Id>YBsfjIGXWjcVeibHBnDIDaOIIXIKHV</Id>
     <Code>8737602853</Code>
-    <Name>Gaz Armatürü</Name>
+    <Name>Gaz armatürü</Name>
     <Explanation>(ESKİ KODU :87160108990 )</Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>3</ExistingCount>
-    <OrderCount>0</OrderCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>2</OrderCount>
     <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>995</Price>
   </Stock>
   <Stock>
     <Id>mpCASVSOUabHIlhueorBDMcFHHyrDS</Id>
@@ -588,6 +628,7 @@ Elektronik kart (BC25)
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>LPkNQYYZrPNHdXSnOlDzjtZmLoSbpt</Id>
@@ -601,23 +642,39 @@ Elektronik kart (BC25)
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>940</Price>
   </Stock>
   <Stock>
     <Id>WepAtqqumlYRWYbGaZOTIVKVuTSmky</Id>
     <Code>87160124850</Code>
-    <Name>GB042 GAZ ARMATÜRÜ</Name>
+    <Name>Gaz Armatürü</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
-    <ExistingCount>2</ExistingCount>
+    <ExistingCount>3</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>1165</Price>
   </Stock>
   <Stock>
     <Id>DmUqBKDZuFGsXWrqUfGpaUaYBgHEcC</Id>
     <Code>8737602854</Code>
+    <Name>Gaz Armatürü</Name>
+    <Explanation></Explanation>
+    <CriticalCount>3</CriticalCount>
+    <ExistingCount>4</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
+    <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
+    <ShelveName>Raf1Sıra7</ShelveName>
+    <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>995</Price>
+  </Stock>
+  <Stock>
+    <Id>KjnNvZiPVImQcgkVrNQNSSXmFJIvWn</Id>
+    <Code>87470037000</Code>
     <Name>Gaz Armatürü</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
@@ -627,37 +684,26 @@ Elektronik kart (BC25)
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Gaz Grubu</PartTypeName>
-  </Stock>
-  <Stock>
-    <Id>KjnNvZiPVImQcgkVrNQNSSXmFJIvWn</Id>
-    <Code>87470037000</Code>
-    <Name>GAZ ARMATÜRÜ</Name>
-    <Explanation></Explanation>
-    <CriticalCount>3</CriticalCount>
-    <ExistingCount>5</ExistingCount>
-    <OrderCount>0</OrderCount>
-    <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
-    <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
-    <ShelveName>Raf1Sıra7</ShelveName>
-    <PartTypeName>Gaz Grubu</PartTypeName>
+    <Price>1015</Price>
   </Stock>
   <Stock>
     <Id>ZzsfFiJgacMKYHnaphfEDrfXHCtkPt</Id>
     <Code>87160108010</Code>
-    <Name>KOMPLE ÜÇ YOLLU VANA</Name>
+    <Name>3 Yollu Vana</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
-    <ExistingCount>1</ExistingCount>
+    <ExistingCount>4</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>840</Price>
   </Stock>
   <Stock>
     <Id>dcAQSHZpJOPgGvZGcrefixPQYMCGbG</Id>
     <Code>87186422110</Code>
-    <Name>C CONDENS GB 042 ÜÇ YOLLU </Name>
+    <Name>Valf uc yollu SAIA W/O Bypass</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -666,6 +712,7 @@ Elektronik kart (BC25)
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>1055</Price>
   </Stock>
   <Stock>
     <Id>OkzISgEEBYxSOLRPJbiMmkUmCnAIlR</Id>
@@ -679,6 +726,7 @@ Elektronik kart (BC25)
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>JivGURnSpYLmQKTpQngcEzeTfnAkGj</Id>
@@ -692,11 +740,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>kLCnXUqkxSintmWCmFrLFPpQEKKdQy</Id>
     <Code>8718600691</Code>
-    <Name>GC1200 GERİ AKIŞ ÖNLEME SİSTEMİ</Name>
+    <Name>Geri Akış Önleme Sistemi</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -705,11 +754,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>255</Price>
   </Stock>
   <Stock>
     <Id>mWTFAIHGlOYJreTDWjcXhkbudJcVov</Id>
     <Code>8737712171</Code>
-    <Name>C 7000 W5 ESANJÖR</Name>
+    <Name>Eşanjör WB5-II plus</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -718,11 +768,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf1Sıra8</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>9545</Price>
   </Stock>
   <Stock>
     <Id>aXflkQUdTBTnpbRPyZgqdnyoUsOZAV</Id>
     <Code>8737602146</Code>
-    <Name>GB022 GB122 ESANJÖR</Name>
+    <Name>Esanjör 30kW</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -731,11 +782,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf1Sıra8</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>6140</Price>
   </Stock>
   <Stock>
     <Id>jRSIMIzDlhDxJGZhHaQCYLvpzEoWHz</Id>
     <Code>87186414990</Code>
-    <Name>GB012-C2000 YANMA ODASI</Name>
+    <Name>Yanma Odasi</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -744,11 +796,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra8</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>480</Price>
   </Stock>
   <Stock>
     <Id>fVMyBHRLEBHprxHFyRATnxPTIAEFxt</Id>
     <Code>87186453170</Code>
-    <Name>GENLEŞME TANKI</Name>
+    <Name>Genleşme tankı 6l</Name>
     <Explanation>Bir Tane Raf2 Sıra 1 de Var</Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -757,11 +810,12 @@ Elektronik kart (BC25)
     <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
     <ShelveName>Raf1Sıra8</ShelveName>
     <PartTypeName>Genleşme Tankı</PartTypeName>
+    <Price>1345</Price>
   </Stock>
   <Stock>
     <Id>kbIEirbIaNJpjHHzygGChlWGReUJKY</Id>
     <Code>87167712690</Code>
-    <Name>TERMOSTOP</Name>
+    <Name>Sıcaklık Limitörü</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>12</ExistingCount>
@@ -770,11 +824,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra1</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>40</Price>
   </Stock>
   <Stock>
     <Id>nISYOyFsXUprcbsLebiCOKvypDebyE</Id>
     <Code>87072061960</Code>
-    <Name>Limit Termostad 120 C</Name>
+    <Name>Sıcaklık Regülatörü</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>8</ExistingCount>
@@ -783,11 +838,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra1</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>180</Price>
   </Stock>
   <Stock>
     <Id>YfIgTHvIniOVfTrQflgCKmAcjTkpSk</Id>
     <Code>87172061620</Code>
-    <Name>U052 Termostat</Name>
+    <Name>U052-24/28K LIMIT TERMOSTAD(110 C)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -796,11 +852,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra1</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>60</Price>
   </Stock>
   <Stock>
     <Id>ghHsYEjXlBgvUhRDAZrzRvvmqmMLyJ</Id>
     <Code>87161423020</Code>
-    <Name>U052 NTC SENSÖR</Name>
+    <Name>U052/24-28K KULLANIM SUYU SENSÖRÜ(NTC</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -809,11 +866,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra1</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>85</Price>
   </Stock>
   <Stock>
     <Id>oLSMcTfBgXTgoPtkiyrbQjyrndnXil</Id>
     <Code>87160137350</Code>
-    <Name>FAN  SENSÖRÜ</Name>
+    <Name>Algılayıcı</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>7</ExistingCount>
@@ -822,11 +880,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra1</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>215</Price>
   </Stock>
   <Stock>
     <Id>fgZQgHIrHaRfZhzhLIfnrsaAlApRcb</Id>
     <Code>87160108090</Code>
-    <Name>Kullanım Suyu Sensörü</Name>
+    <Name>Sicaklik Sensörü NTC</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>11</ExistingCount>
@@ -835,11 +894,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>50</Price>
   </Stock>
   <Stock>
     <Id>jRGrAfmizjhJBMgjtoBgNrMHgbeiNo</Id>
     <Code>87105062670</Code>
-    <Name>ATIKGAZ SENSÖRÜ </Name>
+    <Name>Sıcaklık Limitörü</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>9</ExistingCount>
@@ -848,11 +908,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>335</Price>
   </Stock>
   <Stock>
     <Id>malAxpBiSVAsistRdYQHZlkFVxFASf</Id>
     <Code>87145000810</Code>
-    <Name>DHW temp sensor (KULLANIM SUYU SEN.)</Name>
+    <Name>Sıcaklık Sensörü</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -861,11 +922,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>405</Price>
   </Stock>
   <Stock>
     <Id>xTAieymnGBdvChQkurbIKHaeAEpqrA</Id>
     <Code>87160110730</Code>
-    <Name>U062 KLIPSLI NTC SENSÖR</Name>
+    <Name>Sicaklik Sensörü (NTC)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -874,11 +936,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>50</Price>
   </Stock>
   <Stock>
     <Id>WlhArjzeYeRcVjkLcRWRyOEEyVCtlC</Id>
     <Code>87160126070</Code>
-    <Name>SICAKLIK HİSSEDİCİ</Name>
+    <Name>U052-24K SICAKLIK HISSEDICI</Name>
     <Explanation></Explanation>
     <CriticalCount>5</CriticalCount>
     <ExistingCount>8</ExistingCount>
@@ -887,11 +950,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>55</Price>
   </Stock>
   <Stock>
     <Id>jiYsDMgXGGeyuWYmvInJPdHxHJVCvG</Id>
     <Code>87186417830</Code>
-    <Name>Yoğ. Suyu Sev. Sensörü</Name>
+    <Name>Sensör yoğuşma</Name>
     <Explanation></Explanation>
     <CriticalCount>6</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -900,11 +964,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>205</Price>
   </Stock>
   <Stock>
     <Id>FyhNsIuToGaUPxGXRDvfWNyYkZrixb</Id>
     <Code>87167714850</Code>
-    <Name>Limit Termostad</Name>
+    <Name>Sıcaklık Limitörü</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -913,11 +978,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>50</Price>
   </Stock>
   <Stock>
     <Id>XhDjuONbzADciPJjxEAIHylUpevJqJ</Id>
     <Code>87379033990</Code>
-    <Name>SICAKLIK SINIRLAYICI </Name>
+    <Name>Sıcaklık Regülatörü</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -926,6 +992,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>45</Price>
   </Stock>
   <Stock>
     <Id>XjbXoyHucAJiiFtinjYSRAtxpjlPZS</Id>
@@ -939,11 +1006,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>AtAYAoCCbOmKKjXJRIkGGXikNkQfId</Id>
     <Code>87145000870</Code>
-    <Name>SICAKLIK HISSEDICI RADYATÖR</Name>
+    <Name>Sıcaklık Sensörü NTC</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
     <ExistingCount>7</ExistingCount>
@@ -952,11 +1020,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>85</Price>
   </Stock>
   <Stock>
     <Id>fRqAZHmVidxDLCcchlfjqCRNnmkQeJ</Id>
     <Code>87186504540</Code>
-    <Name>DHW Sensörü </Name>
+    <Name>Sicaklik Sensörü (NTC)</Name>
     <Explanation>(ESKİ KOD :87186445820 )</Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -965,11 +1034,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>590</Price>
   </Stock>
   <Stock>
     <Id>NueNMXrYoYLghkypsOZeElsGxdNQPV</Id>
     <Code>87186888010</Code>
-    <Name>C 2200 SICAKLIK SENSÖRÜ</Name>
+    <Name>Sicaklik Hissedici 18mm</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -978,11 +1048,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>70</Price>
   </Stock>
   <Stock>
     <Id>MissEXrMFBCxupGjcXWDsaGhonCDaq</Id>
     <Code>8737713706</Code>
-    <Name>GC1200 TÜRBİN</Name>
+    <Name>Akis Sensörü</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -991,11 +1062,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra4</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>255</Price>
   </Stock>
   <Stock>
     <Id>ErTrXOKylkcKKMabeoCXLXBFjLGlGV</Id>
     <Code>87186510420</Code>
-    <Name>GC1200 BASINÇ SENSÖRÜ</Name>
+    <Name>Basınç Sensörü</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1004,11 +1076,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>825</Price>
   </Stock>
   <Stock>
     <Id>cUWvYQlVnTxcVBfWvbXYQAmpUSVnhd</Id>
     <Code>87186406020</Code>
-    <Name>GB012 C 2000  GAZ ADAPTÖR</Name>
+    <Name>Adaptör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1017,6 +1090,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra4</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>70</Price>
   </Stock>
   <Stock>
     <Id>JAesZrJMShNrNicCyJQCehJmRRUHSM</Id>
@@ -1030,11 +1104,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra4</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>995</Price>
   </Stock>
   <Stock>
     <Id>bINETqzPZRJsDMaluVKctxhUVYtpLi</Id>
     <Code>87160120020</Code>
-    <Name>düşük basınç sensörü</Name>
+    <Name>Sensör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>9</ExistingCount>
@@ -1043,11 +1118,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra4</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>180</Price>
   </Stock>
   <Stock>
     <Id>lPBasPsXbezVQZJsLkIiLnrPiOTIBc</Id>
     <Code>87199284900</Code>
-    <Name>Pressure sensor (BASINÇ SEN.)</Name>
+    <Name>GB032 BASINÇ SENSÖRÜ</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1056,11 +1132,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra4</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>290</Price>
   </Stock>
   <Stock>
     <Id>FcmgjbprPUFYXNkoDJkqhLUDfjpKqo</Id>
     <Code>87174010160</Code>
-    <Name>GB022İ-AŞIRI BASINÇ VENTİLİ</Name>
+    <Name>Asiri Basinc Ventili (L) 15bar</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1069,11 +1146,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra4</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>50</Price>
   </Stock>
   <Stock>
     <Id>RbEcDtqaCCessVZxqDWEaPfOyvmUyA</Id>
     <Code>87186445780</Code>
-    <Name>Türbin Sensörü</Name>
+    <Name>Hall Sensörü</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -1082,6 +1160,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra4</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>660</Price>
   </Stock>
   <Stock>
     <Id>cOivlTBVYibiWGrHSKKPAxvAEznGel</Id>
@@ -1095,6 +1174,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>95</Price>
   </Stock>
   <Stock>
     <Id>AaNHpmnLYonssRZkZGZmngMoSeZBcq</Id>
@@ -1108,6 +1188,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>PVHMvrMgMLCfZjDFEBgemiRjXOITNi</Id>
@@ -1121,11 +1202,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>lFPDbdKuinoVvtxFuNJGLPQlcTCDhZ</Id>
     <Code>8737602256</Code>
-    <Name>GB012 C 2000 ATEŞLEME SETİ</Name>
+    <Name>Elektrod</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>7</ExistingCount>
@@ -1134,11 +1216,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>105</Price>
   </Stock>
   <Stock>
     <Id>qoDVCuNKESnOufIDXkdAfztUnLUvIR</Id>
     <Code>87181070500</Code>
-    <Name>ATEŞLEME ELEKTROD SETİ</Name>
+    <Name>Elektrod Seti</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1147,11 +1230,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra3</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>205</Price>
   </Stock>
   <Stock>
     <Id>IxDpUQzCDcdRAFNQPPnKDGfJehxNJj</Id>
     <Code>8737602257</Code>
-    <Name>C 2000 GB 012 ATEŞLEME SETİ</Name>
+    <Name>Elektrod</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1160,11 +1244,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>105</Price>
   </Stock>
   <Stock>
     <Id>tDDhDMCJOSuAiTlgamjmvSfENgfixd</Id>
     <Code>87186456320</Code>
-    <Name>İyonizasyon Kablosu</Name>
+    <Name>Ateşleme Kablosu</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1173,11 +1258,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>55</Price>
   </Stock>
   <Stock>
     <Id>AdDdWGzorALFEnVscxqveVOjAymiLq</Id>
     <Code>87186443020</Code>
-    <Name>ATEŞLEME ELEKTROD SETİ</Name>
+    <Name>Elektrod Seti</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1186,11 +1272,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>70</Price>
   </Stock>
   <Stock>
     <Id>EOAQTeEldYFqoOXPNMlMuIHTnBLEhA</Id>
     <Code>87161412530</Code>
-    <Name>U052U042 DEBİ REGÜLATÖRÜ + FİLTRE</Name>
+    <Name>U052/24-28K SU DEBI LIMITÖRÜ+FILTRE</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1199,11 +1286,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>75</Price>
   </Stock>
   <Stock>
     <Id>GFOsTFPmybCIeQlxAZXCtnQOKvZPiq</Id>
     <Code>87186517680</Code>
-    <Name>C 2000 GB 012 DİYOT 10X</Name>
+    <Name>Diyot (10x)</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1212,11 +1300,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra5</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>665</Price>
   </Stock>
   <Stock>
     <Id>GpqajjxashSFmXSLIbtoBpaeiTOBvh</Id>
     <Code>87132040170</Code>
-    <Name>Kapak Kilit</Name>
+    <Name>Kapak Kilit Mekanizmasi (1x)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -1225,11 +1314,12 @@ Elektronik kart (BC25)
     <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Ön Panel</PartTypeName>
+    <Price>40</Price>
   </Stock>
   <Stock>
     <Id>JGdFCSMkrzmYSRLzOySqBXfFXToqSX</Id>
     <Code>87182207070</Code>
-    <Name>Buderus Amblem</Name>
+    <Name>Buderus Amblemi</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -1238,11 +1328,12 @@ Elektronik kart (BC25)
     <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
     <ShelveName>Stant1Sıra2</ShelveName>
     <PartTypeName>Ön Panel</PartTypeName>
+    <Price>30</Price>
   </Stock>
   <Stock>
     <Id>rgCGrySoWWxxaIRNiVsxyseuZxKqMr</Id>
     <Code>87186427800</Code>
-    <Name>Purjör</Name>
+    <Name>Pürjör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1251,11 +1342,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>165</Price>
   </Stock>
   <Stock>
     <Id>VnpAyaFURjdJrLnQopkZvQIXYqFuLf</Id>
     <Code>87185050390</Code>
-    <Name>HAVA PRÜJÖRÜ </Name>
+    <Name>Pürjör</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1264,6 +1356,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>590</Price>
   </Stock>
   <Stock>
     <Id>xSKDJKahkeMnjQobNSaoyJoCapsNdL</Id>
@@ -1277,11 +1370,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>cheMTkMQxyhWUcVVWpLYSRBhSkEtSS</Id>
     <Code>87185050140</Code>
-    <Name>Pürjör</Name>
+    <Name>Otomatik Pürjör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1290,11 +1384,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra1</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>370</Price>
   </Stock>
   <Stock>
     <Id>cHVsQMDEbbayavzHpOWNQjpGeLyTbe</Id>
     <Code>8737712788</Code>
-    <Name>Motor Üçyollu</Name>
+    <Name>Motor</Name>
     <Explanation>ESKİ KOD (87186828390)</Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1303,6 +1398,7 @@ Elektronik kart (BC25)
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>1080</Price>
   </Stock>
   <Stock>
     <Id>yCPzxgUysfaooxYjmUirQEaFEMOlWW</Id>
@@ -1316,11 +1412,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>170</Price>
   </Stock>
   <Stock>
     <Id>OGcsWroCVvhNyliuehgNukkCbjqnES</Id>
     <Code>87161066330</Code>
-    <Name>Basınç Şarteli</Name>
+    <Name>GB032 BASINÇ DÜĞMESI</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1329,11 +1426,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra1</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>995</Price>
   </Stock>
   <Stock>
     <Id>PcTFutNsKQiQcaAlWxaGsEnNlbqULu</Id>
     <Code>87186880150</Code>
-    <Name>Ateşleme Trafosu</Name>
+    <Name>Ateşleme trafosu</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1342,11 +1440,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>995</Price>
   </Stock>
   <Stock>
     <Id>IpzysWLoomEdjIfxyOfFGigOdkcpRA</Id>
     <Code>87186413340</Code>
-    <Name>Ateşleme trafosu</Name>
+    <Name>Transformatör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1355,6 +1454,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>355</Price>
   </Stock>
   <Stock>
     <Id>pVhEMCJEiavLnniMycgSWTWscDRkvZ</Id>
@@ -1368,6 +1468,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra6</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>520</Price>
   </Stock>
   <Stock>
     <Id>acAegheUhbeBihTlUMWtuSOHrQXhjJ</Id>
@@ -1381,6 +1482,7 @@ Elektronik kart (BC25)
     <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Ön Panel</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>rshYcSlNRWimhqFnDgJDiDoqsqdZzh</Id>
@@ -1394,11 +1496,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>HifLLVyJXJfFeAHsOpIHIbQDMcSdFq</Id>
     <Code>87161068470</Code>
-    <Name>Diverter valve motor (ÜÇ YOLLU VANA MOTORU)</Name>
+    <Name>MOTOR</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1407,11 +1510,12 @@ Elektronik kart (BC25)
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>1795</Price>
   </Stock>
   <Stock>
     <Id>IPtVjsEQhAfMhHSqUkbuQdjEAiAytf</Id>
     <Code>87376004830</Code>
-    <Name>GB072 TÜRBİN GÖVDESİ</Name>
+    <Name>Bağlantı Grubu Solar HU1</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1420,11 +1524,12 @@ Elektronik kart (BC25)
     <PartTypeId>HKeYufCHNpVfdTzZxasXZpLiIaqrIH</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Türbin</PartTypeName>
+    <Price>2175</Price>
   </Stock>
   <Stock>
     <Id>ZSSByCdnKuUjstZUTZZYuSaluTEcHa</Id>
     <Code>87186649200</Code>
-    <Name>Set of electrodes (ELEKT. SETİ)  </Name>
+    <Name>elektrod</Name>
     <Explanation>(ESKİ KODU:871810)</Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1433,11 +1538,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>995</Price>
   </Stock>
   <Stock>
     <Id>LLieMmkJsnIOLSAPEqesAPhGNtCjxB</Id>
     <Code>8737708824</Code>
-    <Name>COMF COND.ATEŞLEM SETİ</Name>
+    <Name>Conta (Elektrod) Insulfrax (10x)</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1446,11 +1552,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>405</Price>
   </Stock>
   <Stock>
     <Id>vaVNjFlbBVOupnzcDOfJvWnmVplvSD</Id>
     <Code>87186630920</Code>
-    <Name>COMF COND.GB072 ATEŞLEME SETİ</Name>
+    <Name>Elektrod Seti</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1459,11 +1566,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>445</Price>
   </Stock>
   <Stock>
     <Id>irWkdORjrxtPMeRyDyJkXvkDerbASV</Id>
     <Code>87167616110</Code>
-    <Name>U062-DİF BASINÇ SENSÖRÜ</Name>
+    <Name>U062 DIFERANSIYEL BASINÇ ŞALTERI(28KW)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1472,11 +1580,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>220</Price>
   </Stock>
   <Stock>
     <Id>mIxPGpXofPZBYXSYPPAVspmMrDkKQW</Id>
     <Code>87186456540</Code>
-    <Name>Dif basınç şalteri</Name>
+    <Name>ŞALTER</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1485,11 +1594,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>275</Price>
   </Stock>
   <Stock>
     <Id>sMoyEEqRKeQxEjJJcorbetMclhYHAE</Id>
     <Code>87161423870</Code>
-    <Name>U052 DİF BASN ŞARTELİ</Name>
+    <Name>U052-24/28K DIFESANSIYEL BASINÇ ŞALTERI</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1498,11 +1608,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>900</Price>
   </Stock>
   <Stock>
     <Id>AdjdYkQFinusXtlIbjuWmcDEWHqCRM</Id>
     <Code>87160112910</Code>
-    <Name>U052-FAN</Name>
+    <Name>U042 DIFARENSIYAL BASINÇ ŞALTERI</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1511,6 +1622,7 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>210</Price>
   </Stock>
   <Stock>
     <Id>DbjFyLqVEpOufOSQCTeVOEZfCcnBAl</Id>
@@ -1524,11 +1636,12 @@ Elektronik kart (BC25)
     <PartTypeId>kJZmVcgUsIOWWYMJpPdhKCaRJhtaqu</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Kablo</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>txYhneONUXfcQcdFJyKTetXARsWKBf</Id>
     <Code>87186456310</Code>
-    <Name>İyonizasyon Kablosu</Name>
+    <Name>Atesleme kablosu</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -1537,11 +1650,12 @@ Elektronik kart (BC25)
     <PartTypeId>kJZmVcgUsIOWWYMJpPdhKCaRJhtaqu</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Kablo</PartTypeName>
+    <Price>70</Price>
   </Stock>
   <Stock>
     <Id>PtFmxVzIJyHnkbeOhMxkMCLJLhlduC</Id>
     <Code>87186416870</Code>
-    <Name>Yanma Odasi  NTC</Name>
+    <Name>YANMA ODASI SICAKLIK SENSÖRÜ</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
     <ExistingCount>7</ExistingCount>
@@ -1550,11 +1664,12 @@ Elektronik kart (BC25)
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Sensör</PartTypeName>
+    <Price>60</Price>
   </Stock>
   <Stock>
     <Id>pAOogCYSJdGzHpsfhjiFrgAaVQdxQY</Id>
     <Code>87110043250</Code>
-    <Name>Brulör  contası</Name>
+    <Name>Conta</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>38</ExistingCount>
@@ -1563,11 +1678,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>125</Price>
   </Stock>
   <Stock>
     <Id>xDSigbUkkJBxmhkPTdFiBmkmiHMPXz</Id>
     <Code>8737602313</Code>
-    <Name>Conta Sifon</Name>
+    <Name>Conta siphon</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1576,11 +1692,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>45</Price>
   </Stock>
   <Stock>
     <Id>rYdWbFbuXyiJLshOsCtxxffGLKizpF</Id>
     <Code>774600188A0</Code>
-    <Name>Condense 2200 Conta</Name>
+    <Name>Conta</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -1589,11 +1706,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Stant1Sıra7</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>40</Price>
   </Stock>
   <Stock>
     <Id>uakkeLoKIJzVPLMSXDFziMopKLQHcM</Id>
     <Code>87199051490</Code>
-    <Name>ATEŞLEME ELEKTROD SETİ</Name>
+    <Name>ATEŞLEME ELEKTROD SETI</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1602,11 +1720,12 @@ Elektronik kart (BC25)
     <PartTypeId>kJZmVcgUsIOWWYMJpPdhKCaRJhtaqu</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Kablo</PartTypeName>
+    <Price>625</Price>
   </Stock>
   <Stock>
     <Id>NzfjrxFQAviQFMxWuRMRNjkDRodSkl</Id>
     <Code>87160134340</Code>
-    <Name>GB072-ATEŞLEME KABLOSU</Name>
+    <Name>Ateşleme Kablosu</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1615,11 +1734,12 @@ Elektronik kart (BC25)
     <PartTypeId>kJZmVcgUsIOWWYMJpPdhKCaRJhtaqu</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Kablo</PartTypeName>
+    <Price>130</Price>
   </Stock>
   <Stock>
     <Id>XGCleulBZRNWWyPOlyxicTZLArVNTe</Id>
     <Code>87160121320</Code>
-    <Name>Kumanda Paneli</Name>
+    <Name>MODÜL-ELEKTRONIK KAR</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1628,11 +1748,12 @@ Elektronik kart (BC25)
     <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Ön Panel</PartTypeName>
+    <Price>645</Price>
   </Stock>
   <Stock>
     <Id>xvxrkZVnpkTvNMfMkihqvFnXzMEYLU</Id>
     <Code>87186413620</Code>
-    <Name>MMI Ekran Kartı</Name>
+    <Name>Kumanda plakasi</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1641,11 +1762,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>400</Price>
   </Stock>
   <Stock>
     <Id>GysFTMoFrqxXlLAUiYHbRWfXkdXgGo</Id>
     <Code>87160121570</Code>
-    <Name>U052- ATEŞLEME KABLOSU</Name>
+    <Name>Ateşleme Kablosu</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1654,11 +1776,12 @@ Elektronik kart (BC25)
     <PartTypeId>kJZmVcgUsIOWWYMJpPdhKCaRJhtaqu</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Kablo</PartTypeName>
+    <Price>170</Price>
   </Stock>
   <Stock>
     <Id>NagilEpbonSsppbsFUFHDrzAvYSGYC</Id>
     <Code>87113046920</Code>
-    <Name>U042 ALEV ATLAMA KÖPRÜSÜ</Name>
+    <Name>U052-24/28K ALEV ATLAMA KÖPRÜSÜ</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>14</ExistingCount>
@@ -1667,11 +1790,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>50</Price>
   </Stock>
   <Stock>
     <Id>DvJzYNmdJFdXaWkindGivflYsbGuCD</Id>
     <Code>87113043050</Code>
-    <Name>GB012-ALEV ATLAMA</Name>
+    <Name>U062 ALEV ATLAMA KÖPRÜSÜ (28KW)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1680,11 +1804,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>25</Price>
   </Stock>
   <Stock>
     <Id>iBiuBvTxSmSzjKqBIkXbTvExCDOZTi</Id>
     <Code>87113043060</Code>
-    <Name>GB012 Alev Atma</Name>
+    <Name>U062 ALEV ATLAMA KÖPRÜSÜ (24KW)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1693,19 +1818,21 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>20</Price>
   </Stock>
   <Stock>
     <Id>JHOihLjnJRDtCWNreAzanzhqGQMgRI</Id>
     <Code>87160122730</Code>
-    <Name>GC1200 SİFON</Name>
+    <Name>Sifon</Name>
     <Explanation></Explanation>
-    <CriticalCount>4</CriticalCount>
-    <ExistingCount>4</ExistingCount>
+    <CriticalCount>1</CriticalCount>
+    <ExistingCount>3</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>zJbbBqibCNjfKxIOjDDaObatRjGmbj</ShelveId>
     <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Sifon</PartTypeName>
+    <Price>45</Price>
   </Stock>
   <Stock>
     <Id>juLoVNsUsQtQTjJyIYbevJpbJJfMlg</Id>
@@ -1719,11 +1846,12 @@ Elektronik kart (BC25)
     <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
     <ShelveName>Stant1Sıra8</ShelveName>
     <PartTypeName>Sifon</PartTypeName>
+    <Price>80</Price>
   </Stock>
   <Stock>
     <Id>PcdgHInNjIccrqCgjqXsdnHleREAKa</Id>
     <Code>87186456420</Code>
-    <Name>C 2500 ESANJÖR WB6</Name>
+    <Name>Eşanjör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1732,11 +1860,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf2Sıra1</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>6045</Price>
   </Stock>
   <Stock>
     <Id>TfecQizZniicVnIUntNKoeDFICdYzx</Id>
     <Code>87186467400</Code>
-    <Name>GB062 ESANJÖR WB6</Name>
+    <Name>Esanjör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1745,11 +1874,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf2Sıra1</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>6065</Price>
   </Stock>
   <Stock>
     <Id>IvbvPQxZFInJQnFKcATnJuifxuFYFR</Id>
     <Code>87160138600</Code>
-    <Name>GB072 ESANJÖR</Name>
+    <Name>Esanjör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1758,11 +1888,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf2Sıra1</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>6145</Price>
   </Stock>
   <Stock>
     <Id>uKpuUqnNbdTHkvrUjitNfnxZrJbiOL</Id>
     <Code>87186506550</Code>
-    <Name>GENLEŞME TANKI </Name>
+    <Name>Genleşme tankı</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1771,11 +1902,12 @@ Elektronik kart (BC25)
     <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
     <ShelveName>Raf2Sıra1</ShelveName>
     <PartTypeName>Genleşme Tankı</PartTypeName>
+    <Price>1040</Price>
   </Stock>
   <Stock>
     <Id>QgBYHINNCFeQmlAJlTQbYNPoRPjkGM</Id>
     <Code>87160112970</Code>
-    <Name>FAN  24KW</Name>
+    <Name>U062 FAN (24KW)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1784,24 +1916,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>1350</Price>
   </Stock>
   <Stock>
     <Id>YYMcmOXYlZFjnlYLxKltMtfCIHajxb</Id>
     <Code>87186429220</Code>
-    <Name>FAN  24KW</Name>
-    <Explanation></Explanation>
-    <CriticalCount>1</CriticalCount>
-    <ExistingCount>2</ExistingCount>
-    <OrderCount>0</OrderCount>
-    <ShelveId>VybStXPFrTObQskUxqLzZTjorsXUGG</ShelveId>
-    <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
-    <ShelveName>Raf2Sıra2</ShelveName>
-    <PartTypeName>Fan</PartTypeName>
-  </Stock>
-  <Stock>
-    <Id>pcJNmDvnWORGgfbstETfigcrsPAEWa</Id>
-    <Code>87160113010</Code>
-    <Name>ZVC35-3MFA</Name>
+    <Name>Fan D120 AC230 50 040W PWM</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1810,11 +1930,26 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>985</Price>
+  </Stock>
+  <Stock>
+    <Id>pcJNmDvnWORGgfbstETfigcrsPAEWa</Id>
+    <Code>87160113010</Code>
+    <Name>FAN MOTORU</Name>
+    <Explanation></Explanation>
+    <CriticalCount>1</CriticalCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>VybStXPFrTObQskUxqLzZTjorsXUGG</ShelveId>
+    <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
+    <ShelveName>Raf2Sıra2</ShelveName>
+    <PartTypeName>Fan</PartTypeName>
+    <Price>1100</Price>
   </Stock>
   <Stock>
     <Id>ezHQWtiWhePVNLtHzGKlQrEsjytgbg</Id>
     <Code>87160112880</Code>
-    <Name>U062 CLASİK SİLVER FAN</Name>
+    <Name>U062 FAN (28KW)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1823,11 +1958,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>1415</Price>
   </Stock>
   <Stock>
     <Id>QjsdqeHYNQujguBesuVZjPhIEtBQmJ</Id>
     <Code>87160117080</Code>
-    <Name>COMFORD FAN</Name>
+    <Name>Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1836,11 +1972,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra2</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>1870</Price>
   </Stock>
   <Stock>
     <Id>kXYWvhAjVTKaYaQFaWaavNuEOBoibY</Id>
     <Code>87186414950</Code>
-    <Name>GB012 C 2000 BRÜLÖR</Name>
+    <Name>Brülör</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1849,11 +1986,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf2Sıra2</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>1460</Price>
   </Stock>
   <Stock>
     <Id>HiKoMMTiTsduXfdPGDHXQfWlnRSfJV</Id>
     <Code>87186444520</Code>
-    <Name>C2500-WBN6000 KUMANDA PANELİ</Name>
+    <Name>kumanda paneli</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -1862,11 +2000,12 @@ Elektronik kart (BC25)
     <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
     <ShelveName>Raf2Sıra2</ShelveName>
     <PartTypeName>Ön Panel</PartTypeName>
+    <Price>610</Price>
   </Stock>
   <Stock>
     <Id>AuBcbeObdYBCmmjllsIDlgEYIHPpeT</Id>
     <Code>87186406590</Code>
-    <Name>Devirdaim Pompası</Name>
+    <Name>Sirkülasyon Pompası MSL 12/5-3 C</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>10</ExistingCount>
@@ -1875,11 +2014,12 @@ Elektronik kart (BC25)
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>1975</Price>
   </Stock>
   <Stock>
     <Id>ygrEhAOXlITTSlubXvXSiWLpLuhmek</Id>
     <Code>87186472600</Code>
-    <Name>Devirdaim Pompası  ERP MLS 12/6</Name>
+    <Name>Sirkülasyon Pompası MSL12/6 RKC</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1888,11 +2028,12 @@ Elektronik kart (BC25)
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>2690</Price>
   </Stock>
   <Stock>
     <Id>njgJhXKrhpRWxcXtDixMelqxMziojs</Id>
     <Code>8737602314</Code>
-    <Name>SİFON</Name>
+    <Name>Sifon</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
     <ExistingCount>6</ExistingCount>
@@ -1901,6 +2042,7 @@ Elektronik kart (BC25)
     <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
     <ShelveName>Raf2Sıra3</ShelveName>
     <PartTypeName>Sifon</PartTypeName>
+    <Price>380</Price>
   </Stock>
   <Stock>
     <Id>sEpLtLKMpPMIUlVIElEGlUYohrJBZD</Id>
@@ -1914,24 +2056,26 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>DvoygAzsOdDjVhzIlnOpsHXrbWkLjz</Id>
     <Code>87376000090</Code>
-    <Name>Elektrod Seti (ESKİ KOD 87181070870)</Name>
+    <Name>ELEKTROD SETI</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
-    <ExistingCount>22</ExistingCount>
+    <ExistingCount>17</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>xRzCGzbBSsAoCCBNMXQUmNadLMjuLT</ShelveId>
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>315</Price>
   </Stock>
   <Stock>
     <Id>ujenRpmTFnbmcDYbxZMQFEOJTeqguC</Id>
     <Code>7736900875</Code>
-    <Name>U072-WBN6000 ADAPTÖRSÜZ ALUKİT</Name>
+    <Name>Adaptörsüz Alukit 24-28kw</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -1940,11 +2084,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>305</Price>
   </Stock>
   <Stock>
     <Id>qLrVJgCuXjSCSYzkQKjMIFOhouKiLz</Id>
     <Code>7736900874</Code>
-    <Name>ADAPTÖRLÜ ALUKİT</Name>
+    <Name>Adaptörlü Alukit 24-28kw</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1953,11 +2098,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>450</Price>
   </Stock>
   <Stock>
     <Id>JsUBbZedgllbIkvVbMOCLTGqKvlgSY</Id>
     <Code>87154052050</Code>
-    <Name>ISI YÖNLENDİRİCİ</Name>
+    <Name>Isı Yönlendirici</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>16</ExistingCount>
@@ -1966,11 +2112,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>340</Price>
   </Stock>
   <Stock>
     <Id>nYJDZkoJijiLNGKNgBHnMHiUdxCPaM</Id>
     <Code>87172010520</Code>
-    <Name>ZWA24-2AD TRAFO</Name>
+    <Name>Trafo</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -1979,11 +2126,12 @@ Elektronik kart (BC25)
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf2Sıra3</ShelveName>
     <PartTypeName>Fan</PartTypeName>
+    <Price>660</Price>
   </Stock>
   <Stock>
     <Id>UboTKqpeMxJVNTFMKjVvoneyPfznUW</Id>
     <Code>8737604490</Code>
-    <Name>Classic Plus U052 Pompa</Name>
+    <Name>Pompa UPMO 15-60 WOHS 9H</Name>
     <Explanation>( Eski kod: 87161431160 )</Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -1992,6 +2140,7 @@ Elektronik kart (BC25)
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>4530</Price>
   </Stock>
   <Stock>
     <Id>fBVVAkTZrurzfKCthMhBMQzNrQFCRo</Id>
@@ -2005,11 +2154,12 @@ Elektronik kart (BC25)
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Pompa</PartTypeName>
+    <Price>3550</Price>
   </Stock>
   <Stock>
     <Id>AUEMFvldeQCkHOsjUjKaKrVRWajTVj</Id>
     <Code>87161019000</Code>
-    <Name>U052-BRULÖR</Name>
+    <Name>Brülör U052-24/28K</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -2018,11 +2168,12 @@ Elektronik kart (BC25)
     <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>900</Price>
   </Stock>
   <Stock>
     <Id>VBJTRBVQnWMtStmDRMKdhEeUVSbFOG</Id>
     <Code>87186455490</Code>
-    <Name>Toplayacı DCW (Hidrolik Blok Sağ)</Name>
+    <Name>Bağlantı Parçası</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -2031,11 +2182,12 @@ Elektronik kart (BC25)
     <PartTypeId>mOEOAyVQrhXRbfoqbAZebnObSttfRs</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Doldurma Musluğu</PartTypeName>
+    <Price>2740</Price>
   </Stock>
   <Stock>
     <Id>qabihyhQeIVNQhsnYOHvkihrPEVQKo</Id>
     <Code>87186449940</Code>
-    <Name>GC2300-TOPLAYICI</Name>
+    <Name>Dönüş Bağlantı Parçası</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -2044,11 +2196,12 @@ Elektronik kart (BC25)
     <PartTypeId>mOEOAyVQrhXRbfoqbAZebnObSttfRs</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Doldurma Musluğu</PartTypeName>
+    <Price>2240</Price>
   </Stock>
   <Stock>
     <Id>vxuWANOLShNARoHODEWCCBCuDmlkDQ</Id>
     <Code>87186445560</Code>
-    <Name>KOMPLE ÜÇ YOLLU VANA</Name>
+    <Name>Dönüş Bağlantı Parçası</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -2057,11 +2210,12 @@ Elektronik kart (BC25)
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>2490</Price>
   </Stock>
   <Stock>
     <Id>DDgHtspviGezHlMMQskBOpfbXshBZL</Id>
     <Code>87186445570</Code>
-    <Name>GB062-C2500 SOL MANİFOLD</Name>
+    <Name>Gidiş Bağlantı Parçası</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -2070,11 +2224,12 @@ Elektronik kart (BC25)
     <PartTypeId>mOEOAyVQrhXRbfoqbAZebnObSttfRs</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Doldurma Musluğu</PartTypeName>
+    <Price>1505</Price>
   </Stock>
   <Stock>
     <Id>sFniCCxRYMPsFsIlCSZaPKrGqvVgOE</Id>
     <Code>87186445590</Code>
-    <Name>Toplayacı DCW(Hidrolik Blok Sol)</Name>
+    <Name>Bağlantı Parçası</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -2083,11 +2238,12 @@ Elektronik kart (BC25)
     <PartTypeId>mOEOAyVQrhXRbfoqbAZebnObSttfRs</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Doldurma Musluğu</PartTypeName>
+    <Price>1505</Price>
   </Stock>
   <Stock>
     <Id>gHmEiziyKjEVDJFzFmzWnLDDPRMQBj</Id>
     <Code>87186469710</Code>
-    <Name>TÜRBİN </Name>
+    <Name>Filtre Elemani 12 l/min</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -2096,11 +2252,12 @@ Elektronik kart (BC25)
     <PartTypeId>HKeYufCHNpVfdTzZxasXZpLiIaqrIH</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Türbin</PartTypeName>
+    <Price>905</Price>
   </Stock>
   <Stock>
     <Id>nynPelUHgaMsWkixpsRDHuYDiybuEo</Id>
     <Code>87186445620</Code>
-    <Name>Gövde Üçyollu</Name>
+    <Name>Eleman (3 Yollu Vana)</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -2109,24 +2266,26 @@ Elektronik kart (BC25)
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>905</Price>
   </Stock>
   <Stock>
     <Id>zCSmvbdCrTykqvFzqqamiWaFZVWCxe</Id>
     <Code>87186445640</Code>
-    <Name>MOTOR ÜÇ YOLLU VANA </Name>
+    <Name>Motor (3 Yollu Vana)</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>6</ExistingCount>
+    <ExistingCount>5</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>SdgDDkqNfhfDiBIcsTVeCalapZrqIh</ShelveId>
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>1265</Price>
   </Stock>
   <Stock>
     <Id>YWFsihoXUojjIFXOmTbCioCiifbNEc</Id>
     <Code>87160110670</Code>
-    <Name>GB042 MANOMETRE</Name>
+    <Name>Manometre</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>13</ExistingCount>
@@ -2135,11 +2294,12 @@ Elektronik kart (BC25)
     <PartTypeId>cbVjdhxWljmCIztZsPtOkItfuFZVYy</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Monometre</PartTypeName>
+    <Price>255</Price>
   </Stock>
   <Stock>
     <Id>QITNVkBxnzJZhxGVDoOdQVVzUXoejZ</Id>
     <Code>87160119870</Code>
-    <Name>C.PLUS PANEL</Name>
+    <Name>KAPAK</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -2148,11 +2308,12 @@ Elektronik kart (BC25)
     <PartTypeId>kJZmVcgUsIOWWYMJpPdhKCaRJhtaqu</PartTypeId>
     <ShelveName>Raf2Sıra4</ShelveName>
     <PartTypeName>Kablo</PartTypeName>
+    <Price>255</Price>
   </Stock>
   <Stock>
     <Id>ehiCTXHGZpRNpDzdJFUpqaSgLzISJU</Id>
     <Code>87186496770</Code>
-    <Name>Kumanda plakasi (Elektronik Kart)  </Name>
+    <Name>Kumanda plakasi</Name>
     <Explanation>(Eski Kod: 8718)</Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -2161,11 +2322,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>2725</Price>
   </Stock>
   <Stock>
     <Id>VxnEyFlDmHjOFhvXuGfuDNihLnchTa</Id>
     <Code>87186496780</Code>
-    <Name>Kumanda plakasi (Elektronik Kart)</Name>
+    <Name>Kumanda plakasi</Name>
     <Explanation></Explanation>
     <CriticalCount>7</CriticalCount>
     <ExistingCount>5</ExistingCount>
@@ -2174,11 +2336,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>2710</Price>
   </Stock>
   <Stock>
     <Id>zxUgXxavKQuUsafESXaOlqagDTzMra</Id>
     <Code>87186497360</Code>
-    <Name>Elektronik Kart </Name>
+    <Name>Kumanda plakasi</Name>
     <Explanation> (Eski Kod: 87186496780)</Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -2187,6 +2350,7 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>2475</Price>
   </Stock>
   <Stock>
     <Id>GgDVJDBnqdMYumkjnkCzmzOoufznEs</Id>
@@ -2200,11 +2364,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>bvuVNYDNvlvYUlEEiyxgscifuKmvxN</Id>
     <Code>87186497790</Code>
-    <Name>Elektronik Kart</Name>
+    <Name>Kumanda plakasi</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>2</ExistingCount>
@@ -2213,11 +2378,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>2495</Price>
   </Stock>
   <Stock>
     <Id>GSSCiaZVaknlirZkCiqTQMVnsOYurx</Id>
     <Code>8737602242</Code>
-    <Name>WBN2000 KUMANDA PANELİ</Name>
+    <Name>Kumanda plakasi(SW 403.02.hex)</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -2226,6 +2392,7 @@ Elektronik kart (BC25)
     <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Ön Panel</PartTypeName>
+    <Price>1445</Price>
   </Stock>
   <Stock>
     <Id>qFCWygQGTVExgEfsOfEkDYNgMHfWLk</Id>
@@ -2239,11 +2406,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>0</Price>
   </Stock>
   <Stock>
     <Id>LQqnjUEEMHLRtXxhPJWtIirXGXQhdk</Id>
     <Code>87376006590</Code>
-    <Name>MODÜL-ELEK. KART (LCD)</Name>
+    <Name>Modül-Elektronik Kart(LCD)</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>3</ExistingCount>
@@ -2252,11 +2420,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>4810</Price>
   </Stock>
   <Stock>
     <Id>CmDBWXSbTnOjakQusgsXOueVPTFeGj</Id>
     <Code>87160121730</Code>
-    <Name>Modül Elektronu</Name>
+    <Name>MODÜL-ELEKTRONIK KAR (LCD)</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
     <ExistingCount>1</ExistingCount>
@@ -2265,11 +2434,12 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1105</Price>
   </Stock>
   <Stock>
     <Id>TfqWjbFYqxtgrZiOOezQYUuYCuDOdg</Id>
     <Code>8748300943</Code>
-    <Name>ELEKTRONiK KART</Name>
+    <Name>Elektronik kart</Name>
     <Explanation> (Eski Kod:87483007040) (Eski kodu </Explanation>
     <CriticalCount>2</CriticalCount>
     <ExistingCount>4</ExistingCount>
@@ -2278,5 +2448,664 @@ Elektronik kart (BC25)
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf2Sıra5</ShelveName>
     <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>4730</Price>
+  </Stock>
+  <Stock>
+    <Id>efvhxGudxFaKUkiZAhYuUSbdpXyWGm</Id>
+    <Code>87186456530</Code>
+    <Name>ŞALTER</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Sensör</PartTypeName>
+    <Price>270</Price>
+  </Stock>
+  <Stock>
+    <Id>ELyEFhHTzExtqhvrNuudnvjWRzrGoM</Id>
+    <Code>87186456510</Code>
+    <Name>ŞALTER</Name>
+    <Explanation></Explanation>
+    <CriticalCount>2</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>270</Price>
+  </Stock>
+  <Stock>
+    <Id>mDtgcNxFyGmNBpuPLimnHDBYOKgcMf</Id>
+    <Code>87186462340</Code>
+    <Name>ŞALTER</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Sensör</PartTypeName>
+    <Price>295</Price>
+  </Stock>
+  <Stock>
+    <Id>zIHuUgKMRXeCHGLnRPgmaloTSTYCxY</Id>
+    <Code>87160112990</Code>
+    <Name>U062 DIFARANSIYEL BASINÇ ŞALTERI(24KW)</Name>
+    <Explanation></Explanation>
+    <CriticalCount>1</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Sensör</PartTypeName>
+    <Price>235</Price>
+  </Stock>
+  <Stock>
+    <Id>xMxZISJINUmUdfaWcKQZZWhCFbkUJs</Id>
+    <Code>87160113600</Code>
+    <Name>3 Yollu Vana Motoru</Name>
+    <Explanation></Explanation>
+    <CriticalCount>2</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Üç Yollu</PartTypeName>
+    <Price>1035</Price>
+  </Stock>
+  <Stock>
+    <Id>eBoHANTiMjinxcObByhGyvCZDCrFGn</Id>
+    <Code>87186602270</Code>
+    <Name>Kisma Burcu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Sensör</PartTypeName>
+    <Price>65</Price>
+  </Stock>
+  <Stock>
+    <Id>pHYGpOWWWBNNyqmYeWRjGCexBppRSk</Id>
+    <Code>87167637000</Code>
+    <Name>MIkser</Name>
+    <Explanation></Explanation>
+    <CriticalCount>2</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>265</Price>
+  </Stock>
+  <Stock>
+    <Id>NTHabxvtEjeqQxiSmfPYYqGbbuNPAz</Id>
+    <Code>87182228440</Code>
+    <Name>Gövde</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>4</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Fan</PartTypeName>
+    <Price>190</Price>
+  </Stock>
+  <Stock>
+    <Id>mMMfoLRtLWpBzMKVBgpEhrdfvhblot</Id>
+    <Code>87160108020</Code>
+    <Name>Boru</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>4</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Sifon</PartTypeName>
+    <Price>210</Price>
+  </Stock>
+  <Stock>
+    <Id>nIWJdSJZxECdhPZfliApqUszNtAeNT</Id>
+    <Code>87161036010</Code>
+    <Name>GÖVDE PARÇASI</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>4</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Pompa</PartTypeName>
+    <Price>800</Price>
+  </Stock>
+  <Stock>
+    <Id>oRBqInXmQRNDYLSqxIdNrZtQCDZiyQ</Id>
+    <Code>8737602607</Code>
+    <Name>Panel</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>5</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Ön Panel</PartTypeName>
+    <Price>250</Price>
+  </Stock>
+  <Stock>
+    <Id>NdxWyhXzsPkjqzPjdmGYiRgqtVsCDY</Id>
+    <Code>8737602306</Code>
+    <Name>Tutucu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>xOFJnKUnCQrSOLrLtFNfdqgsuBRsHM</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Ön Panel</PartTypeName>
+    <Price>180</Price>
+  </Stock>
+  <Stock>
+    <Id>JYfsUXbIqXDjStDKsHoWckHIulLNHd</Id>
+    <Code>87155058250</Code>
+    <Name>Diyafram</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>8</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Fan</PartTypeName>
+    <Price>155</Price>
+  </Stock>
+  <Stock>
+    <Id>fRcZxcoRYpLcEdOZmuXMpXRsUKgrWz</Id>
+    <Code>87186506050</Code>
+    <Name>Venturi 30 kW G20/G31</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>160</Price>
+  </Stock>
+  <Stock>
+    <Id>pBNrjkqEJOfPYdRVNlngnUdNAmbLRW</Id>
+    <Code>8738902785</Code>
+    <Name>Conta (Brülör Kapagi)</Name>
+    <Explanation></Explanation>
+    <CriticalCount>1</CriticalCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Fan</PartTypeName>
+    <Price>235</Price>
+  </Stock>
+  <Stock>
+    <Id>FposVGMTYCqxYoLCCCxGXUQvZtKcvb</Id>
+    <Code>8738903403</Code>
+    <Name>Sicaklik Sensörü</Name>
+    <Explanation></Explanation>
+    <CriticalCount>1</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Sensör</PartTypeName>
+    <Price>115</Price>
+  </Stock>
+  <Stock>
+    <Id>XEvjJAAVDrikabuVRUQtiPhNQulRPr</Id>
+    <Code>8737604239</Code>
+    <Name>Kontrol Ünitesi ACU LOP-22 (RoW)</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>bDGJeVREsOkiifOkNIQMpxOnPCfzCs</ShelveId>
+    <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
+    <ShelveName>Raf2Sıra6</ShelveName>
+    <PartTypeName>Elektronik Kart</PartTypeName>
+    <Price>1950</Price>
+  </Stock>
+  <Stock>
+    <Id>nRbctInOsXrxhnUmyePfnkURVoJcZC</Id>
+    <Code>87161425020</Code>
+    <Name>U042 -U062 GENLEŞME TANKI</Name>
+    <Explanation></Explanation>
+    <CriticalCount>2</CriticalCount>
+    <ExistingCount>7</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>CldbOMNQFyaZGHMGyphiEnaQWJarjt</ShelveId>
+    <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
+    <ShelveName>Raf2Sıra7</ShelveName>
+    <PartTypeName>Genleşme Tankı</PartTypeName>
+    <Price>985</Price>
+  </Stock>
+  <Stock>
+    <Id>sKKUnvVkJktJuKFlKxtpDlpMRZVbmn</Id>
+    <Code>87186425520</Code>
+    <Name>Genleşme tanki 6l</Name>
+    <Explanation></Explanation>
+    <CriticalCount>2</CriticalCount>
+    <ExistingCount>4</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>CldbOMNQFyaZGHMGyphiEnaQWJarjt</ShelveId>
+    <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
+    <ShelveName>Raf2Sıra7</ShelveName>
+    <PartTypeName>Genleşme Tankı</PartTypeName>
+    <Price>940</Price>
+  </Stock>
+  <Stock>
+    <Id>McUutXWOBxOcJcqlTzpCPBxbOoANgX</Id>
+    <Code>87160111900</Code>
+    <Name>Genlesme Tanki</Name>
+    <Explanation></Explanation>
+    <CriticalCount>1</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>CldbOMNQFyaZGHMGyphiEnaQWJarjt</ShelveId>
+    <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
+    <ShelveName>Raf2Sıra7</ShelveName>
+    <PartTypeName>Genleşme Tankı</PartTypeName>
+    <Price>1120</Price>
+  </Stock>
+  <Stock>
+    <Id>GjzYxmomEWcWRmpCHhDCTLKjBzjHWq</Id>
+    <Code>87154071540</Code>
+    <Name>GENLEŞME TANKI</Name>
+    <Explanation></Explanation>
+    <CriticalCount>3</CriticalCount>
+    <ExistingCount>6</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>CldbOMNQFyaZGHMGyphiEnaQWJarjt</ShelveId>
+    <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
+    <ShelveName>Raf2Sıra7</ShelveName>
+    <PartTypeName>Genleşme Tankı</PartTypeName>
+    <Price>1015</Price>
+  </Stock>
+  <Stock>
+    <Id>ljmxknhktxRZYqQJimQtkvulunXsyz</Id>
+    <Code>8737604235</Code>
+    <Name>Genlesme Tanki</Name>
+    <Explanation></Explanation>
+    <CriticalCount>1</CriticalCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>CldbOMNQFyaZGHMGyphiEnaQWJarjt</ShelveId>
+    <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
+    <ShelveName>Raf2Sıra7</ShelveName>
+    <PartTypeName>Genleşme Tankı</PartTypeName>
+    <Price>1020</Price>
+  </Stock>
+  <Stock>
+    <Id>pNIgvFEBNnvcVFROMQULNeDDDNycfY</Id>
+    <Code>87186413460</Code>
+    <Name>Dirsek</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>7</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>kLaDHEhTSaKyUoVccEOIIuBWoNCNWJ</ShelveId>
+    <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
+    <ShelveName>Stant2Sıra1</ShelveName>
+    <PartTypeName>Sifon</PartTypeName>
+    <Price>60</Price>
+  </Stock>
+  <Stock>
+    <Id>aUkmzvsiOzpdiVCzWHhNctTxmJpqOf</Id>
+    <Code>87186454220</Code>
+    <Name>Boru siphon flex</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>5</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>kLaDHEhTSaKyUoVccEOIIuBWoNCNWJ</ShelveId>
+    <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
+    <ShelveName>Stant2Sıra1</ShelveName>
+    <PartTypeName>Sifon</PartTypeName>
+    <Price>105</Price>
+  </Stock>
+  <Stock>
+    <Id>uKmpOuyvKkPITjedrVHICJBikuEoXs</Id>
+    <Code>87186504730</Code>
+    <Name>Gaz Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>5</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>kLaDHEhTSaKyUoVccEOIIuBWoNCNWJ</ShelveId>
+    <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
+    <ShelveName>Stant2Sıra1</ShelveName>
+    <PartTypeName>Sifon</PartTypeName>
+    <Price>120</Price>
+  </Stock>
+  <Stock>
+    <Id>XtuaqEzIeQSHTAqsGuuzTuYlGzuNQp</Id>
+    <Code>87186602030</Code>
+    <Name>Gaz Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>kLaDHEhTSaKyUoVccEOIIuBWoNCNWJ</ShelveId>
+    <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
+    <ShelveName>Stant2Sıra1</ShelveName>
+    <PartTypeName>Sifon</PartTypeName>
+    <Price>125</Price>
+  </Stock>
+  <Stock>
+    <Id>XgAfohjFBJcpknrNshfPpOIgWrYgXA</Id>
+    <Code>87186470200</Code>
+    <Name>Sifon bağlantı parçası</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>5</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>kLaDHEhTSaKyUoVccEOIIuBWoNCNWJ</ShelveId>
+    <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
+    <ShelveName>Stant2Sıra1</ShelveName>
+    <PartTypeName>Sifon</PartTypeName>
+    <Price>50</Price>
+  </Stock>
+  <Stock>
+    <Id>WCeUbPJzXoINQPQiEignXvrSWJEBIN</Id>
+    <Code>87186403200</Code>
+    <Name>Toplayici</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>kLaDHEhTSaKyUoVccEOIIuBWoNCNWJ</ShelveId>
+    <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
+    <ShelveName>Stant2Sıra1</ShelveName>
+    <PartTypeName>Sifon</PartTypeName>
+    <Price>75</Price>
+  </Stock>
+  <Stock>
+    <Id>YXkyJSviFskFgMghomjkDJPeEsnNXM</Id>
+    <Code>87186406510</Code>
+    <Name>Çikis borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>11</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>115</Price>
+  </Stock>
+  <Stock>
+    <Id>PfnBSWGEINIOTEjPouaWmULtMNHTbh</Id>
+    <Code>87160108080</Code>
+    <Name>Baglanti Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>15</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>165</Price>
+  </Stock>
+  <Stock>
+    <Id>zcpaRoentEMDZOVfgWbpWntZNjNufe</Id>
+    <Code>87186413290</Code>
+    <Name>Dirsek</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>bqfIboHQmphnDdsZDdnTFiyMHFOANp</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>BORU</PartTypeName>
+    <Price>45</Price>
+  </Stock>
+  <Stock>
+    <Id>NYoxjBfSuhCEGErJIcMXIHSMiLTblY</Id>
+    <Code>87186468410</Code>
+    <Name>BAĞLANTI PARÇASI</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>40</Price>
+  </Stock>
+  <Stock>
+    <Id>TcmkpPbGOmgzaZHjAVipXbHkvhZEEZ</Id>
+    <Code>87186423810</Code>
+    <Name>Geri Dönüş Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>340</Price>
+  </Stock>
+  <Stock>
+    <Id>OnsuVzPWIyadWtZqjxMxMqIAZJxYxV</Id>
+    <Code>87186407500</Code>
+    <Name>GB-072 DÖNÜŞ BORUSU</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>0</Price>
+  </Stock>
+  <Stock>
+    <Id>SyNOoGlACBWyQFEyEsrJnKmMeNlAce</Id>
+    <Code>87186453050</Code>
+    <Name>Boru</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>165</Price>
+  </Stock>
+  <Stock>
+    <Id>rxqBBrhPiiMBHefcpQAoflxUrFhyTT</Id>
+    <Code>87186407540</Code>
+    <Name>Boru</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>5</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>160</Price>
+  </Stock>
+  <Stock>
+    <Id>GylorFuSQyUWXcdVjHrKrixqyeisDv</Id>
+    <Code>87160122760</Code>
+    <Name>Boru</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>7</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>215</Price>
+  </Stock>
+  <Stock>
+    <Id>lCGJvchtZHQPAMhscmiIiUotzonSCT</Id>
+    <Code>87182257300</Code>
+    <Name>Gövde</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>200</Price>
+  </Stock>
+  <Stock>
+    <Id>cLgPrLqHmUMYULhdbBICKeqSyfbNRs</Id>
+    <Code>87182257290</Code>
+    <Name>Taşıyıcı</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>230</Price>
+  </Stock>
+  <Stock>
+    <Id>FtiPTQFyazCshvMGREbXkYezHzfUHn</Id>
+    <Code>87186407870</Code>
+    <Name>Boru</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra2</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>180</Price>
+  </Stock>
+  <Stock>
+    <Id>MWGjNmLgfUcMWegAshJTOCjUffYKRF</Id>
+    <Code>87160118200</Code>
+    <Name>Tirbün Gövdesi</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>8</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>eBhZMdHYHDKzXSBhUSnUQhWBBURyol</ShelveId>
+    <PartTypeId>HKeYufCHNpVfdTzZxasXZpLiIaqrIH</PartTypeId>
+    <ShelveName>Stant2Sıra3</ShelveName>
+    <PartTypeName>Türbin</PartTypeName>
+    <Price>235</Price>
+  </Stock>
+  <Stock>
+    <Id>yCveJVXKeVpGFGMIVjMUIvkAOelgyz</Id>
+    <Code>87186423790</Code>
+    <Name>Boru</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>eBhZMdHYHDKzXSBhUSnUQhWBBURyol</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra3</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>330</Price>
+  </Stock>
+  <Stock>
+    <Id>noBLdkzNtNWvpPDZzbiBaLZqxKfiiA</Id>
+    <Code>87186410840</Code>
+    <Name>Baglanti Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>6</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>eBhZMdHYHDKzXSBhUSnUQhWBBURyol</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra3</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>210</Price>
+  </Stock>
+  <Stock>
+    <Id>fasCvxLhEDevYjIAoBZWbgKfspXXXl</Id>
+    <Code>87186410860</Code>
+    <Name>Baglanti Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>7</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>eBhZMdHYHDKzXSBhUSnUQhWBBURyol</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra3</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>175</Price>
+  </Stock>
+  <Stock>
+    <Id>lIKJNTCulyTBemGtdmZXiyTZPDPkdf</Id>
+    <Code>87186405580</Code>
+    <Name>Baglanti Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>eBhZMdHYHDKzXSBhUSnUQhWBBURyol</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra3</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>185</Price>
+  </Stock>
+  <Stock>
+    <Id>KdYLeWpeluxEnouzvVAiDsvUeRNmvq</Id>
+    <Code>87186500360</Code>
+    <Name>Baglanti Saci</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>1</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>eBhZMdHYHDKzXSBhUSnUQhWBBURyol</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra3</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>50</Price>
+  </Stock>
+  <Stock>
+    <Id>RySPdsMuoJPHcjxViVnytxYkETPGbK</Id>
+    <Code>87161067970</Code>
+    <Name>Tahliye Borusu</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>eBhZMdHYHDKzXSBhUSnUQhWBBURyol</ShelveId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
+    <ShelveName>Stant2Sıra3</ShelveName>
+    <PartTypeName>Boru</PartTypeName>
+    <Price>200</Price>
   </Stock>
 </Stocks>
