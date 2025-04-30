@@ -81,7 +81,6 @@ namespace StockManagementWithXml.Forms
         private void ManuelBackupButton_Click(object sender, EventArgs e)
         {
             GoogleDriveHelper.BackupAllFilesToDrive();
-            SplashSc
             MessageBox.Show("!!MANUEL YEDEKLEME BAŞARILI!!");
         }
     }
