@@ -104,8 +104,8 @@
     <Name>Flanşlı Fan</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
-    <ExistingCount>3</ExistingCount>
-    <OrderCount>1</OrderCount>
+    <ExistingCount>5</ExistingCount>
+    <OrderCount>0</OrderCount>
     <ShelveId>TWrGIaIzkVVSCSkWjzmJooWkLxBpox</ShelveId>
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
     <ShelveName>Raf1Sıra2</ShelveName>
@@ -216,8 +216,8 @@
     <Name>Pompa SWiM35 6MH CH 9H (Yonos Para)</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>9</ExistingCount>
-    <OrderCount>0</OrderCount>
+    <ExistingCount>0</ExistingCount>
+    <OrderCount>3</OrderCount>
     <ShelveId>PbTMbSjFvyXJyeackrkhjOCViHHdCS</ShelveId>
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
     <ShelveName>Raf1Sıra4</ShelveName>
@@ -230,7 +230,7 @@
     <Name>Pompa WiM3S 5MH</Name>
     <Explanation>Eski Kod 87186457900</Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>3</ExistingCount>
+    <ExistingCount>4</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>PbTMbSjFvyXJyeackrkhjOCViHHdCS</ShelveId>
     <PartTypeId>udpAkLWCCMjQNPWlCKXoPZKqfKlGtp</PartTypeId>
@@ -300,8 +300,8 @@
     <Name>Kontrol Ünitesi ACU-L</Name>
     <Explanation>Eski kod: (8737602315)</Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>4</ExistingCount>
-    <OrderCount>0</OrderCount>
+    <ExistingCount>0</ExistingCount>
+    <OrderCount>3</OrderCount>
     <ShelveId>ZNxPZXOGCYRpkISzqCpDtPuvzfZicF</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
@@ -384,8 +384,8 @@
     <Name>Elektronik Kart</Name>
     <Explanation>(Eski Kod 87186487460-8737602254 -</Explanation>
     <CriticalCount>6</CriticalCount>
-    <ExistingCount>5</ExistingCount>
-    <OrderCount>1</OrderCount>
+    <ExistingCount>6</ExistingCount>
+    <OrderCount>0</OrderCount>
     <ShelveId>ZNxPZXOGCYRpkISzqCpDtPuvzfZicF</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
@@ -412,8 +412,8 @@
     <Name>Kumanda plakasi</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>4</ExistingCount>
-    <OrderCount>0</OrderCount>
+    <ExistingCount>2</ExistingCount>
+    <OrderCount>1</OrderCount>
     <ShelveId>ZNxPZXOGCYRpkISzqCpDtPuvzfZicF</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
     <ShelveName>Raf1Sıra5</ShelveName>
@@ -426,7 +426,7 @@
     <Name>Esanjör</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
-    <ExistingCount>15</ExistingCount>
+    <ExistingCount>10</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>pPhVQaaOriWqTMMKSCrjdyJgaHZAXs</ShelveId>
     <PartTypeId>YCciZvDuaTAtFpCmtsFdkLDCLxkcMs</PartTypeId>
@@ -440,7 +440,7 @@
     <Name>Eşanjör C-PHE 26 plates</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
-    <ExistingCount>4</ExistingCount>
+    <ExistingCount>6</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>pPhVQaaOriWqTMMKSCrjdyJgaHZAXs</ShelveId>
     <PartTypeId>YCciZvDuaTAtFpCmtsFdkLDCLxkcMs</PartTypeId>
@@ -552,7 +552,7 @@
     <Name>Gaz Armatürü</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
-    <ExistingCount>6</ExistingCount>
+    <ExistingCount>7</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
@@ -608,8 +608,8 @@
     <Name>Gaz armatürü</Name>
     <Explanation>(ESKİ KODU :87160108990 )</Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>1</ExistingCount>
-    <OrderCount>2</OrderCount>
+    <ExistingCount>3</ExistingCount>
+    <OrderCount>0</OrderCount>
     <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
     <PartTypeId>aSHLXidxJyUegyHrcIgaruHVsKDAuy</PartTypeId>
     <ShelveName>Raf1Sıra7</ShelveName>
@@ -692,7 +692,7 @@
     <Name>3 Yollu Vana</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
-    <ExistingCount>4</ExistingCount>
+    <ExistingCount>3</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>ufrqUglenYJaQKHIkBTjrzxjCDfbNy</ShelveId>
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
@@ -832,7 +832,7 @@
     <Name>Sıcaklık Regülatörü</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>8</ExistingCount>
+    <ExistingCount>6</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>hhTMVPEAEAVlbYSuANdvHXCxYupBCC</ShelveId>
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
@@ -1014,7 +1014,7 @@
     <Name>Sıcaklık Sensörü NTC</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
-    <ExistingCount>7</ExistingCount>
+    <ExistingCount>5</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>gfUAmGgrjaFJbrbZsTPzPnuVghQKEf</ShelveId>
     <PartTypeId>yBGNHpIiaXUCqnzYjTSjUZFJTVxOSo</PartTypeId>
@@ -1672,7 +1672,7 @@
     <Name>Conta</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
-    <ExistingCount>38</ExistingCount>
+    <ExistingCount>20</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>jQmFqOSKsDzQWJypYOIQSXMBSZfRSt</ShelveId>
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
@@ -1826,7 +1826,7 @@
     <Name>Sifon</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
-    <ExistingCount>3</ExistingCount>
+    <ExistingCount>8</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>zJbbBqibCNjfKxIOjDDaObatRjGmbj</ShelveId>
     <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
@@ -1924,7 +1924,7 @@
     <Name>Fan D120 AC230 50 040W PWM</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
-    <ExistingCount>1</ExistingCount>
+    <ExistingCount>2</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>VybStXPFrTObQskUxqLzZTjorsXUGG</ShelveId>
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
@@ -2064,7 +2064,7 @@
     <Name>ELEKTROD SETI</Name>
     <Explanation></Explanation>
     <CriticalCount>4</CriticalCount>
-    <ExistingCount>17</ExistingCount>
+    <ExistingCount>18</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>xRzCGzbBSsAoCCBNMXQUmNadLMjuLT</ShelveId>
     <PartTypeId>LDnxTHHGpMIKSfLUuWQTdnJPGoHfnS</PartTypeId>
@@ -2274,7 +2274,7 @@
     <Name>Motor (3 Yollu Vana)</Name>
     <Explanation></Explanation>
     <CriticalCount>3</CriticalCount>
-    <ExistingCount>5</ExistingCount>
+    <ExistingCount>4</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>SdgDDkqNfhfDiBIcsTVeCalapZrqIh</ShelveId>
     <PartTypeId>sYJJqlDJeZxzzeQCtIrPCUChJEJsqd</PartTypeId>
@@ -2400,7 +2400,7 @@
     <Name>2500 Elektronik Kart</Name>
     <Explanation></Explanation>
     <CriticalCount>1</CriticalCount>
-    <ExistingCount>3</ExistingCount>
+    <ExistingCount>2</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>UlGClcxWVhOFhSiqllmVBivpXKKzSc</ShelveId>
     <PartTypeId>PiQWjftbErszqXSCOWaximhMFYKTpM</PartTypeId>
@@ -2694,7 +2694,7 @@
     <Name>U042 -U062 GENLEŞME TANKI</Name>
     <Explanation></Explanation>
     <CriticalCount>2</CriticalCount>
-    <ExistingCount>7</ExistingCount>
+    <ExistingCount>6</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>CldbOMNQFyaZGHMGyphiEnaQWJarjt</ShelveId>
     <PartTypeId>ahlbmMgrXDYmIaUbDdtaGvENiJuhff</PartTypeId>
@@ -2792,7 +2792,7 @@
     <Name>Gaz Borusu</Name>
     <Explanation></Explanation>
     <CriticalCount>0</CriticalCount>
-    <ExistingCount>5</ExistingCount>
+    <ExistingCount>6</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>kLaDHEhTSaKyUoVccEOIIuBWoNCNWJ</ShelveId>
     <PartTypeId>KqZrYLSCBcTEedsiGHZSIcHToyJhcP</PartTypeId>
@@ -2879,9 +2879,9 @@
     <ExistingCount>3</ExistingCount>
     <OrderCount>0</OrderCount>
     <ShelveId>WaPxqbAUMYhzfpdbHrNeyQPingRPrR</ShelveId>
-    <PartTypeId>bqfIboHQmphnDdsZDdnTFiyMHFOANp</PartTypeId>
+    <PartTypeId>morTtCVdsWufmGBtSBDLJvYAOgYtPz</PartTypeId>
     <ShelveName>Stant2Sıra2</ShelveName>
-    <PartTypeName>BORU</PartTypeName>
+    <PartTypeName>Boru</PartTypeName>
     <Price>45</Price>
   </Stock>
   <Stock>
@@ -3107,5 +3107,19 @@
     <ShelveName>Stant2Sıra3</ShelveName>
     <PartTypeName>Boru</PartTypeName>
     <Price>200</Price>
+  </Stock>
+  <Stock>
+    <Id>yuZNGDlUtCQIcJasopmDhSmTQxYEkc</Id>
+    <Code>SENTİNEL</Code>
+    <Name>X100</Name>
+    <Explanation></Explanation>
+    <CriticalCount>0</CriticalCount>
+    <ExistingCount>13</ExistingCount>
+    <OrderCount>0</OrderCount>
+    <ShelveId>esQdxhpWhocgcmOBAHTjKYNtZXGHTb</ShelveId>
+    <PartTypeId>dWNkFVjDNuSNqyPbIlvmiReLdLeeEb</PartTypeId>
+    <ShelveName>Raf4Sıra4</ShelveName>
+    <PartTypeName>Ana Esenjör</PartTypeName>
+    <Price>0</Price>
   </Stock>
 </Stocks>

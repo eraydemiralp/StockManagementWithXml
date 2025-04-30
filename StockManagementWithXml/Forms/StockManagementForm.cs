@@ -59,6 +59,7 @@ namespace StockManagementWithXml.Forms
         {
             try
             {
+                priceTextBox.Text = "0";
                 PopulateGridView();
                 FillPartTypeDropDown();
                 FillShelveDropDown();
@@ -578,6 +579,7 @@ namespace StockManagementWithXml.Forms
             var partTypeId = selectedPartType.Value;
             var shelveName = selectedShelve.Text;
             var partTypeName = selectedPartType.Text;
+            var partPrice = priceTextBox.Text;
             var stock = new Stock
             {
                 Code = StockCodeTextBox.Text,
@@ -589,7 +591,8 @@ namespace StockManagementWithXml.Forms
                 ShelveId = shelveId,
                 PartTypeId = partTypeId,
                 PartTypeName = partTypeName,
-                ShelveName = shelveName
+                ShelveName = shelveName,
+                Price = Convert.ToInt16(partPrice)
             };
             return stock;
         }
@@ -611,7 +614,8 @@ namespace StockManagementWithXml.Forms
                         break;
                     }
                 case 4 when e.Value != null:
-                    e.Value += " \u20ba";
+                    string tlSign = @"₺";
+                    e.Value += " " + tlSign;
                     break;
             }
         }

@@ -37,6 +37,7 @@
             this.userManagementButton = new System.Windows.Forms.Button();
             this.actitivitiesButton = new System.Windows.Forms.Button();
             this.UpdatePricesButton = new System.Windows.Forms.Button();
+            this.ManuelBackupButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -137,13 +138,26 @@
             this.UpdatePricesButton.UseVisualStyleBackColor = false;
             this.UpdatePricesButton.Click += new System.EventHandler(this.UpdatePricesButton_Click);
             // 
+            // ManuelBackupButton
+            // 
+            this.ManuelBackupButton.BackColor = System.Drawing.Color.White;
+            this.ManuelBackupButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ManuelBackupButton.Location = new System.Drawing.Point(29, 519);
+            this.ManuelBackupButton.Name = "ManuelBackupButton";
+            this.ManuelBackupButton.Size = new System.Drawing.Size(202, 64);
+            this.ManuelBackupButton.TabIndex = 19;
+            this.ManuelBackupButton.Text = "Manuel Yedekleme";
+            this.ManuelBackupButton.UseVisualStyleBackColor = false;
+            this.ManuelBackupButton.Click += new System.EventHandler(this.ManuelBackupButton_Click);
+            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(925, 556);
+            this.ClientSize = new System.Drawing.Size(939, 720);
+            this.Controls.Add(this.ManuelBackupButton);
             this.Controls.Add(this.UpdatePricesButton);
             this.Controls.Add(this.actitivitiesButton);
             this.Controls.Add(this.userManagementButton);
@@ -175,6 +189,7 @@
         private System.Windows.Forms.Button userManagementButton;
         private System.Windows.Forms.Button actitivitiesButton;
         private System.Windows.Forms.Button UpdatePricesButton;
+        private System.Windows.Forms.Button ManuelBackupButton;
     }
 }
 

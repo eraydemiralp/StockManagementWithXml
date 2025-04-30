@@ -4,8 +4,12 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Drive.v3;
+using Google.Apis.Services;
 using StockManagementWithXml.Model;
 using StockManagementWithXml.XmlHelpers;
+using static Google.Apis.Drive.v3.DriveService;
 
 namespace StockManagementWithXml.Forms
 {
@@ -18,6 +22,7 @@ namespace StockManagementWithXml.Forms
 
         }
 
+
         private void MainPage_Load(object sender, EventArgs e)
         {
             var backups = BackupXmlHelper.GetListFromXml();
@@ -26,16 +31,14 @@ namespace StockManagementWithXml.Forms
             {
                 var lastBackupDate = DateTime.ParseExact(lastBackup.Date, "dd.MM.yyyy", null);
                 if (lastBackupDate >= DateTime.Now.AddDays(-6)) return;
-                PartTypeXmlHelper.CreateBackupFile();
-                ActivitiesXmlHelper.CreateBackupFile();
-                ShelveXmlHelper.CreateBackupFile();
-                StockXmlHelper.CreateBackupFile();
-                UserXmlHelper.CreateBackupFile();
-                BackupXmlHelper.Insert(new Backup(){Date = DateTime.Now.ToString("dd.MM.yyyy")});
+                GoogleDriveHelper.BackupAllFilesToDrive();
+                BackupXmlHelper.Insert(new Backup() { Date = DateTime.Now.ToString("dd.MM.yyyy") });
+
             }
         }
         #endregion
         #region Events
+ 
 
         private void AddStockButton_Click(object sender, EventArgs e)
         {
@@ -73,6 +76,13 @@ namespace StockManagementWithXml.Forms
         {
             UpdatePrices updateForm = new UpdatePrices();
             updateForm.Show();
+        }
+
+        private void ManuelBackupButton_Click(object sender, EventArgs e)
+        {
+            GoogleDriveHelper.BackupAllFilesToDrive();
+            SplashSc
+            MessageBox.Show("!!MANUEL YEDEKLEME BAŞARILI!!");
         }
     }
 }

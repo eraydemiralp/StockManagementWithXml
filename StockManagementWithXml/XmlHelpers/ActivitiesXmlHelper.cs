@@ -22,23 +22,6 @@ namespace StockManagementWithXml.XmlHelpers
         private static readonly string User = "User";
         private static readonly string Activity = "Activity";
         private static readonly string GuaranteeStatus = "GuaranteeStatus";
-        public static void CreateBackupFile()
-        {
-            try
-            {
-                var backupPath = Path.Combine(BackupRawPath, DateTime.Now.ToString("ddMMyyyy"));
-                if (!Directory.Exists(backupPath))
-                {
-                    Directory.CreateDirectory(backupPath);
-                }
-                var xDoc = XDocument.Load(XmlFilePath);
-                xDoc.Save(backupPath);
-            }
-            catch (Exception ex)
-            {
-                Logger.WriteLog("Exception occured while creating Backup. Exception Detail: " + ex);
-            }
-        }
         public static void Insert(Activity activity)
         {
             var xDoc = XDocument.Load(XmlFilePath);

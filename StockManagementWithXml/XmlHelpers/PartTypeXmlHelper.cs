@@ -19,23 +19,6 @@ namespace StockManagementWithXml.XmlHelpers
         private static readonly string PartTypeNodeName = "PartType";
         private static readonly string PartTypeNameNode = "Name";
 
-        public static void CreateBackupFile()
-        {
-            try
-            {
-                var backupPath = Path.Combine(BackupRawPath, DateTime.Now.ToString("ddMMyyyy"));
-                if (!Directory.Exists(backupPath))
-                {
-                    Directory.CreateDirectory(backupPath);
-                }
-                var xDoc = XDocument.Load(XmlFilePath);
-                xDoc.Save(backupPath);
-            }
-            catch (Exception ex)
-            {
-                Logger.WriteLog("Exception occured while creating Backup. Exception Detail: " + ex);
-            }
-        }
 
         public static void Insert(PartType partType)
         {
